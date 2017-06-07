@@ -1,0 +1,12 @@
+[user]
+	email = joethorngren@gmail.com
+	name = Joe Thorngren
+[push]
+	default = simple
+[color]
+	ui = auto
+[core]
+	editor = /usr/bin/vim
+	pager = less -F -X
+[credential]
+	helper = cache --timeout=10800
