@@ -1,1 +1,13 @@
+alias cc="cd ~/Code_Complete/"
+
+alias i3="vim ~/.config/i3/config"
+alias zshrc="vim ~/.zshrc"
+
+
+alias ls='ls -la --color=auto'
+
 alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
+
+alias xcopy='xclip -selection clipboard'	# copy to clipboard, ctrl+c, ctrl+shift+c
+alias xpaste='xclip -selection clipboard -o'	# paste from clipboard, ctrl+v, ctrl+shift+v
+alias xselect='xclip -selection primary -o'	# paste from highlight, middle click, shift+insert

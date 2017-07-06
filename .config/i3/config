@@ -34,9 +34,17 @@ bindsym $mod+Return exec i3-sensible-terminal
 # kill focused window
 bindsym $mod+Shift+q kill
 
+bindsym $mod+w exec --no-startup-id ~/bin/quickswitch.py
+
 # launcher (rofi) 
 #bindsym $mod+d exec rofi -show run -eh 2 -width 100 -padding 100 -opacity "80" -bw 0 -hlfg "#9575cd" -font "System San Francisco Display 14"
-bindsym $mod+d exec --no-startup-id i3-dmenu-desktop --dmenu='rofi -i -dmenu -m -4 -location 0 -show run -lines 8 -bw 0 -font "System San Francisco Display 14" -padding 50'
+bindsym $mod+d exec --no-startup-id i3-dmenu-desktop --dmenu='rofi -i -dmenu -m -4 -location 0 -show run -lines 8 -bw 0 -font "System San Francisco Display 14" -padding 50 -no-disable-history'
+
+#bindsym $mod+d exec --no-startup-id i3-dmenu-desktop -dmenu='rofi -i -dmenu -location 0 -show run -font "System San Francisco Display 12" -no-disable-history -color-window "#fdf6e3, #002b36, #000000" -color-normal "#fdf6e3, #002b36, #eee8d5, #586e75, #eee8d5" -color-active "#fdf6e3, #268bd2, #eee8d5, #268bd2, #fdf6e3" -color-urgent "#fdf6e3, #dc322f, #eee8d5, #dc322f, #fdf6e3"'
+ 
+
+bindsym $mod+c exec chromium-browser
+
 
 # change focus
 bindsym $mod+h focus left
@@ -73,7 +81,7 @@ bindsym $mod+f fullscreen toggle
 
 # change container layout (stacked, tabbed, toggle split)
 bindsym $mod+s layout stacking
-bindsym $mod+w layout tabbed
+bindsym $mod+t layout tabbed
 bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
@@ -211,73 +219,80 @@ client.focused_inactive     $black                $inactive-bg-color    $inactiv
 client.urgent               $urgent-bg-color      $urgent-bg-color      $text-color              #e53935
 
 # bar
-#bar {
-#	output "DP-0"
-#	output "DP-2" 
-#  	status_command i3status
-#    font pango: System San Francisco Display 14
-#	colors {
-#		background #2f343f
-#        separator #757575
-#		statusline #839496
-#
-#		#                  border             background         text
-#		focused_workspace  $bg-color          $bg-color          $text-color
-#		inactive_workspace $inactive-bg-color $inactive-bg-color $inactive-text-color
-#		urgent_workspace   $urgent-bg-color   $urgent-bg-color   $text-color
-#	}
-#}
-#
-## bar
-#bar {
-#        output "HDMI-0"
-#        output "HDMI-1"
-#	tray_output "HDMI-0"
-#        tray_output "HDMI-1"
-#        font pango: System San Francisco Display 12
-#        status_command i3status
-#        colors {
-#                background #2f343f
-#                separator #757575
-#                statusline #839496
-#                #                  border             background         text
-#                focused_workspace  $bg-color          $bg-color          $text-color
-#                inactive_workspace $inactive-bg-color $inactive-bg-color $inactive-text-color
-#                urgent_workspace   $urgent-bg-color   $urgent-bg-color   $text-color
-#        }
-#}
+bar {
+	output "DP-0"
+	output "DP-2" 
+  	status_command i3status
+        font pango: System San Francisco Display 12
+	colors {
+		background #2f343f
+        separator #757575
+		statusline #839496
 
-# Powerline i3 bar
-# Note
-#
-# As the patch to include background-colors in i3bar is likely not to be merged, it is recommended to instead run bar (see above). The source for i3bgbar is however still available here.
-# Add the following to ~/.i3/config:
-#
-# bar {
-#     i3bar_command i3bgbar
-#
-#     status_command python /path/to/powerline/bindings/i3/powerline-i3.py
-#     font pango:PowerlineFont 12
-# }
-# where i3bgbar may be replaced with the path to the custom i3bar binary and PowerlineFont is any system font with powerline support.
+		#                  border             background         text
+		focused_workspace  $bg-color          $bg-color          $text-color
+		inactive_workspace $inactive-bg-color $inactive-bg-color $inactive-text-color
+		urgent_workspace   $urgent-bg-color   $urgent-bg-color   $text-color
+	}
+}
+
+# bar
+bar {
+        output "HDMI-0"
+        output "HDMI-1"
+	tray_output "HDMI-0"
+        tray_output "HDMI-1"
+        font pango: System San Francisco Display 11
+        status_command i3status
+        colors {
+                background #2f343f
+                separator #757575
+                statusline #839496
+                #                  border             background         text
+                focused_workspace  $bg-color          $bg-color          $text-color
+                inactive_workspace $inactive-bg-color $inactive-bg-color $inactive-text-color
+                urgent_workspace   $urgent-bg-color   $urgent-bg-color   $text-color
+        }
+}
+
+######################################################################################################################
+#                                                                                                                    #
+# Window Assignments + Rules                                                                                         #
+#                                                                                                                    #
+######################################################################################################################
+
+
+assign [class="^[sS]lack"] → $workspace3
+
+# IntelliJ + Studio 
+#assign [class="^jetbrains-idea$" instance="^sun-awt-X11-X(DialogPeer|FramePeer)$"] → $workspace1
+#assign [id="Welcome to IntelliJ IDEA"] → $workspace1
+
+for_window [class="^jetbrains-idea$" instance="^sun-awt-X11-XFramePeer$"] move container to workspace $workspace1
+assign [class="^jetbrains-idea$" instance="^sun-awt-X11-XFramePeer$"] move container to workspace $workspace1
+
+# Hangouts
+for_window [class="^Chromium-browser$" instance="^crx_knipolnnllmklapflnccelgolnpehhpl$"] floating disable
+assign [class="^Chromium-browser$" instance="^crx_knipolnnllmklapflnccelgolnpehhpl$"] → $workspace3
+
 
 ######################################################################################################################
 #                                                                                                                    #
 # Startup                                                                                                            #
 #                                                                                                                    #
 ######################################################################################################################
+exec_always --no-startup-id ~/.screenlayout/1x2x1.sh
+exec_always --no-startup-id nitrogen --restore
 
-exec_always nitrogen --restore
-
-# exec --no-startup-id nm-apple
+exec --no-startup-id nm-applet
+exec --no-startup-id clipit -n
 exec --no-startup-id compton -f
-# exec --no-startup-id shutter --min_at_startup
+exec --no-startup-id shutter --min_at_startup
 
-# exec i3-msg 'workspace "2:   Chrome"; exec chromium-browser;'
-# exec i3-msg 'workspace "3:   Slack"; exec slack; exec hexchat'
-
-assign [class="^[sS]lack"] → $workspace3
-assign [class="^jetbrains-studio$" instance="^sun-awt-X11-X(DialogPeer|FramePeer)$"] → $workspace1
+exec --no-startup-id i3-msg 'workspace "3:   Slack"; layout stacking' 
+exec --no-startup-id i3-msg 'workspace "2:   Chrome"; exec chromium-browser;'
+exec --no-startup-id i3-msg 'workspace "3:   Slack"; exec slack; exec hexchat'
+exec --no-startup-id i3-msg 'workspace "4:   Terminals"; exec i3-sensible-terminal'
 
 
 ######################################################################################################################
@@ -317,8 +332,6 @@ assign [class="^jetbrains-studio$" instance="^sun-awt-X11-X(DialogPeer|FramePeer
 #
 # bindsym ctrl+shift+l mode "$lastPass"
 
-# exec_always nitrogen --restore
-
 # assign [class="^[G|g]nome-terminal"] → $workspace4
 
 # exec --no-startup-id i3-msg 'workspace number 4; exec terminal; workspace number 1'
@@ -329,11 +342,6 @@ assign [class="^jetbrains-studio$" instance="^sun-awt-X11-X(DialogPeer|FramePeer
 # Change title of a window
 # bindsym esc+F8 exec xdotool set_window --name `zenity --entry --title=I3 --text='Change window title to:'` `xdotool getactivewindow`
 
-# There also is the (new) i3-dmenu-desktop which only displays applications
-# shipping a .desktop file. It is a wrapper around dmenu, so you need that
-# installed.
-# bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
-
 ######################################################################################################################
 #                                                                                                                    #
 #                                                                                                                    #
@@ -343,19 +351,19 @@ assign [class="^jetbrains-studio$" instance="^sun-awt-X11-X(DialogPeer|FramePeer
 
 # Starting things with i3
 # exec --no-startup-id xcompmgr -C &    # Bare compositor to allow transparency
-for_window [class="yakuake"] floating enable;
+# for_window [class="yakuake"] floating enable;
 
 ## Plasma Integration
 # Try to kill the wallpaper set by Plasma (it takes up the entire workspace and hides everythiing)
-exec --no-startup-id wmctrl -c Plasma
-for_window [title="Desktop — Plasma"] kill; floating enable; border none
+#exec --no-startup-id wmctrl -c Plasma
+#for_window [title="Desktop — Plasma"] kill; floating enable; border none
 
 ## Avoid tiling popups, dropdown windows from plasma
 # for the first time, manually resize them, i3 will remember the setting for floating windows
-for_window [class="plasmashell"] floating enable;
-for_window [class="Plasma"] floating enable; border none
-for_window [title="plasma-desktop"] floating enable; border none
-for_window [class="krunner"] floating enable; border none
-for_window [class="Kmix"] floating enable; border none
-for_window [class="Klipper"] floating enable; border none
-for_window [class="Plasmoidviewer"] floating enable; border none
+#for_window [class="plasmashell"] floating enable;
+#for_window [class="Plasma"] floating enable; border none
+#for_window [title="plasma-desktop"] floating enable; border none
+#for_window [class="krunner"] floating enable; border none
+#for_window [class="Kmix"] floating enable; border none
+#for_window [class="Klipper"] floating enable; border none
+#for_window [class="Plasmoidviewer"] floating enable; border none
