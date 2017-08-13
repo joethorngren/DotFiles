@@ -1,0 +1,26 @@
+{"description":"Prepare for Demo","entry":"20170813T000336Z","modified":"20170813T000336Z","status":"pending","uuid":"b2ae985e-9187-4b5a-9bb3-1df0cc17e2bc"}
+{"description":"John ToDo","entry":"20170813T000356Z","modified":"20170813T000356Z","status":"pending","uuid":"d23a250b-de7d-4d9e-82bf-58c7c072dd2e"}
+{"description":"Prepare for Demo","entry":"20170813T000336Z","modified":"20170813T010701Z","start":"20170813T010701Z","status":"pending","uuid":"b2ae985e-9187-4b5a-9bb3-1df0cc17e2bc"}
+{"description":"Prepare for Demo","entry":"20170813T000336Z","modified":"20170813T011153Z","project":"CEL","start":"20170813T010701Z","status":"pending","uuid":"b2ae985e-9187-4b5a-9bb3-1df0cc17e2bc"}
+{"description":"John ToDo","entry":"20170813T000356Z","modified":"20170813T011202Z","project":"CEL","status":"pending","uuid":"d23a250b-de7d-4d9e-82bf-58c7c072dd2e"}
+{"description":"Prepare for Demo","entry":"20170813T000336Z","modified":"20170813T015342Z","project":"CEL","status":"pending","totalactivetime":"2801seconds","uuid":"b2ae985e-9187-4b5a-9bb3-1df0cc17e2bc"}
+{"description":"Prepare for Demo","end":"20170813T015440Z","entry":"20170813T000336Z","modified":"20170813T015442Z","project":"CEL","status":"deleted","totalactivetime":"2801seconds","uuid":"b2ae985e-9187-4b5a-9bb3-1df0cc17e2bc"}
+{"description":"Prepare for Demo","entry":"20170813T015449Z","modified":"20170813T015449Z","status":"pending","uuid":"840852a3-301f-4d28-a050-0bdbde565331"}
+{"description":"Prepare for Demo","entry":"20170813T015449Z","modified":"20170813T015543Z","project":"CEL","status":"pending","uuid":"840852a3-301f-4d28-a050-0bdbde565331"}
+{"description":"Prepare for Demo","entry":"20170813T015449Z","modified":"20170813T015603Z","project":"CEL","start":"20170813T015602Z","status":"pending","uuid":"840852a3-301f-4d28-a050-0bdbde565331"}
+{"description":"Prepare for Demo","entry":"20170813T015449Z","modified":"20170813T015610Z","project":"CEL","status":"pending","totalactivetime":"8seconds","uuid":"840852a3-301f-4d28-a050-0bdbde565331"}
+{"description":"Prepare for Demo","entry":"20170813T015449Z","modified":"20170813T015611Z","project":"CEL","start":"20170813T015611Z","status":"pending","totalactivetime":"8seconds","uuid":"840852a3-301f-4d28-a050-0bdbde565331"}
+{"description":"BitBucket Repository","entry":"20170813T015746Z","modified":"20170813T015746Z","project":"CEL","status":"pending","uuid":"43ec2173-072b-485f-944c-3feccffe8474"}
+{"description":"Clean Up Scripts Directory","entry":"20170813T015914Z","modified":"20170813T015914Z","project":"CEL","status":"pending","uuid":"20ad5db7-a4f1-4778-b46b-3785d282377b"}
+{"description":"CEL\/Task Bookmarks","entry":"20170813T015938Z","modified":"20170813T015938Z","project":"CEL","status":"pending","uuid":"649359f1-d60b-4fd2-8522-4824868aadd8"}
+{"description":"Prepare for Demo","entry":"20170813T015449Z","modified":"20170813T015950Z","project":"CEL","status":"pending","totalactivetime":"227seconds","uuid":"840852a3-301f-4d28-a050-0bdbde565331"}
+{"description":"CEL\/Task Bookmarks","entry":"20170813T015938Z","modified":"20170813T015955Z","project":"CEL","start":"20170813T015955Z","status":"pending","uuid":"649359f1-d60b-4fd2-8522-4824868aadd8"}
+{"description":"CEL\/Task Bookmarks","end":"20170813T020157Z","entry":"20170813T015938Z","modified":"20170813T020157Z","project":"CEL","status":"completed","totalactivetime":"122seconds","uuid":"649359f1-d60b-4fd2-8522-4824868aadd8"}
+{"description":"Prepare for Demo","entry":"20170813T015449Z","modified":"20170813T021922Z","project":"CEL","start":"20170813T021922Z","status":"pending","totalactivetime":"227seconds","uuid":"840852a3-301f-4d28-a050-0bdbde565331"}
+{"description":"Prepare for Demo","entry":"20170813T015449Z","modified":"20170813T021955Z","project":"CEL","status":"pending","totalactivetime":"260seconds","uuid":"840852a3-301f-4d28-a050-0bdbde565331"}
+{"description":"Prepare for Demo","entry":"20170813T015449Z","modified":"20170813T022012Z","project":"CEL","start":"20170813T022012Z","status":"pending","totalactivetime":"260seconds","uuid":"840852a3-301f-4d28-a050-0bdbde565331"}
+{"description":"Prepare for Demo","entry":"20170813T015449Z","modified":"20170813T022414Z","project":"CEL","status":"pending","totalactivetime":"502seconds","uuid":"840852a3-301f-4d28-a050-0bdbde565331"}
+{"description":"Prepare for Demo","entry":"20170813T015449Z","modified":"20170813T023837Z","project":"CEL","start":"20170813T023837Z","status":"pending","totalactivetime":"502seconds","uuid":"840852a3-301f-4d28-a050-0bdbde565331"}
+{"description":"Prepare for Demo","entry":"20170813T015449Z","modified":"20170813T024418Z","project":"CEL","status":"pending","totalactivetime":"843seconds","uuid":"840852a3-301f-4d28-a050-0bdbde565331"}
+{"description":"Prepare for Demo","entry":"20170813T015449Z","modified":"20170813T024835Z","project":"CEL","start":"20170813T024835Z","status":"pending","totalactivetime":"843seconds","uuid":"840852a3-301f-4d28-a050-0bdbde565331"}
+{"description":"Prepare for Demo","entry":"20170813T015449Z","modified":"20170813T024902Z","project":"CEL","status":"pending","totalactivetime":"870seconds","uuid":"840852a3-301f-4d28-a050-0bdbde565331"}

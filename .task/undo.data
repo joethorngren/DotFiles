@@ -1,0 +1,98 @@
+time 1502582616
+new [description:"Prepare for Demo" entry:"1502582616" modified:"1502582616" status:"pending" uuid:"b2ae985e-9187-4b5a-9bb3-1df0cc17e2bc"]
+---
+time 1502582636
+new [description:"John ToDo" entry:"1502582636" modified:"1502582636" status:"pending" uuid:"d23a250b-de7d-4d9e-82bf-58c7c072dd2e"]
+---
+time 1502586421
+old [description:"Prepare for Demo" entry:"1502582616" modified:"1502582616" status:"pending" uuid:"b2ae985e-9187-4b5a-9bb3-1df0cc17e2bc"]
+new [description:"Prepare for Demo" entry:"1502582616" modified:"1502586421" start:"1502586421" status:"pending" uuid:"b2ae985e-9187-4b5a-9bb3-1df0cc17e2bc"]
+---
+time 1502586713
+old [description:"Prepare for Demo" entry:"1502582616" modified:"1502586421" start:"1502586421" status:"pending" uuid:"b2ae985e-9187-4b5a-9bb3-1df0cc17e2bc"]
+new [description:"Prepare for Demo" entry:"1502582616" modified:"1502586713" project:"CEL" start:"1502586421" status:"pending" uuid:"b2ae985e-9187-4b5a-9bb3-1df0cc17e2bc"]
+---
+time 1502586722
+old [description:"John ToDo" entry:"1502582636" modified:"1502582636" status:"pending" uuid:"d23a250b-de7d-4d9e-82bf-58c7c072dd2e"]
+new [description:"John ToDo" entry:"1502582636" modified:"1502586722" project:"CEL" status:"pending" uuid:"d23a250b-de7d-4d9e-82bf-58c7c072dd2e"]
+---
+time 1502589222
+old [description:"Prepare for Demo" entry:"1502582616" modified:"1502586713" project:"CEL" start:"1502586421" status:"pending" uuid:"b2ae985e-9187-4b5a-9bb3-1df0cc17e2bc"]
+new [description:"Prepare for Demo" entry:"1502582616" modified:"1502589222" project:"CEL" status:"pending" totalactivetime:"2801seconds" uuid:"b2ae985e-9187-4b5a-9bb3-1df0cc17e2bc"]
+---
+time 1502589282
+old [description:"Prepare for Demo" entry:"1502582616" modified:"1502589222" project:"CEL" status:"pending" totalactivetime:"2801seconds" uuid:"b2ae985e-9187-4b5a-9bb3-1df0cc17e2bc"]
+new [description:"Prepare for Demo" end:"1502589280" entry:"1502582616" modified:"1502589282" project:"CEL" status:"deleted" totalactivetime:"2801seconds" uuid:"b2ae985e-9187-4b5a-9bb3-1df0cc17e2bc"]
+---
+time 1502589289
+new [description:"Prepare for Demo" entry:"1502589289" modified:"1502589289" status:"pending" uuid:"840852a3-301f-4d28-a050-0bdbde565331"]
+---
+time 1502589343
+old [description:"Prepare for Demo" entry:"1502589289" modified:"1502589289" status:"pending" uuid:"840852a3-301f-4d28-a050-0bdbde565331"]
+new [description:"Prepare for Demo" entry:"1502589289" modified:"1502589343" project:"CEL" status:"pending" uuid:"840852a3-301f-4d28-a050-0bdbde565331"]
+---
+time 1502589363
+old [description:"Prepare for Demo" entry:"1502589289" modified:"1502589343" project:"CEL" status:"pending" uuid:"840852a3-301f-4d28-a050-0bdbde565331"]
+new [description:"Prepare for Demo" entry:"1502589289" modified:"1502589363" project:"CEL" start:"1502589362" status:"pending" uuid:"840852a3-301f-4d28-a050-0bdbde565331"]
+---
+time 1502589370
+old [description:"Prepare for Demo" entry:"1502589289" modified:"1502589363" project:"CEL" start:"1502589362" status:"pending" uuid:"840852a3-301f-4d28-a050-0bdbde565331"]
+new [description:"Prepare for Demo" entry:"1502589289" modified:"1502589370" project:"CEL" status:"pending" totalactivetime:"8seconds" uuid:"840852a3-301f-4d28-a050-0bdbde565331"]
+---
+time 1502589371
+old [description:"Prepare for Demo" entry:"1502589289" modified:"1502589370" project:"CEL" status:"pending" totalactivetime:"8seconds" uuid:"840852a3-301f-4d28-a050-0bdbde565331"]
+new [description:"Prepare for Demo" entry:"1502589289" modified:"1502589371" project:"CEL" start:"1502589371" status:"pending" totalactivetime:"8seconds" uuid:"840852a3-301f-4d28-a050-0bdbde565331"]
+---
+time 1502589466
+new [description:"BitBucket Repository" entry:"1502589466" modified:"1502589466" project:"CEL" status:"pending" uuid:"43ec2173-072b-485f-944c-3feccffe8474"]
+---
+time 1502589554
+new [description:"Clean Up Scripts Directory" entry:"1502589554" modified:"1502589554" project:"CEL" status:"pending" uuid:"20ad5db7-a4f1-4778-b46b-3785d282377b"]
+---
+time 1502589578
+new [description:"CEL\/Task Bookmarks" entry:"1502589578" modified:"1502589578" project:"CEL" status:"pending" uuid:"649359f1-d60b-4fd2-8522-4824868aadd8"]
+---
+time 1502589590
+old [description:"Prepare for Demo" entry:"1502589289" modified:"1502589371" project:"CEL" start:"1502589371" status:"pending" totalactivetime:"8seconds" uuid:"840852a3-301f-4d28-a050-0bdbde565331"]
+new [description:"Prepare for Demo" entry:"1502589289" modified:"1502589590" project:"CEL" status:"pending" totalactivetime:"227seconds" uuid:"840852a3-301f-4d28-a050-0bdbde565331"]
+---
+time 1502589595
+old [description:"CEL\/Task Bookmarks" entry:"1502589578" modified:"1502589578" project:"CEL" status:"pending" uuid:"649359f1-d60b-4fd2-8522-4824868aadd8"]
+new [description:"CEL\/Task Bookmarks" entry:"1502589578" modified:"1502589595" project:"CEL" start:"1502589595" status:"pending" uuid:"649359f1-d60b-4fd2-8522-4824868aadd8"]
+---
+time 1502589717
+old [description:"CEL\/Task Bookmarks" entry:"1502589578" modified:"1502589595" project:"CEL" start:"1502589595" status:"pending" uuid:"649359f1-d60b-4fd2-8522-4824868aadd8"]
+new [description:"CEL\/Task Bookmarks" end:"1502589717" entry:"1502589578" modified:"1502589717" project:"CEL" status:"completed" totalactivetime:"122seconds" uuid:"649359f1-d60b-4fd2-8522-4824868aadd8"]
+---
+time 1502590762
+old [description:"Prepare for Demo" entry:"1502589289" modified:"1502589590" project:"CEL" status:"pending" totalactivetime:"227seconds" uuid:"840852a3-301f-4d28-a050-0bdbde565331"]
+new [description:"Prepare for Demo" entry:"1502589289" modified:"1502590762" project:"CEL" start:"1502590762" status:"pending" totalactivetime:"227seconds" uuid:"840852a3-301f-4d28-a050-0bdbde565331"]
+---
+time 1502590795
+old [description:"Prepare for Demo" entry:"1502589289" modified:"1502590762" project:"CEL" start:"1502590762" status:"pending" totalactivetime:"227seconds" uuid:"840852a3-301f-4d28-a050-0bdbde565331"]
+new [description:"Prepare for Demo" entry:"1502589289" modified:"1502590795" project:"CEL" status:"pending" totalactivetime:"260seconds" uuid:"840852a3-301f-4d28-a050-0bdbde565331"]
+---
+time 1502590812
+old [description:"Prepare for Demo" entry:"1502589289" modified:"1502590795" project:"CEL" status:"pending" totalactivetime:"260seconds" uuid:"840852a3-301f-4d28-a050-0bdbde565331"]
+new [description:"Prepare for Demo" entry:"1502589289" modified:"1502590812" project:"CEL" start:"1502590812" status:"pending" totalactivetime:"260seconds" uuid:"840852a3-301f-4d28-a050-0bdbde565331"]
+---
+time 1502591054
+old [description:"Prepare for Demo" entry:"1502589289" modified:"1502590812" project:"CEL" start:"1502590812" status:"pending" totalactivetime:"260seconds" uuid:"840852a3-301f-4d28-a050-0bdbde565331"]
+new [description:"Prepare for Demo" entry:"1502589289" modified:"1502591054" project:"CEL" status:"pending" totalactivetime:"502seconds" uuid:"840852a3-301f-4d28-a050-0bdbde565331"]
+---
+time 1502591917
+old [description:"Prepare for Demo" entry:"1502589289" modified:"1502591054" project:"CEL" status:"pending" totalactivetime:"502seconds" uuid:"840852a3-301f-4d28-a050-0bdbde565331"]
+new [description:"Prepare for Demo" entry:"1502589289" modified:"1502591917" project:"CEL" start:"1502591917" status:"pending" totalactivetime:"502seconds" uuid:"840852a3-301f-4d28-a050-0bdbde565331"]
+---
+time 1502592258
+old [description:"Prepare for Demo" entry:"1502589289" modified:"1502591917" project:"CEL" start:"1502591917" status:"pending" totalactivetime:"502seconds" uuid:"840852a3-301f-4d28-a050-0bdbde565331"]
+new [description:"Prepare for Demo" entry:"1502589289" modified:"1502592258" project:"CEL" status:"pending" totalactivetime:"843seconds" uuid:"840852a3-301f-4d28-a050-0bdbde565331"]
+---
+time 1502592515
+old [description:"Prepare for Demo" entry:"1502589289" modified:"1502592258" project:"CEL" status:"pending" totalactivetime:"843seconds" uuid:"840852a3-301f-4d28-a050-0bdbde565331"]
+new [description:"Prepare for Demo" entry:"1502589289" modified:"1502592515" project:"CEL" start:"1502592515" status:"pending" totalactivetime:"843seconds" uuid:"840852a3-301f-4d28-a050-0bdbde565331"]
+---
+time 1502592542
+old [description:"Prepare for Demo" entry:"1502589289" modified:"1502592515" project:"CEL" start:"1502592515" status:"pending" totalactivetime:"843seconds" uuid:"840852a3-301f-4d28-a050-0bdbde565331"]
+new [description:"Prepare for Demo" entry:"1502589289" modified:"1502592542" project:"CEL" status:"pending" totalactivetime:"870seconds" uuid:"840852a3-301f-4d28-a050-0bdbde565331"]
+---
