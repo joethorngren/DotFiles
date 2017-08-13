@@ -1,9 +1,15 @@
 # Path to your oh-my-zsh installation.
 export ZSH=/${HOME}/.oh-my-zsh
+export ZSH_HOME=/${HOME}/.zsh
 
 ZSH_THEME="powerlevel9k/powerlevel9k"
+POWERLEVEL9K_PROMPT_ON_NEWLINE=true
 POWERLEVEL9K_PROMPT_ADD_NEWLINE=true
-POWERLEVEL9K_MODE='nerdfont-complete'
+POWERLEVEL9K_MODE="nerdfont-complete"
+
+POWERLEVEL9K_SHORTEN_DIR_LENGTH=1
+POWERLEVEL9K_SHORTEN_STRATEGY="truncate_from_right"
+POWERLEVEL9K_SHORTEN_DELIMITER=".."
 
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(ssh context dir)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(background_jobs vcs time)
@@ -15,14 +21,13 @@ POWERLEVEL9K_CONTEXT_ROOT_FOREGROUND="blue"
 
 # Advanced `vcs` color customization
 POWERLEVEL9K_VCS_FOREGROUND='blue'
-POWERLEVEL9K_VCS_DARK_FOREGROUND='black'
 POWERLEVEL9K_VCS_BACKGROUND='green'
 # If VCS changes are detected:
-POWERLEVEL9K_VCS_MODIFIED_FOREGROUND='red'
-POWERLEVEL9K_VCS_MODIFIED_BACKGROUND='cyan'
+POWERLEVEL9K_VCS_MODIFIED_FOREGROUND='black'
+POWERLEVEL9K_VCS_MODIFIED_BACKGROUND='red'
 
 
-plugins=(git zsh-dircolors-solarized zsh-autosuggestions)
+plugins=(git zsh-dircolors-solarized zsh-autosuggestions httpie taskwarrior)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -39,6 +44,8 @@ promptinit
 source "$ZSH_HOME/zsh_aliases"
 source "$ZSH_HOME/zsh_options"
 source "$ZSH_HOME/history.zsh"
+
+eval 'keychain --eval --agents ssh tack_rsa'
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="${HOME}/.sdkman"

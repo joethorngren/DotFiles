@@ -1,262 +1,292 @@
-2017-06-26 10:19:47.186 [AWT-EventQueue-0] DEBUG [em] 
+2017-08-12 17:36:29.505 [AWT-EventQueue-0] DEBUG [em] 
 
 
 
-2017-06-26 10:19:47.192 [AWT-EventQueue-0] DEBUG [em] JRebel for Android IDE plugin started
-2017-06-26 10:19:49.543 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [cD] Took a vm lock java.util.concurrent.locks.ReentrantLock@201f1530[Locked by thread AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] for file /home/dayfun/.jrebel-android/distributions/.lock
-2017-06-26 10:19:49.544 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [cD] Took file lock sun.nio.ch.FileLockImpl[0:9223372036854775807 exclusive valid]
-2017-06-26 10:19:49.544 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [cC] Reading distributions info in /home/dayfun/.jrebel-android/distributions
-2017-06-26 10:19:49.551 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [cC] Found 1 distributions
-2017-06-26 10:19:49.560 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [cC] Our dist folder should be /home/dayfun/.jrebel-android/distributions/2.2.40_20170615111200
-2017-06-26 10:19:49.561 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [cC] Found 0 old and outdated distributions
-2017-06-26 10:19:49.561 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [cC] Storing new distributions info
-2017-06-26 10:19:49.561 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [cC] Using distribution folder /home/dayfun/.jrebel-android/distributions/2.2.40_20170615111200
-2017-06-26 10:19:49.561 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [cD] Releasing lock for file lock sun.nio.ch.FileLockImpl[0:9223372036854775807 exclusive valid]
-2017-06-26 10:19:49.561 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [cD] Releasing vm lock java.util.concurrent.locks.ReentrantLock@201f1530[Locked by thread AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] for lock file /home/dayfun/.jrebel-android/distributions/.lock
-2017-06-26 10:19:49.570 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] WARN  [gB] Reading license failed: java.io.FileNotFoundException: File '/home/dayfun/.jrebel-android/jrebel-android.lic' does not exist
-2017-06-26 10:19:49.573 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [gu] Found license data: {lastName=Thorngren, GeneratedBy=AUTO, Email=joethorngren@gmail.com, Organization=Personal, Product=JRebel for Android, GeneratedOn=Sun Mar 26 07:15:02 MDT 2017, validFrom=Sun Mar 26 07:11:24 MDT 2017, OrderId=de7c9907c1724e356e3adc16524c1f59f9a5bbdd, limitedFrom=Sun Mar 26 07:11:24 MDT 2017, version=1.21, Name=Joe Thorngren, Seats=1, uid=781c62b19de29accfafb0d0d94eb4a57f398b6f2, firstName=Joe, Type=personal, validUntil=Mon Mar 26 07:11:24 MDT 2018, ZeroId=176847, limitedUntil=Mon Mar 26 07:11:24 MDT 2018}
-2017-06-26 10:19:49.605 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [gm] Read and verified the license.
-2017-06-26 10:19:49.605 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [gq] License validation passed.
-2017-06-26 10:19:49.605 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [gB] Read license successfully.
-2017-06-26 10:19:49.652 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [gq] License validation passed.
-2017-06-26 10:19:49.679 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [gq] License validation passed.
-2017-06-26 10:19:51.110 [ApplicationImpl pooled thread 2] INFO  [HttpServerComponent] HTTP server started on port: 40099
-2017-06-26 10:19:51.114 [ApplicationImpl pooled thread 4] DEBUG [nk] Executing [/usr/lib/jvm/java-8-oracle/bin/java, -version].
-2017-06-26 10:19:51.117 [ApplicationImpl pooled thread 4] DEBUG [nk] Started java.lang.UNIXProcess@1c244007
-2017-06-26 10:19:51.252 [Thread-8] DEBUG [ProjectConfigurationComponent$a$1] java version "1.8.0_131"
-2017-06-26 10:19:51.252 [Thread-8] DEBUG [ProjectConfigurationComponent$a$1] Java(TM) SE Runtime Environment (build 1.8.0_131-b11)
-2017-06-26 10:19:51.252 [Thread-8] DEBUG [ProjectConfigurationComponent$a$1] Java HotSpot(TM) 64-Bit Server VM (build 25.131-b11, mixed mode)
-2017-06-26 10:19:51.254 [WaitForProcess-java.lang.UNIXProcess@1c244007] DEBUG [nn] java.lang.UNIXProcess@1c244007 stopped with exit code 0
-2017-06-26 10:19:51.302 [ApplicationImpl pooled thread 4] DEBUG [ProjectConfigurationComponent] Detected 64-bit JVM.
-2017-06-26 10:19:51.963 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [OnboardingComponent] Performing initial startup validation check, startupActivationEnabled? false
-2017-06-26 10:19:51.964 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [gq] License validation passed.
-2017-06-26 10:19:51.964 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [eB] License: com.zeroturnaround.jrebel.android.studio.gA@328ad8d0
-2017-06-26 10:19:51.964 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [eB] Performed background activation check, valid? true
-2017-06-26 10:19:51.967 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [OnboardingComponent] User is activated
-2017-06-26 10:19:51.967 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [OnboardingComponent] License is valid
-2017-06-26 10:19:51.968 [ApplicationImpl pooled thread 1] DEBUG [ProjectConfigurationComponent] Trying to launch a Gradle daemon in advance.
-2017-06-26 10:19:51.968 [ApplicationImpl pooled thread 1] DEBUG [ProjectConfigurationComponent] Found Gradle wrapper executable with /home/dayfun/Code_Complete/Android/ThisScriptedLife/FindFitBark/gradlew.
-2017-06-26 10:19:51.968 [ApplicationImpl pooled thread 1] DEBUG [nk] Executing [/home/dayfun/Code_Complete/Android/ThisScriptedLife/FindFitBark/gradlew, --daemon, -b, /tmp/.gradleDaemonStartup8565544166150245813.gradle, -c, /tmp/.gradleDaemonStartup8565544166150245813.gradle, -u] with environment {JAVA_HOME=/usr/lib/jvm/java-8-oracle}.
-2017-06-26 10:19:51.969 [ApplicationImpl pooled thread 1] DEBUG [nk] Started java.lang.UNIXProcess@3c63304c
-2017-06-26 10:19:52.720 [Thread-9] DEBUG [ProjectConfigurationComponent] Starting a Gradle Daemon (subsequent builds will be faster)
-2017-06-26 10:19:54.584 [Thread-9] DEBUG [ProjectConfigurationComponent] :help
-2017-06-26 10:19:54.584 [Thread-9] DEBUG [ProjectConfigurationComponent] 
-2017-06-26 10:19:54.584 [Thread-9] DEBUG [ProjectConfigurationComponent] Welcome to Gradle 4.0-rc-1.
-2017-06-26 10:19:54.584 [Thread-9] DEBUG [ProjectConfigurationComponent] 
-2017-06-26 10:19:54.584 [Thread-9] DEBUG [ProjectConfigurationComponent] To run a build, run gradlew <task> ...
-2017-06-26 10:19:54.584 [Thread-9] DEBUG [ProjectConfigurationComponent] 
-2017-06-26 10:19:54.584 [Thread-9] DEBUG [ProjectConfigurationComponent] To see a list of available tasks, run gradlew tasks
-2017-06-26 10:19:54.584 [Thread-9] DEBUG [ProjectConfigurationComponent] 
-2017-06-26 10:19:54.584 [Thread-9] DEBUG [ProjectConfigurationComponent] To see a list of command-line options, run gradlew --help
-2017-06-26 10:19:54.584 [Thread-9] DEBUG [ProjectConfigurationComponent] 
-2017-06-26 10:19:54.584 [Thread-9] DEBUG [ProjectConfigurationComponent] To see more detail about a task, run gradlew help --task <task>
-2017-06-26 10:19:54.593 [Thread-9] DEBUG [ProjectConfigurationComponent] 
-2017-06-26 10:19:54.593 [Thread-9] DEBUG [ProjectConfigurationComponent] BUILD SUCCESSFUL in 2s
-2017-06-26 10:19:54.593 [Thread-9] DEBUG [ProjectConfigurationComponent] 1 actionable task: 1 executed
-2017-06-26 10:19:54.927 [WaitForProcess-java.lang.UNIXProcess@3c63304c] DEBUG [nn] java.lang.UNIXProcess@3c63304c stopped with exit code 0
-2017-06-26 10:19:56.161 [ApplicationImpl pooled thread 11] DEBUG [nk] Executing [/usr/lib/jvm/java-8-oracle/bin/java, -version].
-2017-06-26 10:19:56.162 [ApplicationImpl pooled thread 11] DEBUG [nk] Started java.lang.UNIXProcess@5ee22f1
-2017-06-26 10:19:56.198 [Thread-10] DEBUG [ProjectConfigurationComponent$a$1] java version "1.8.0_131"
-2017-06-26 10:19:56.198 [Thread-10] DEBUG [ProjectConfigurationComponent$a$1] Java(TM) SE Runtime Environment (build 1.8.0_131-b11)
-2017-06-26 10:19:56.198 [Thread-10] DEBUG [ProjectConfigurationComponent$a$1] Java HotSpot(TM) 64-Bit Server VM (build 25.131-b11, mixed mode)
-2017-06-26 10:19:56.202 [WaitForProcess-java.lang.UNIXProcess@5ee22f1] DEBUG [nn] java.lang.UNIXProcess@5ee22f1 stopped with exit code 0
-2017-06-26 10:19:56.206 [ApplicationImpl pooled thread 11] DEBUG [ProjectConfigurationComponent] Detected 64-bit JVM.
-2017-06-26 10:24:33.059 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [fM] Stopping.
-2017-06-26 10:24:33.060 [NanoHttpd Main Listener] DEBUG [NanoHTTPD] Failed to accept socket: java.net.SocketException: Socket closed
-2017-06-26 14:02:02.232 [AWT-EventQueue-0] DEBUG [em] 
+2017-08-12 17:36:29.510 [AWT-EventQueue-0] DEBUG [em] JRebel for Android IDE plugin started
+2017-08-12 17:36:31.598 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [cF] Took a vm lock java.util.concurrent.locks.ReentrantReadWriteLock$WriteLock@20942761[Locked by thread AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] for file /home/dayfun/.jrebel-android/distributions/.lock
+2017-08-12 17:36:31.599 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [cF] Took file lock sun.nio.ch.FileLockImpl[0:9223372036854775807 exclusive valid]
+2017-08-12 17:36:31.599 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [cC] Reading distributions info in /home/dayfun/.jrebel-android/distributions
+2017-08-12 17:36:31.605 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [cC] Found 3 distributions
+2017-08-12 17:36:31.615 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [cC] Our dist folder should be /home/dayfun/.jrebel-android/distributions/2.3.12_20170809095128
+2017-08-12 17:36:31.615 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [cC] Found 0 old and outdated distributions
+2017-08-12 17:36:31.615 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [cC] Storing new distributions info
+2017-08-12 17:36:31.616 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [cC] Using distribution folder /home/dayfun/.jrebel-android/distributions/2.3.12_20170809095128
+2017-08-12 17:36:31.616 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [cF] Releasing lock for file lock sun.nio.ch.FileLockImpl[0:9223372036854775807 exclusive valid]
+2017-08-12 17:36:31.616 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [cF] Releasing vm lock java.util.concurrent.locks.ReentrantReadWriteLock$WriteLock@20942761[Locked by thread AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] for lock file /home/dayfun/.jrebel-android/distributions/.lock
+2017-08-12 17:36:31.624 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] WARN  [gD] Reading license failed: java.io.FileNotFoundException: File '/home/dayfun/.jrebel-android/jrebel-android.lic' does not exist
+2017-08-12 17:36:31.627 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [gw] Found license data: {lastName=Thorngren, GeneratedBy=AUTO, Email=joethorngren@gmail.com, Organization=Personal, Product=JRebel for Android, GeneratedOn=Sun Mar 26 07:15:02 MDT 2017, validFrom=Sun Mar 26 07:11:24 MDT 2017, OrderId=de7c9907c1724e356e3adc16524c1f59f9a5bbdd, limitedFrom=Sun Mar 26 07:11:24 MDT 2017, version=1.21, Name=Joe Thorngren, Seats=1, uid=781c62b19de29accfafb0d0d94eb4a57f398b6f2, firstName=Joe, Type=personal, validUntil=Mon Mar 26 07:11:24 MDT 2018, ZeroId=176847, limitedUntil=Mon Mar 26 07:11:24 MDT 2018}
+2017-08-12 17:36:31.658 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [go] Read and verified the license.
+2017-08-12 17:36:31.659 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [gs] License validation passed.
+2017-08-12 17:36:31.659 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [gD] Read license successfully.
+2017-08-12 17:36:31.705 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [hP] Total RAM size: 15985.9140625 MB
+2017-08-12 17:36:31.707 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [gs] License validation passed.
+2017-08-12 17:36:31.732 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [gs] License validation passed.
+2017-08-12 17:36:32.942 [ApplicationImpl pooled thread 4] INFO  [HttpServerComponent] HTTP server started on port: 37880
+2017-08-12 17:36:32.946 [ApplicationImpl pooled thread 1] DEBUG [nm] Executing [/home/dayfun/Apps/Android-Studio-Stable/jre/bin/java, -version].
+2017-08-12 17:36:32.946 [ApplicationImpl pooled thread 1] DEBUG [nm] Started java.lang.UNIXProcess@13078210
+2017-08-12 17:36:32.968 [Thread-6] DEBUG [ProjectConfigurationComponent$a$1] openjdk version "1.8.0_112-release"
+2017-08-12 17:36:32.968 [Thread-6] DEBUG [ProjectConfigurationComponent$a$1] OpenJDK Runtime Environment (build 1.8.0_112-release-b06)
+2017-08-12 17:36:32.968 [Thread-6] DEBUG [ProjectConfigurationComponent$a$1] OpenJDK 64-Bit Server VM (build 25.112-b06, mixed mode)
+2017-08-12 17:36:32.970 [WaitForProcess-java.lang.UNIXProcess@13078210] DEBUG [np] java.lang.UNIXProcess@13078210 stopped with exit code 0
+2017-08-12 17:36:32.971 [ApplicationImpl pooled thread 1] DEBUG [ProjectConfigurationComponent] Detected 64-bit JVM.
+2017-08-12 17:36:33.819 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [OnboardingComponent] Performing initial startup validation check, startupActivationEnabled? false
+2017-08-12 17:36:33.819 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [gs] License validation passed.
+2017-08-12 17:36:33.819 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [eC] License: com.zeroturnaround.jrebel.android.studio.gC@7503099d
+2017-08-12 17:36:33.819 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [eC] Performed background activation check, valid? true
+2017-08-12 17:36:33.821 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [OnboardingComponent] User is activated
+2017-08-12 17:36:33.822 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [OnboardingComponent] License is valid
+2017-08-12 17:36:33.822 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [RegularRunComponent] Last invoked run time was: 2017-07-30T11:05:41.682-06:00.
+2017-08-12 17:36:33.822 [ApplicationImpl pooled thread 1] DEBUG [ProjectConfigurationComponent] Trying to launch a Gradle daemon in advance.
+2017-08-12 17:36:33.822 [ApplicationImpl pooled thread 1] DEBUG [ProjectConfigurationComponent] Found Gradle wrapper executable with /home/dayfun/Code_Complete/Android/Samples/RxJava-Android-Samples/gradlew.
+2017-08-12 17:36:33.822 [ApplicationImpl pooled thread 1] DEBUG [nm] Executing [/home/dayfun/Code_Complete/Android/Samples/RxJava-Android-Samples/gradlew, --daemon, -b, /tmp/.gradleDaemonStartup538389825298078889.gradle, -c, /tmp/.gradleDaemonStartup538389825298078889.gradle, -u] with environment {JAVA_HOME=/home/dayfun/Apps/Android-Studio-Stable/jre}.
+2017-08-12 17:36:33.823 [ApplicationImpl pooled thread 1] DEBUG [nm] Started java.lang.UNIXProcess@d787d15
+2017-08-12 17:36:34.460 [Thread-7] DEBUG [ProjectConfigurationComponent] Starting a Gradle Daemon (subsequent builds will be faster)
+2017-08-12 17:36:36.370 [Thread-7] DEBUG [ProjectConfigurationComponent] :help
+2017-08-12 17:36:36.370 [Thread-7] DEBUG [ProjectConfigurationComponent] 
+2017-08-12 17:36:36.370 [Thread-7] DEBUG [ProjectConfigurationComponent] Welcome to Gradle 4.0.
+2017-08-12 17:36:36.370 [Thread-7] DEBUG [ProjectConfigurationComponent] 
+2017-08-12 17:36:36.370 [Thread-7] DEBUG [ProjectConfigurationComponent] To run a build, run gradlew <task> ...
+2017-08-12 17:36:36.370 [Thread-7] DEBUG [ProjectConfigurationComponent] 
+2017-08-12 17:36:36.371 [Thread-7] DEBUG [ProjectConfigurationComponent] To see a list of available tasks, run gradlew tasks
+2017-08-12 17:36:36.371 [Thread-7] DEBUG [ProjectConfigurationComponent] 
+2017-08-12 17:36:36.371 [Thread-7] DEBUG [ProjectConfigurationComponent] To see a list of command-line options, run gradlew --help
+2017-08-12 17:36:36.371 [Thread-7] DEBUG [ProjectConfigurationComponent] 
+2017-08-12 17:36:36.371 [Thread-7] DEBUG [ProjectConfigurationComponent] To see more detail about a task, run gradlew help --task <task>
+2017-08-12 17:36:36.371 [Thread-7] DEBUG [ProjectConfigurationComponent] 
+2017-08-12 17:36:36.371 [Thread-7] DEBUG [ProjectConfigurationComponent] BUILD SUCCESSFUL in 2s
+2017-08-12 17:36:36.371 [Thread-7] DEBUG [ProjectConfigurationComponent] 1 actionable task: 1 executed
+2017-08-12 17:36:36.708 [WaitForProcess-java.lang.UNIXProcess@d787d15] DEBUG [np] java.lang.UNIXProcess@d787d15 stopped with exit code 0
+2017-08-12 17:36:39.238 [ApplicationImpl pooled thread 4] DEBUG [nm] Executing [/home/dayfun/Apps/Android-Studio-Stable/jre/bin/java, -version].
+2017-08-12 17:36:39.238 [ApplicationImpl pooled thread 4] DEBUG [nm] Started java.lang.UNIXProcess@579622dd
+2017-08-12 17:36:39.305 [Thread-8] DEBUG [ProjectConfigurationComponent$a$1] openjdk version "1.8.0_112-release"
+2017-08-12 17:36:39.305 [Thread-8] DEBUG [ProjectConfigurationComponent$a$1] OpenJDK Runtime Environment (build 1.8.0_112-release-b06)
+2017-08-12 17:36:39.305 [Thread-8] DEBUG [ProjectConfigurationComponent$a$1] OpenJDK 64-Bit Server VM (build 25.112-b06, mixed mode)
+2017-08-12 17:36:39.307 [WaitForProcess-java.lang.UNIXProcess@579622dd] DEBUG [np] java.lang.UNIXProcess@579622dd stopped with exit code 0
+2017-08-12 17:36:39.307 [ApplicationImpl pooled thread 4] DEBUG [ProjectConfigurationComponent] Detected 64-bit JVM.
+2017-08-12 17:49:02.295 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [fO] Stopping.
+2017-08-12 17:49:02.296 [NanoHttpd Main Listener] DEBUG [NanoHTTPD] Failed to accept socket: java.net.SocketException: Socket closed
+2017-08-12 17:49:07.010 [AWT-EventQueue-0] DEBUG [em] 
 
 
 
-2017-06-26 14:02:02.233 [AWT-EventQueue-0] DEBUG [em] JRebel for Android IDE plugin started
-2017-06-26 14:02:04.243 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [cD] Took a vm lock java.util.concurrent.locks.ReentrantLock@4dbdab0c[Locked by thread AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] for file /home/dayfun/.jrebel-android/distributions/.lock
-2017-06-26 14:02:04.244 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [cD] Took file lock sun.nio.ch.FileLockImpl[0:9223372036854775807 exclusive valid]
-2017-06-26 14:02:04.244 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [cC] Reading distributions info in /home/dayfun/.jrebel-android/distributions
-2017-06-26 14:02:04.250 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [cC] Found 1 distributions
-2017-06-26 14:02:04.260 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [cC] Our dist folder should be /home/dayfun/.jrebel-android/distributions/2.2.40_20170615111200
-2017-06-26 14:02:04.261 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [cC] Found 0 old and outdated distributions
-2017-06-26 14:02:04.261 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [cC] Storing new distributions info
-2017-06-26 14:02:04.262 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [cC] Using distribution folder /home/dayfun/.jrebel-android/distributions/2.2.40_20170615111200
-2017-06-26 14:02:04.262 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [cD] Releasing lock for file lock sun.nio.ch.FileLockImpl[0:9223372036854775807 exclusive valid]
-2017-06-26 14:02:04.262 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [cD] Releasing vm lock java.util.concurrent.locks.ReentrantLock@4dbdab0c[Locked by thread AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] for lock file /home/dayfun/.jrebel-android/distributions/.lock
-2017-06-26 14:02:04.269 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] WARN  [gB] Reading license failed: java.io.FileNotFoundException: File '/home/dayfun/.jrebel-android/jrebel-android.lic' does not exist
-2017-06-26 14:02:04.272 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [gu] Found license data: {lastName=Thorngren, GeneratedBy=AUTO, Email=joethorngren@gmail.com, Organization=Personal, Product=JRebel for Android, GeneratedOn=Sun Mar 26 07:15:02 MDT 2017, validFrom=Sun Mar 26 07:11:24 MDT 2017, OrderId=de7c9907c1724e356e3adc16524c1f59f9a5bbdd, limitedFrom=Sun Mar 26 07:11:24 MDT 2017, version=1.21, Name=Joe Thorngren, Seats=1, uid=781c62b19de29accfafb0d0d94eb4a57f398b6f2, firstName=Joe, Type=personal, validUntil=Mon Mar 26 07:11:24 MDT 2018, ZeroId=176847, limitedUntil=Mon Mar 26 07:11:24 MDT 2018}
-2017-06-26 14:02:04.300 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [gm] Read and verified the license.
-2017-06-26 14:02:04.300 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [gq] License validation passed.
-2017-06-26 14:02:04.301 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [gB] Read license successfully.
-2017-06-26 14:02:04.338 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [gq] License validation passed.
-2017-06-26 14:02:04.360 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [gq] License validation passed.
-2017-06-26 14:02:13.342 [ApplicationImpl pooled thread 3] INFO  [HttpServerComponent] HTTP server started on port: 41733
-2017-06-26 14:02:13.346 [ApplicationImpl pooled thread 1] DEBUG [nk] Executing [/usr/lib/jvm/java-8-oracle/bin/java, -version].
-2017-06-26 14:02:13.347 [ApplicationImpl pooled thread 1] DEBUG [nk] Started java.lang.UNIXProcess@3d60e0d1
-2017-06-26 14:02:13.376 [Thread-8] DEBUG [ProjectConfigurationComponent$a$1] java version "1.8.0_131"
-2017-06-26 14:02:13.376 [Thread-8] DEBUG [ProjectConfigurationComponent$a$1] Java(TM) SE Runtime Environment (build 1.8.0_131-b11)
-2017-06-26 14:02:13.376 [Thread-8] DEBUG [ProjectConfigurationComponent$a$1] Java HotSpot(TM) 64-Bit Server VM (build 25.131-b11, mixed mode)
-2017-06-26 14:02:13.377 [WaitForProcess-java.lang.UNIXProcess@3d60e0d1] DEBUG [nn] java.lang.UNIXProcess@3d60e0d1 stopped with exit code 0
-2017-06-26 14:02:13.379 [ApplicationImpl pooled thread 1] DEBUG [ProjectConfigurationComponent] Detected 64-bit JVM.
-2017-06-26 14:02:13.990 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [OnboardingComponent] Performing initial startup validation check, startupActivationEnabled? false
-2017-06-26 14:02:13.991 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [gq] License validation passed.
-2017-06-26 14:02:13.991 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [eB] License: com.zeroturnaround.jrebel.android.studio.gA@368d3ee0
-2017-06-26 14:02:13.991 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [eB] Performed background activation check, valid? true
-2017-06-26 14:02:13.993 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [OnboardingComponent] User is activated
-2017-06-26 14:02:13.994 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [OnboardingComponent] License is valid
-2017-06-26 14:02:13.994 [ApplicationImpl pooled thread 2] DEBUG [ProjectConfigurationComponent] Trying to launch a Gradle daemon in advance.
-2017-06-26 14:02:13.994 [ApplicationImpl pooled thread 2] DEBUG [ProjectConfigurationComponent] Found Gradle wrapper executable with /home/dayfun/Code_Complete/Android/ThisScriptedLife/FindFitBark/gradlew.
-2017-06-26 14:02:13.994 [ApplicationImpl pooled thread 2] DEBUG [nk] Executing [/home/dayfun/Code_Complete/Android/ThisScriptedLife/FindFitBark/gradlew, --daemon, -b, /tmp/.gradleDaemonStartup2266957128823244620.gradle, -c, /tmp/.gradleDaemonStartup2266957128823244620.gradle, -u] with environment {JAVA_HOME=/usr/lib/jvm/java-8-oracle}.
-2017-06-26 14:02:13.995 [ApplicationImpl pooled thread 2] DEBUG [nk] Started java.lang.UNIXProcess@1f03f2df
-2017-06-26 14:02:14.505 [Thread-9] DEBUG [ProjectConfigurationComponent] Starting a Gradle Daemon (subsequent builds will be faster)
-2017-06-26 14:02:16.229 [Thread-9] DEBUG [ProjectConfigurationComponent] :help
-2017-06-26 14:02:16.229 [Thread-9] DEBUG [ProjectConfigurationComponent] 
-2017-06-26 14:02:16.229 [Thread-9] DEBUG [ProjectConfigurationComponent] Welcome to Gradle 4.0-rc-1.
-2017-06-26 14:02:16.229 [Thread-9] DEBUG [ProjectConfigurationComponent] 
-2017-06-26 14:02:16.229 [Thread-9] DEBUG [ProjectConfigurationComponent] To run a build, run gradlew <task> ...
-2017-06-26 14:02:16.230 [Thread-9] DEBUG [ProjectConfigurationComponent] 
-2017-06-26 14:02:16.230 [Thread-9] DEBUG [ProjectConfigurationComponent] To see a list of available tasks, run gradlew tasks
-2017-06-26 14:02:16.230 [Thread-9] DEBUG [ProjectConfigurationComponent] 
-2017-06-26 14:02:16.230 [Thread-9] DEBUG [ProjectConfigurationComponent] To see a list of command-line options, run gradlew --help
-2017-06-26 14:02:16.230 [Thread-9] DEBUG [ProjectConfigurationComponent] 
-2017-06-26 14:02:16.230 [Thread-9] DEBUG [ProjectConfigurationComponent] To see more detail about a task, run gradlew help --task <task>
-2017-06-26 14:02:16.242 [Thread-9] DEBUG [ProjectConfigurationComponent] 
-2017-06-26 14:02:16.242 [Thread-9] DEBUG [ProjectConfigurationComponent] BUILD SUCCESSFUL in 2s
-2017-06-26 14:02:16.242 [Thread-9] DEBUG [ProjectConfigurationComponent] 1 actionable task: 1 executed
-2017-06-26 14:02:16.580 [WaitForProcess-java.lang.UNIXProcess@1f03f2df] DEBUG [nn] java.lang.UNIXProcess@1f03f2df stopped with exit code 0
-2017-06-26 14:02:17.962 [ApplicationImpl pooled thread 10] DEBUG [nk] Executing [/usr/lib/jvm/java-8-oracle/bin/java, -version].
-2017-06-26 14:02:17.966 [ApplicationImpl pooled thread 10] DEBUG [nk] Started java.lang.UNIXProcess@2ee6af25
-2017-06-26 14:02:18.005 [Thread-10] DEBUG [ProjectConfigurationComponent$a$1] java version "1.8.0_131"
-2017-06-26 14:02:18.005 [Thread-10] DEBUG [ProjectConfigurationComponent$a$1] Java(TM) SE Runtime Environment (build 1.8.0_131-b11)
-2017-06-26 14:02:18.005 [Thread-10] DEBUG [ProjectConfigurationComponent$a$1] Java HotSpot(TM) 64-Bit Server VM (build 25.131-b11, mixed mode)
-2017-06-26 14:02:18.008 [WaitForProcess-java.lang.UNIXProcess@2ee6af25] DEBUG [nn] java.lang.UNIXProcess@2ee6af25 stopped with exit code 0
-2017-06-26 14:02:18.009 [ApplicationImpl pooled thread 10] DEBUG [ProjectConfigurationComponent] Detected 64-bit JVM.
-2017-06-26 14:07:17.877 [ApplicationImpl pooled thread 16] DEBUG [nk] Executing [/usr/lib/jvm/java-8-oracle/bin/java, -version].
-2017-06-26 14:07:17.879 [ApplicationImpl pooled thread 16] DEBUG [nk] Started java.lang.UNIXProcess@544a134b
-2017-06-26 14:07:17.923 [Thread-24] DEBUG [ProjectConfigurationComponent$a$1] java version "1.8.0_131"
-2017-06-26 14:07:17.923 [Thread-24] DEBUG [ProjectConfigurationComponent$a$1] Java(TM) SE Runtime Environment (build 1.8.0_131-b11)
-2017-06-26 14:07:17.923 [Thread-24] DEBUG [ProjectConfigurationComponent$a$1] Java HotSpot(TM) 64-Bit Server VM (build 25.131-b11, mixed mode)
-2017-06-26 14:07:17.930 [WaitForProcess-java.lang.UNIXProcess@544a134b] DEBUG [nn] java.lang.UNIXProcess@544a134b stopped with exit code 0
-2017-06-26 14:07:17.930 [ApplicationImpl pooled thread 16] DEBUG [ProjectConfigurationComponent] Detected 64-bit JVM.
-2017-06-26 14:08:35.720 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [fM] Stopping.
-2017-06-26 14:08:35.720 [NanoHttpd Main Listener] DEBUG [NanoHTTPD] Failed to accept socket: java.net.SocketException: Socket closed
-2017-06-26 14:08:41.180 [AWT-EventQueue-0] DEBUG [em] 
+2017-08-12 17:49:07.011 [AWT-EventQueue-0] DEBUG [em] JRebel for Android IDE plugin started
+2017-08-12 17:49:09.181 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [cF] Took a vm lock java.util.concurrent.locks.ReentrantReadWriteLock$WriteLock@555699f6[Locked by thread AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] for file /home/dayfun/.jrebel-android/distributions/.lock
+2017-08-12 17:49:09.182 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [cF] Took file lock sun.nio.ch.FileLockImpl[0:9223372036854775807 exclusive valid]
+2017-08-12 17:49:09.182 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [cC] Reading distributions info in /home/dayfun/.jrebel-android/distributions
+2017-08-12 17:49:09.189 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [cC] Found 3 distributions
+2017-08-12 17:49:09.199 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [cC] Our dist folder should be /home/dayfun/.jrebel-android/distributions/2.3.12_20170809095128
+2017-08-12 17:49:09.200 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [cC] Found 0 old and outdated distributions
+2017-08-12 17:49:09.200 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [cC] Storing new distributions info
+2017-08-12 17:49:09.201 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [cC] Using distribution folder /home/dayfun/.jrebel-android/distributions/2.3.12_20170809095128
+2017-08-12 17:49:09.201 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [cF] Releasing lock for file lock sun.nio.ch.FileLockImpl[0:9223372036854775807 exclusive valid]
+2017-08-12 17:49:09.202 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [cF] Releasing vm lock java.util.concurrent.locks.ReentrantReadWriteLock$WriteLock@555699f6[Locked by thread AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] for lock file /home/dayfun/.jrebel-android/distributions/.lock
+2017-08-12 17:49:09.210 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] WARN  [gD] Reading license failed: java.io.FileNotFoundException: File '/home/dayfun/.jrebel-android/jrebel-android.lic' does not exist
+2017-08-12 17:49:09.214 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [gw] Found license data: {lastName=Thorngren, GeneratedBy=AUTO, Email=joethorngren@gmail.com, Organization=Personal, Product=JRebel for Android, GeneratedOn=Sun Mar 26 07:15:02 MDT 2017, validFrom=Sun Mar 26 07:11:24 MDT 2017, OrderId=de7c9907c1724e356e3adc16524c1f59f9a5bbdd, limitedFrom=Sun Mar 26 07:11:24 MDT 2017, version=1.21, Name=Joe Thorngren, Seats=1, uid=781c62b19de29accfafb0d0d94eb4a57f398b6f2, firstName=Joe, Type=personal, validUntil=Mon Mar 26 07:11:24 MDT 2018, ZeroId=176847, limitedUntil=Mon Mar 26 07:11:24 MDT 2018}
+2017-08-12 17:49:09.243 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [go] Read and verified the license.
+2017-08-12 17:49:09.243 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [gs] License validation passed.
+2017-08-12 17:49:09.243 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [gD] Read license successfully.
+2017-08-12 17:49:09.287 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [hP] Total RAM size: 15985.9140625 MB
+2017-08-12 17:49:09.288 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [gs] License validation passed.
+2017-08-12 17:49:09.315 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [gs] License validation passed.
+2017-08-12 17:49:10.646 [ApplicationImpl pooled thread 5] INFO  [HttpServerComponent] HTTP server started on port: 36155
+2017-08-12 17:49:10.651 [ApplicationImpl pooled thread 4] DEBUG [nm] Executing [/home/dayfun/Apps/Android-Studio-Stable/jre/bin/java, -version].
+2017-08-12 17:49:10.652 [ApplicationImpl pooled thread 4] DEBUG [nm] Started java.lang.UNIXProcess@1a08fcaf
+2017-08-12 17:49:10.681 [Thread-6] DEBUG [ProjectConfigurationComponent$a$1] openjdk version "1.8.0_112-release"
+2017-08-12 17:49:10.681 [Thread-6] DEBUG [ProjectConfigurationComponent$a$1] OpenJDK Runtime Environment (build 1.8.0_112-release-b06)
+2017-08-12 17:49:10.682 [Thread-6] DEBUG [ProjectConfigurationComponent$a$1] OpenJDK 64-Bit Server VM (build 25.112-b06, mixed mode)
+2017-08-12 17:49:10.684 [WaitForProcess-java.lang.UNIXProcess@1a08fcaf] DEBUG [np] java.lang.UNIXProcess@1a08fcaf stopped with exit code 0
+2017-08-12 17:49:10.686 [ApplicationImpl pooled thread 4] DEBUG [ProjectConfigurationComponent] Detected 64-bit JVM.
+2017-08-12 17:49:11.450 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [OnboardingComponent] Performing initial startup validation check, startupActivationEnabled? false
+2017-08-12 17:49:11.451 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [gs] License validation passed.
+2017-08-12 17:49:11.451 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [eC] License: com.zeroturnaround.jrebel.android.studio.gC@2c8c4262
+2017-08-12 17:49:11.451 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [eC] Performed background activation check, valid? true
+2017-08-12 17:49:11.453 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [OnboardingComponent] User is activated
+2017-08-12 17:49:11.453 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [OnboardingComponent] License is valid
+2017-08-12 17:49:11.453 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [RegularRunComponent] Last invoked run time was: 2017-07-30T11:05:41.682-06:00.
+2017-08-12 17:49:11.454 [ApplicationImpl pooled thread 1] DEBUG [ProjectConfigurationComponent] Trying to launch a Gradle daemon in advance.
+2017-08-12 17:49:11.454 [ApplicationImpl pooled thread 1] DEBUG [ProjectConfigurationComponent] Found Gradle wrapper executable with /home/dayfun/Code_Complete/Android/Samples/RxJava-Android-Samples/gradlew.
+2017-08-12 17:49:11.454 [ApplicationImpl pooled thread 1] DEBUG [nm] Executing [/home/dayfun/Code_Complete/Android/Samples/RxJava-Android-Samples/gradlew, --daemon, -b, /tmp/.gradleDaemonStartup7382111273826353583.gradle, -c, /tmp/.gradleDaemonStartup7382111273826353583.gradle, -u] with environment {JAVA_HOME=/home/dayfun/Apps/Android-Studio-Stable/jre}.
+2017-08-12 17:49:11.455 [ApplicationImpl pooled thread 1] DEBUG [nm] Started java.lang.UNIXProcess@72c39ed5
+2017-08-12 17:49:11.973 [Thread-7] DEBUG [ProjectConfigurationComponent] :help
+2017-08-12 17:49:11.974 [Thread-7] DEBUG [ProjectConfigurationComponent] 
+2017-08-12 17:49:11.974 [Thread-7] DEBUG [ProjectConfigurationComponent] Welcome to Gradle 4.0.
+2017-08-12 17:49:11.974 [Thread-7] DEBUG [ProjectConfigurationComponent] 
+2017-08-12 17:49:11.974 [Thread-7] DEBUG [ProjectConfigurationComponent] To run a build, run gradlew <task> ...
+2017-08-12 17:49:11.974 [Thread-7] DEBUG [ProjectConfigurationComponent] 
+2017-08-12 17:49:11.974 [Thread-7] DEBUG [ProjectConfigurationComponent] To see a list of available tasks, run gradlew tasks
+2017-08-12 17:49:11.974 [Thread-7] DEBUG [ProjectConfigurationComponent] 
+2017-08-12 17:49:11.974 [Thread-7] DEBUG [ProjectConfigurationComponent] To see a list of command-line options, run gradlew --help
+2017-08-12 17:49:11.974 [Thread-7] DEBUG [ProjectConfigurationComponent] 
+2017-08-12 17:49:11.974 [Thread-7] DEBUG [ProjectConfigurationComponent] To see more detail about a task, run gradlew help --task <task>
+2017-08-12 17:49:11.974 [Thread-7] DEBUG [ProjectConfigurationComponent] 
+2017-08-12 17:49:11.974 [Thread-7] DEBUG [ProjectConfigurationComponent] BUILD SUCCESSFUL in 0s
+2017-08-12 17:49:11.974 [Thread-7] DEBUG [ProjectConfigurationComponent] 1 actionable task: 1 executed
+2017-08-12 17:49:11.991 [WaitForProcess-java.lang.UNIXProcess@72c39ed5] DEBUG [np] java.lang.UNIXProcess@72c39ed5 stopped with exit code 0
+2017-08-12 17:49:24.994 [ApplicationImpl pooled thread 7] DEBUG [nm] Executing [/home/dayfun/Apps/Android-Studio-Stable/jre/bin/java, -version].
+2017-08-12 17:49:24.995 [ApplicationImpl pooled thread 7] DEBUG [nm] Started java.lang.UNIXProcess@6dd3949d
+2017-08-12 17:49:25.033 [Thread-8] DEBUG [ProjectConfigurationComponent$a$1] openjdk version "1.8.0_112-release"
+2017-08-12 17:49:25.033 [Thread-8] DEBUG [ProjectConfigurationComponent$a$1] OpenJDK Runtime Environment (build 1.8.0_112-release-b06)
+2017-08-12 17:49:25.033 [Thread-8] DEBUG [ProjectConfigurationComponent$a$1] OpenJDK 64-Bit Server VM (build 25.112-b06, mixed mode)
+2017-08-12 17:49:25.035 [WaitForProcess-java.lang.UNIXProcess@6dd3949d] DEBUG [np] java.lang.UNIXProcess@6dd3949d stopped with exit code 0
+2017-08-12 17:49:25.035 [ApplicationImpl pooled thread 7] DEBUG [ProjectConfigurationComponent] Detected 64-bit JVM.
+2017-08-12 17:49:46.535 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [fO] Stopping.
+2017-08-12 17:49:46.535 [NanoHttpd Main Listener] DEBUG [NanoHTTPD] Failed to accept socket: java.net.SocketException: Socket closed
+2017-08-12 17:49:51.389 [AWT-EventQueue-0] DEBUG [em] 
 
 
 
-2017-06-26 14:08:41.181 [AWT-EventQueue-0] DEBUG [em] JRebel for Android IDE plugin started
-2017-06-26 14:08:43.117 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [cD] Took a vm lock java.util.concurrent.locks.ReentrantLock@55dfd92c[Locked by thread AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] for file /home/dayfun/.jrebel-android/distributions/.lock
-2017-06-26 14:08:43.118 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [cD] Took file lock sun.nio.ch.FileLockImpl[0:9223372036854775807 exclusive valid]
-2017-06-26 14:08:43.118 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [cC] Reading distributions info in /home/dayfun/.jrebel-android/distributions
-2017-06-26 14:08:43.124 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [cC] Found 1 distributions
-2017-06-26 14:08:43.133 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [cC] Our dist folder should be /home/dayfun/.jrebel-android/distributions/2.2.40_20170615111200
-2017-06-26 14:08:43.134 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [cC] Found 0 old and outdated distributions
-2017-06-26 14:08:43.134 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [cC] Storing new distributions info
-2017-06-26 14:08:43.135 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [cC] Using distribution folder /home/dayfun/.jrebel-android/distributions/2.2.40_20170615111200
-2017-06-26 14:08:43.135 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [cD] Releasing lock for file lock sun.nio.ch.FileLockImpl[0:9223372036854775807 exclusive valid]
-2017-06-26 14:08:43.135 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [cD] Releasing vm lock java.util.concurrent.locks.ReentrantLock@55dfd92c[Locked by thread AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] for lock file /home/dayfun/.jrebel-android/distributions/.lock
-2017-06-26 14:08:43.141 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] WARN  [gB] Reading license failed: java.io.FileNotFoundException: File '/home/dayfun/.jrebel-android/jrebel-android.lic' does not exist
-2017-06-26 14:08:43.145 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [gu] Found license data: {lastName=Thorngren, GeneratedBy=AUTO, Email=joethorngren@gmail.com, Organization=Personal, Product=JRebel for Android, GeneratedOn=Sun Mar 26 07:15:02 MDT 2017, validFrom=Sun Mar 26 07:11:24 MDT 2017, OrderId=de7c9907c1724e356e3adc16524c1f59f9a5bbdd, limitedFrom=Sun Mar 26 07:11:24 MDT 2017, version=1.21, Name=Joe Thorngren, Seats=1, uid=781c62b19de29accfafb0d0d94eb4a57f398b6f2, firstName=Joe, Type=personal, validUntil=Mon Mar 26 07:11:24 MDT 2018, ZeroId=176847, limitedUntil=Mon Mar 26 07:11:24 MDT 2018}
-2017-06-26 14:08:43.170 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [gm] Read and verified the license.
-2017-06-26 14:08:43.170 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [gq] License validation passed.
-2017-06-26 14:08:43.170 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [gB] Read license successfully.
-2017-06-26 14:08:43.206 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [gq] License validation passed.
-2017-06-26 14:08:43.228 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [gq] License validation passed.
-2017-06-26 14:08:44.413 [ApplicationImpl pooled thread 1] INFO  [HttpServerComponent] HTTP server started on port: 44703
-2017-06-26 14:08:44.423 [ApplicationImpl pooled thread 5] DEBUG [nk] Executing [/usr/lib/jvm/java-8-oracle/bin/java, -version].
-2017-06-26 14:08:44.425 [ApplicationImpl pooled thread 5] DEBUG [nk] Started java.lang.UNIXProcess@440c3935
-2017-06-26 14:08:44.464 [Thread-8] DEBUG [ProjectConfigurationComponent$a$1] java version "1.8.0_131"
-2017-06-26 14:08:44.464 [Thread-8] DEBUG [ProjectConfigurationComponent$a$1] Java(TM) SE Runtime Environment (build 1.8.0_131-b11)
-2017-06-26 14:08:44.465 [Thread-8] DEBUG [ProjectConfigurationComponent$a$1] Java HotSpot(TM) 64-Bit Server VM (build 25.131-b11, mixed mode)
-2017-06-26 14:08:44.467 [WaitForProcess-java.lang.UNIXProcess@440c3935] DEBUG [nn] java.lang.UNIXProcess@440c3935 stopped with exit code 0
-2017-06-26 14:08:44.471 [ApplicationImpl pooled thread 5] DEBUG [ProjectConfigurationComponent] Detected 64-bit JVM.
-2017-06-26 14:08:45.200 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [OnboardingComponent] Performing initial startup validation check, startupActivationEnabled? false
-2017-06-26 14:08:45.201 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [gq] License validation passed.
-2017-06-26 14:08:45.201 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [eB] License: com.zeroturnaround.jrebel.android.studio.gA@504827c3
-2017-06-26 14:08:45.201 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [eB] Performed background activation check, valid? true
-2017-06-26 14:08:45.203 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [OnboardingComponent] User is activated
-2017-06-26 14:08:45.204 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [OnboardingComponent] License is valid
-2017-06-26 14:08:45.205 [ApplicationImpl pooled thread 2] DEBUG [ProjectConfigurationComponent] Trying to launch a Gradle daemon in advance.
-2017-06-26 14:08:45.205 [ApplicationImpl pooled thread 2] DEBUG [ProjectConfigurationComponent] Found Gradle wrapper executable with /home/dayfun/Code_Complete/Android/ThisScriptedLife/FindFitBark/gradlew.
-2017-06-26 14:08:45.205 [ApplicationImpl pooled thread 2] DEBUG [nk] Executing [/home/dayfun/Code_Complete/Android/ThisScriptedLife/FindFitBark/gradlew, --daemon, -b, /tmp/.gradleDaemonStartup846526501902316833.gradle, -c, /tmp/.gradleDaemonStartup846526501902316833.gradle, -u] with environment {JAVA_HOME=/usr/lib/jvm/java-8-oracle}.
-2017-06-26 14:08:45.217 [ApplicationImpl pooled thread 2] DEBUG [nk] Started java.lang.UNIXProcess@2f43b4d7
-2017-06-26 14:08:45.879 [Thread-9] DEBUG [ProjectConfigurationComponent] :help
-2017-06-26 14:08:45.879 [Thread-9] DEBUG [ProjectConfigurationComponent] 
-2017-06-26 14:08:45.879 [Thread-9] DEBUG [ProjectConfigurationComponent] Welcome to Gradle 4.0-rc-1.
-2017-06-26 14:08:45.879 [Thread-9] DEBUG [ProjectConfigurationComponent] 
-2017-06-26 14:08:45.879 [Thread-9] DEBUG [ProjectConfigurationComponent] To run a build, run gradlew <task> ...
-2017-06-26 14:08:45.879 [Thread-9] DEBUG [ProjectConfigurationComponent] 
-2017-06-26 14:08:45.880 [Thread-9] DEBUG [ProjectConfigurationComponent] To see a list of available tasks, run gradlew tasks
-2017-06-26 14:08:45.880 [Thread-9] DEBUG [ProjectConfigurationComponent] 
-2017-06-26 14:08:45.880 [Thread-9] DEBUG [ProjectConfigurationComponent] To see a list of command-line options, run gradlew --help
-2017-06-26 14:08:45.880 [Thread-9] DEBUG [ProjectConfigurationComponent] 
-2017-06-26 14:08:45.880 [Thread-9] DEBUG [ProjectConfigurationComponent] To see more detail about a task, run gradlew help --task <task>
-2017-06-26 14:08:45.880 [Thread-9] DEBUG [ProjectConfigurationComponent] 
-2017-06-26 14:08:45.880 [Thread-9] DEBUG [ProjectConfigurationComponent] BUILD SUCCESSFUL in 0s
-2017-06-26 14:08:45.880 [Thread-9] DEBUG [ProjectConfigurationComponent] 1 actionable task: 1 executed
-2017-06-26 14:08:45.887 [WaitForProcess-java.lang.UNIXProcess@2f43b4d7] DEBUG [nn] java.lang.UNIXProcess@2f43b4d7 stopped with exit code 0
-2017-06-26 14:08:48.848 [ApplicationImpl pooled thread 3] DEBUG [nk] Executing [/usr/lib/jvm/java-8-oracle/bin/java, -version].
-2017-06-26 14:08:48.849 [ApplicationImpl pooled thread 3] DEBUG [nk] Started java.lang.UNIXProcess@207a016
-2017-06-26 14:08:48.892 [Thread-10] DEBUG [ProjectConfigurationComponent$a$1] java version "1.8.0_131"
-2017-06-26 14:08:48.892 [Thread-10] DEBUG [ProjectConfigurationComponent$a$1] Java(TM) SE Runtime Environment (build 1.8.0_131-b11)
-2017-06-26 14:08:48.893 [Thread-10] DEBUG [ProjectConfigurationComponent$a$1] Java HotSpot(TM) 64-Bit Server VM (build 25.131-b11, mixed mode)
-2017-06-26 14:08:48.899 [WaitForProcess-java.lang.UNIXProcess@207a016] DEBUG [nn] java.lang.UNIXProcess@207a016 stopped with exit code 0
-2017-06-26 14:08:48.902 [ApplicationImpl pooled thread 3] DEBUG [ProjectConfigurationComponent] Detected 64-bit JVM.
-2017-06-26 15:39:12.481 [AWT-EventQueue-0] DEBUG [em] 
+2017-08-12 17:49:51.390 [AWT-EventQueue-0] DEBUG [em] JRebel for Android IDE plugin started
+2017-08-12 17:49:53.385 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [cF] Took a vm lock java.util.concurrent.locks.ReentrantReadWriteLock$WriteLock@26805752[Locked by thread AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] for file /home/dayfun/.jrebel-android/distributions/.lock
+2017-08-12 17:49:53.386 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [cF] Took file lock sun.nio.ch.FileLockImpl[0:9223372036854775807 exclusive valid]
+2017-08-12 17:49:53.386 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [cC] Reading distributions info in /home/dayfun/.jrebel-android/distributions
+2017-08-12 17:49:53.395 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [cC] Found 3 distributions
+2017-08-12 17:49:53.406 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [cC] Our dist folder should be /home/dayfun/.jrebel-android/distributions/2.3.14_20170811103931
+2017-08-12 17:49:53.423 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [cC] Copying /home/dayfun/.AndroidStudio2.3/config/plugins/jr-android-ide-studio/dist to /home/dayfun/.jrebel-android/distributions/2.3.14_20170811103931
+2017-08-12 17:49:53.424 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [cC] Found 0 old and outdated distributions
+2017-08-12 17:49:53.424 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [cC] Storing new distributions info
+2017-08-12 17:49:53.425 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [cC] Using distribution folder /home/dayfun/.jrebel-android/distributions/2.3.14_20170811103931
+2017-08-12 17:49:53.425 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [cF] Releasing lock for file lock sun.nio.ch.FileLockImpl[0:9223372036854775807 exclusive valid]
+2017-08-12 17:49:53.425 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [cF] Releasing vm lock java.util.concurrent.locks.ReentrantReadWriteLock$WriteLock@26805752[Locked by thread AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] for lock file /home/dayfun/.jrebel-android/distributions/.lock
+2017-08-12 17:49:53.433 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] WARN  [gD] Reading license failed: java.io.FileNotFoundException: File '/home/dayfun/.jrebel-android/jrebel-android.lic' does not exist
+2017-08-12 17:49:53.436 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [gw] Found license data: {lastName=Thorngren, GeneratedBy=AUTO, Email=joethorngren@gmail.com, Organization=Personal, Product=JRebel for Android, GeneratedOn=Sun Mar 26 07:15:02 MDT 2017, validFrom=Sun Mar 26 07:11:24 MDT 2017, OrderId=de7c9907c1724e356e3adc16524c1f59f9a5bbdd, limitedFrom=Sun Mar 26 07:11:24 MDT 2017, version=1.21, Name=Joe Thorngren, Seats=1, uid=781c62b19de29accfafb0d0d94eb4a57f398b6f2, firstName=Joe, Type=personal, validUntil=Mon Mar 26 07:11:24 MDT 2018, ZeroId=176847, limitedUntil=Mon Mar 26 07:11:24 MDT 2018}
+2017-08-12 17:49:53.478 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [go] Read and verified the license.
+2017-08-12 17:49:53.478 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [gs] License validation passed.
+2017-08-12 17:49:53.478 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [gD] Read license successfully.
+2017-08-12 17:49:53.540 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [hP] Total RAM size: 15985.9140625 MB
+2017-08-12 17:49:53.546 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [gs] License validation passed.
+2017-08-12 17:49:53.574 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [gs] License validation passed.
+2017-08-12 17:49:55.698 [ApplicationImpl pooled thread 2] INFO  [HttpServerComponent] HTTP server started on port: 44849
+2017-08-12 17:49:55.706 [ApplicationImpl pooled thread 1] DEBUG [nm] Executing [/home/dayfun/Apps/Android-Studio-Stable/jre/bin/java, -version].
+2017-08-12 17:49:55.708 [ApplicationImpl pooled thread 1] DEBUG [nm] Started java.lang.UNIXProcess@d8c93af
+2017-08-12 17:49:55.754 [Thread-6] DEBUG [ProjectConfigurationComponent$a$1] openjdk version "1.8.0_112-release"
+2017-08-12 17:49:55.754 [Thread-6] DEBUG [ProjectConfigurationComponent$a$1] OpenJDK Runtime Environment (build 1.8.0_112-release-b06)
+2017-08-12 17:49:55.754 [Thread-6] DEBUG [ProjectConfigurationComponent$a$1] OpenJDK 64-Bit Server VM (build 25.112-b06, mixed mode)
+2017-08-12 17:49:55.754 [WaitForProcess-java.lang.UNIXProcess@d8c93af] DEBUG [np] java.lang.UNIXProcess@d8c93af stopped with exit code 0
+2017-08-12 17:49:55.758 [ApplicationImpl pooled thread 1] DEBUG [ProjectConfigurationComponent] Detected 64-bit JVM.
+2017-08-12 17:49:56.919 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [OnboardingComponent] Performing initial startup validation check, startupActivationEnabled? false
+2017-08-12 17:49:56.920 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [gs] License validation passed.
+2017-08-12 17:49:56.920 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [eC] License: com.zeroturnaround.jrebel.android.studio.gC@31b05973
+2017-08-12 17:49:56.920 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [eC] Performed background activation check, valid? true
+2017-08-12 17:49:56.923 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [OnboardingComponent] User is activated
+2017-08-12 17:49:56.924 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [OnboardingComponent] License is valid
+2017-08-12 17:49:56.924 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [RegularRunComponent] Last invoked run time was: 2017-07-30T11:05:41.682-06:00.
+2017-08-12 17:49:56.925 [ApplicationImpl pooled thread 4] DEBUG [ProjectConfigurationComponent] Trying to launch a Gradle daemon in advance.
+2017-08-12 17:49:56.925 [ApplicationImpl pooled thread 4] DEBUG [ProjectConfigurationComponent] Found Gradle wrapper executable with /home/dayfun/Code_Complete/Android/Samples/RxJava-Android-Samples/gradlew.
+2017-08-12 17:49:56.925 [ApplicationImpl pooled thread 4] DEBUG [nm] Executing [/home/dayfun/Code_Complete/Android/Samples/RxJava-Android-Samples/gradlew, --daemon, -b, /tmp/.gradleDaemonStartup3606172383288464001.gradle, -c, /tmp/.gradleDaemonStartup3606172383288464001.gradle, -u] with environment {JAVA_HOME=/home/dayfun/Apps/Android-Studio-Stable/jre}.
+2017-08-12 17:49:56.927 [ApplicationImpl pooled thread 4] DEBUG [nm] Started java.lang.UNIXProcess@33548035
+2017-08-12 17:49:57.665 [Thread-7] DEBUG [ProjectConfigurationComponent] :help
+2017-08-12 17:49:57.665 [Thread-7] DEBUG [ProjectConfigurationComponent] 
+2017-08-12 17:49:57.665 [Thread-7] DEBUG [ProjectConfigurationComponent] Welcome to Gradle 4.0.
+2017-08-12 17:49:57.665 [Thread-7] DEBUG [ProjectConfigurationComponent] 
+2017-08-12 17:49:57.665 [Thread-7] DEBUG [ProjectConfigurationComponent] To run a build, run gradlew <task> ...
+2017-08-12 17:49:57.665 [Thread-7] DEBUG [ProjectConfigurationComponent] 
+2017-08-12 17:49:57.666 [Thread-7] DEBUG [ProjectConfigurationComponent] To see a list of available tasks, run gradlew tasks
+2017-08-12 17:49:57.666 [Thread-7] DEBUG [ProjectConfigurationComponent] 
+2017-08-12 17:49:57.666 [Thread-7] DEBUG [ProjectConfigurationComponent] To see a list of command-line options, run gradlew --help
+2017-08-12 17:49:57.666 [Thread-7] DEBUG [ProjectConfigurationComponent] 
+2017-08-12 17:49:57.666 [Thread-7] DEBUG [ProjectConfigurationComponent] To see more detail about a task, run gradlew help --task <task>
+2017-08-12 17:49:57.666 [Thread-7] DEBUG [ProjectConfigurationComponent] 
+2017-08-12 17:49:57.667 [Thread-7] DEBUG [ProjectConfigurationComponent] BUILD SUCCESSFUL in 0s
+2017-08-12 17:49:57.667 [Thread-7] DEBUG [ProjectConfigurationComponent] 1 actionable task: 1 executed
+2017-08-12 17:49:57.701 [WaitForProcess-java.lang.UNIXProcess@33548035] DEBUG [np] java.lang.UNIXProcess@33548035 stopped with exit code 0
+2017-08-12 17:50:04.000 [ApplicationImpl pooled thread 6] DEBUG [nm] Executing [/home/dayfun/Apps/Android-Studio-Stable/jre/bin/java, -version].
+2017-08-12 17:50:04.006 [ApplicationImpl pooled thread 6] DEBUG [nm] Started java.lang.UNIXProcess@3777e562
+2017-08-12 17:50:04.082 [Thread-8] DEBUG [ProjectConfigurationComponent$a$1] openjdk version "1.8.0_112-release"
+2017-08-12 17:50:04.082 [Thread-8] DEBUG [ProjectConfigurationComponent$a$1] OpenJDK Runtime Environment (build 1.8.0_112-release-b06)
+2017-08-12 17:50:04.082 [Thread-8] DEBUG [ProjectConfigurationComponent$a$1] OpenJDK 64-Bit Server VM (build 25.112-b06, mixed mode)
+2017-08-12 17:50:04.083 [WaitForProcess-java.lang.UNIXProcess@3777e562] DEBUG [np] java.lang.UNIXProcess@3777e562 stopped with exit code 0
+2017-08-12 17:50:04.084 [ApplicationImpl pooled thread 6] DEBUG [ProjectConfigurationComponent] Detected 64-bit JVM.
+2017-08-12 17:51:31.308 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [fO] Stopping.
+2017-08-12 17:51:31.308 [NanoHttpd Main Listener] DEBUG [NanoHTTPD] Failed to accept socket: java.net.SocketException: Socket closed
+2017-08-12 19:12:43.239 [AWT-EventQueue-0] DEBUG [em] 
 
 
 
-2017-06-26 15:39:12.482 [AWT-EventQueue-0] DEBUG [em] JRebel for Android IDE plugin started
-2017-06-26 15:39:15.084 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [cD] Took a vm lock java.util.concurrent.locks.ReentrantLock@39478aae[Locked by thread AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] for file /home/dayfun/.jrebel-android/distributions/.lock
-2017-06-26 15:39:15.085 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [cD] Took file lock sun.nio.ch.FileLockImpl[0:9223372036854775807 exclusive valid]
-2017-06-26 15:39:15.085 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [cC] Reading distributions info in /home/dayfun/.jrebel-android/distributions
-2017-06-26 15:39:15.093 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [cC] Found 1 distributions
-2017-06-26 15:39:15.105 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [cC] Our dist folder should be /home/dayfun/.jrebel-android/distributions/2.2.40_20170615111200
-2017-06-26 15:39:15.105 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [cC] Found 0 old and outdated distributions
-2017-06-26 15:39:15.105 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [cC] Storing new distributions info
-2017-06-26 15:39:15.106 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [cC] Using distribution folder /home/dayfun/.jrebel-android/distributions/2.2.40_20170615111200
-2017-06-26 15:39:15.106 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [cD] Releasing lock for file lock sun.nio.ch.FileLockImpl[0:9223372036854775807 exclusive valid]
-2017-06-26 15:39:15.106 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [cD] Releasing vm lock java.util.concurrent.locks.ReentrantLock@39478aae[Locked by thread AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] for lock file /home/dayfun/.jrebel-android/distributions/.lock
-2017-06-26 15:39:15.115 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] WARN  [gB] Reading license failed: java.io.FileNotFoundException: File '/home/dayfun/.jrebel-android/jrebel-android.lic' does not exist
-2017-06-26 15:39:15.121 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [gu] Found license data: {lastName=Thorngren, GeneratedBy=AUTO, Email=joethorngren@gmail.com, Organization=Personal, Product=JRebel for Android, GeneratedOn=Sun Mar 26 07:15:02 MDT 2017, validFrom=Sun Mar 26 07:11:24 MDT 2017, OrderId=de7c9907c1724e356e3adc16524c1f59f9a5bbdd, limitedFrom=Sun Mar 26 07:11:24 MDT 2017, version=1.21, Name=Joe Thorngren, Seats=1, uid=781c62b19de29accfafb0d0d94eb4a57f398b6f2, firstName=Joe, Type=personal, validUntil=Mon Mar 26 07:11:24 MDT 2018, ZeroId=176847, limitedUntil=Mon Mar 26 07:11:24 MDT 2018}
-2017-06-26 15:39:15.159 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [gm] Read and verified the license.
-2017-06-26 15:39:15.159 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [gq] License validation passed.
-2017-06-26 15:39:15.159 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [gB] Read license successfully.
-2017-06-26 15:39:15.207 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [gq] License validation passed.
-2017-06-26 15:39:15.234 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [gq] License validation passed.
-2017-06-26 15:39:16.676 [ApplicationImpl pooled thread 2] INFO  [HttpServerComponent] HTTP server started on port: 33137
-2017-06-26 15:39:16.681 [ApplicationImpl pooled thread 4] DEBUG [nk] Executing [/usr/lib/jvm/java-8-oracle/bin/java, -version].
-2017-06-26 15:39:16.683 [ApplicationImpl pooled thread 4] DEBUG [nk] Started java.lang.UNIXProcess@6fb349a5
-2017-06-26 15:39:16.821 [Thread-8] DEBUG [ProjectConfigurationComponent$a$1] java version "1.8.0_131"
-2017-06-26 15:39:16.821 [WaitForProcess-java.lang.UNIXProcess@6fb349a5] DEBUG [nn] java.lang.UNIXProcess@6fb349a5 stopped with exit code 0
-2017-06-26 15:39:16.821 [Thread-8] DEBUG [ProjectConfigurationComponent$a$1] Java(TM) SE Runtime Environment (build 1.8.0_131-b11)
-2017-06-26 15:39:16.822 [Thread-8] DEBUG [ProjectConfigurationComponent$a$1] Java HotSpot(TM) 64-Bit Server VM (build 25.131-b11, mixed mode)
-2017-06-26 15:39:16.826 [ApplicationImpl pooled thread 4] DEBUG [ProjectConfigurationComponent] Detected 64-bit JVM.
-2017-06-26 15:39:17.588 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [OnboardingComponent] Performing initial startup validation check, startupActivationEnabled? false
-2017-06-26 15:39:17.589 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [gq] License validation passed.
-2017-06-26 15:39:17.589 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [eB] License: com.zeroturnaround.jrebel.android.studio.gA@5e145888
-2017-06-26 15:39:17.589 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [eB] Performed background activation check, valid? true
-2017-06-26 15:39:17.592 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [OnboardingComponent] User is activated
-2017-06-26 15:39:17.592 [AWT-EventQueue-0 3.0#AI-171.4101728 Studio, eap:true, os:Linux 4.8.0-56-generic, java-version:JetBrains s.r.o 1.8.0_112-release-b736] DEBUG [OnboardingComponent] License is valid
-2017-06-26 15:39:17.593 [ApplicationImpl pooled thread 1] DEBUG [ProjectConfigurationComponent] Trying to launch a Gradle daemon in advance.
-2017-06-26 15:39:17.593 [ApplicationImpl pooled thread 1] DEBUG [ProjectConfigurationComponent] Found Gradle wrapper executable with /home/dayfun/Code_Complete/Android/ThisScriptedLife/FindFitBark/gradlew.
-2017-06-26 15:39:17.593 [ApplicationImpl pooled thread 1] DEBUG [nk] Executing [/home/dayfun/Code_Complete/Android/ThisScriptedLife/FindFitBark/gradlew, --daemon, -b, /tmp/.gradleDaemonStartup1566729560134571608.gradle, -c, /tmp/.gradleDaemonStartup1566729560134571608.gradle, -u] with environment {JAVA_HOME=/usr/lib/jvm/java-8-oracle}.
-2017-06-26 15:39:17.594 [ApplicationImpl pooled thread 1] DEBUG [nk] Started java.lang.UNIXProcess@118fbee9
-2017-06-26 15:39:18.362 [Thread-9] DEBUG [ProjectConfigurationComponent] Starting a Gradle Daemon (subsequent builds will be faster)
-2017-06-26 15:39:20.187 [Thread-9] DEBUG [ProjectConfigurationComponent] :help
-2017-06-26 15:39:20.187 [Thread-9] DEBUG [ProjectConfigurationComponent] 
-2017-06-26 15:39:20.187 [Thread-9] DEBUG [ProjectConfigurationComponent] Welcome to Gradle 4.0-rc-1.
-2017-06-26 15:39:20.187 [Thread-9] DEBUG [ProjectConfigurationComponent] 
-2017-06-26 15:39:20.187 [Thread-9] DEBUG [ProjectConfigurationComponent] To run a build, run gradlew <task> ...
-2017-06-26 15:39:20.187 [Thread-9] DEBUG [ProjectConfigurationComponent] 
-2017-06-26 15:39:20.187 [Thread-9] DEBUG [ProjectConfigurationComponent] To see a list of available tasks, run gradlew tasks
-2017-06-26 15:39:20.187 [Thread-9] DEBUG [ProjectConfigurationComponent] 
-2017-06-26 15:39:20.187 [Thread-9] DEBUG [ProjectConfigurationComponent] To see a list of command-line options, run gradlew --help
-2017-06-26 15:39:20.187 [Thread-9] DEBUG [ProjectConfigurationComponent] 
-2017-06-26 15:39:20.187 [Thread-9] DEBUG [ProjectConfigurationComponent] To see more detail about a task, run gradlew help --task <task>
-2017-06-26 15:39:20.187 [Thread-9] DEBUG [ProjectConfigurationComponent] 
-2017-06-26 15:39:20.187 [Thread-9] DEBUG [ProjectConfigurationComponent] BUILD SUCCESSFUL in 2s
-2017-06-26 15:39:20.187 [Thread-9] DEBUG [ProjectConfigurationComponent] 1 actionable task: 1 executed
-2017-06-26 15:39:20.538 [WaitForProcess-java.lang.UNIXProcess@118fbee9] DEBUG [nn] java.lang.UNIXProcess@118fbee9 stopped with exit code 0
-2017-06-26 15:39:22.223 [ApplicationImpl pooled thread 7] DEBUG [nk] Executing [/usr/lib/jvm/java-8-oracle/bin/java, -version].
-2017-06-26 15:39:22.224 [ApplicationImpl pooled thread 7] DEBUG [nk] Started java.lang.UNIXProcess@324a0257
-2017-06-26 15:39:22.269 [Thread-10] DEBUG [ProjectConfigurationComponent$a$1] java version "1.8.0_131"
-2017-06-26 15:39:22.269 [Thread-10] DEBUG [ProjectConfigurationComponent$a$1] Java(TM) SE Runtime Environment (build 1.8.0_131-b11)
-2017-06-26 15:39:22.269 [Thread-10] DEBUG [ProjectConfigurationComponent$a$1] Java HotSpot(TM) 64-Bit Server VM (build 25.131-b11, mixed mode)
-2017-06-26 15:39:22.282 [WaitForProcess-java.lang.UNIXProcess@324a0257] DEBUG [nn] java.lang.UNIXProcess@324a0257 stopped with exit code 0
-2017-06-26 15:39:22.286 [ApplicationImpl pooled thread 7] DEBUG [ProjectConfigurationComponent] Detected 64-bit JVM.
+2017-08-12 19:12:43.240 [AWT-EventQueue-0] DEBUG [em] JRebel for Android IDE plugin started
+2017-08-12 19:12:44.994 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [cF] Took a vm lock java.util.concurrent.locks.ReentrantReadWriteLock$WriteLock@4e10dee[Locked by thread AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] for file /home/dayfun/.jrebel-android/distributions/.lock
+2017-08-12 19:12:44.994 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [cF] Took file lock sun.nio.ch.FileLockImpl[0:9223372036854775807 exclusive valid]
+2017-08-12 19:12:44.994 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [cC] Reading distributions info in /home/dayfun/.jrebel-android/distributions
+2017-08-12 19:12:45.000 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [cC] Found 4 distributions
+2017-08-12 19:12:45.010 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [cC] Our dist folder should be /home/dayfun/.jrebel-android/distributions/2.3.14_20170811103931
+2017-08-12 19:12:45.011 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [cC] Found 0 old and outdated distributions
+2017-08-12 19:12:45.011 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [cC] Storing new distributions info
+2017-08-12 19:12:45.013 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [cC] Using distribution folder /home/dayfun/.jrebel-android/distributions/2.3.14_20170811103931
+2017-08-12 19:12:45.013 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [cF] Releasing lock for file lock sun.nio.ch.FileLockImpl[0:9223372036854775807 exclusive valid]
+2017-08-12 19:12:45.013 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [cF] Releasing vm lock java.util.concurrent.locks.ReentrantReadWriteLock$WriteLock@4e10dee[Locked by thread AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] for lock file /home/dayfun/.jrebel-android/distributions/.lock
+2017-08-12 19:12:45.020 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] WARN  [gD] Reading license failed: java.io.FileNotFoundException: File '/home/dayfun/.jrebel-android/jrebel-android.lic' does not exist
+2017-08-12 19:12:45.023 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [gw] Found license data: {lastName=Thorngren, GeneratedBy=AUTO, Email=joethorngren@gmail.com, Organization=Personal, Product=JRebel for Android, GeneratedOn=Sun Mar 26 07:15:02 MDT 2017, validFrom=Sun Mar 26 07:11:24 MDT 2017, OrderId=de7c9907c1724e356e3adc16524c1f59f9a5bbdd, limitedFrom=Sun Mar 26 07:11:24 MDT 2017, version=1.21, Name=Joe Thorngren, Seats=1, uid=781c62b19de29accfafb0d0d94eb4a57f398b6f2, firstName=Joe, Type=personal, validUntil=Mon Mar 26 07:11:24 MDT 2018, ZeroId=176847, limitedUntil=Mon Mar 26 07:11:24 MDT 2018}
+2017-08-12 19:12:45.051 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [go] Read and verified the license.
+2017-08-12 19:12:45.051 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [gs] License validation passed.
+2017-08-12 19:12:45.051 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [gD] Read license successfully.
+2017-08-12 19:12:45.090 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [hP] Total RAM size: 15985.9140625 MB
+2017-08-12 19:12:45.092 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [gs] License validation passed.
+2017-08-12 19:12:45.114 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [gs] License validation passed.
+2017-08-12 19:12:46.316 [ApplicationImpl pooled thread 5] INFO  [HttpServerComponent] HTTP server started on port: 42082
+2017-08-12 19:12:46.319 [ApplicationImpl pooled thread 1] DEBUG [nm] Executing [/home/dayfun/Apps/Android-Studio-Stable/jre/bin/java, -version].
+2017-08-12 19:12:46.320 [ApplicationImpl pooled thread 1] DEBUG [nm] Started java.lang.UNIXProcess@2145200c
+2017-08-12 19:12:46.352 [Thread-6] DEBUG [ProjectConfigurationComponent$a$1] openjdk version "1.8.0_112-release"
+2017-08-12 19:12:46.352 [Thread-6] DEBUG [ProjectConfigurationComponent$a$1] OpenJDK Runtime Environment (build 1.8.0_112-release-b06)
+2017-08-12 19:12:46.352 [Thread-6] DEBUG [ProjectConfigurationComponent$a$1] OpenJDK 64-Bit Server VM (build 25.112-b06, mixed mode)
+2017-08-12 19:12:46.358 [WaitForProcess-java.lang.UNIXProcess@2145200c] DEBUG [np] java.lang.UNIXProcess@2145200c stopped with exit code 0
+2017-08-12 19:12:46.359 [ApplicationImpl pooled thread 1] DEBUG [ProjectConfigurationComponent] Detected 64-bit JVM.
+2017-08-12 19:12:47.122 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [OnboardingComponent] Performing initial startup validation check, startupActivationEnabled? false
+2017-08-12 19:12:47.123 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [gs] License validation passed.
+2017-08-12 19:12:47.123 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [eC] License: com.zeroturnaround.jrebel.android.studio.gC@14e8232a
+2017-08-12 19:12:47.123 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [eC] Performed background activation check, valid? true
+2017-08-12 19:12:47.126 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [OnboardingComponent] User is activated
+2017-08-12 19:12:47.126 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [OnboardingComponent] License is valid
+2017-08-12 19:12:47.126 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [RegularRunComponent] Last invoked run time was: 2017-07-30T11:05:41.682-06:00.
+2017-08-12 19:12:47.127 [ApplicationImpl pooled thread 4] DEBUG [ProjectConfigurationComponent] Trying to launch a Gradle daemon in advance.
+2017-08-12 19:12:47.127 [ApplicationImpl pooled thread 4] DEBUG [ProjectConfigurationComponent] Found Gradle wrapper executable with /home/dayfun/Code_Complete/Android/Samples/RxJava-Android-Samples/gradlew.
+2017-08-12 19:12:47.127 [ApplicationImpl pooled thread 4] DEBUG [nm] Executing [/home/dayfun/Code_Complete/Android/Samples/RxJava-Android-Samples/gradlew, --daemon, -b, /tmp/.gradleDaemonStartup883558163034173446.gradle, -c, /tmp/.gradleDaemonStartup883558163034173446.gradle, -u] with environment {JAVA_HOME=/home/dayfun/Apps/Android-Studio-Stable/jre}.
+2017-08-12 19:12:47.128 [ApplicationImpl pooled thread 4] DEBUG [nm] Started java.lang.UNIXProcess@7bae216d
+2017-08-12 19:12:47.734 [Thread-7] DEBUG [ProjectConfigurationComponent] :help
+2017-08-12 19:12:47.734 [Thread-7] DEBUG [ProjectConfigurationComponent] 
+2017-08-12 19:12:47.734 [Thread-7] DEBUG [ProjectConfigurationComponent] Welcome to Gradle 4.0.
+2017-08-12 19:12:47.734 [Thread-7] DEBUG [ProjectConfigurationComponent] 
+2017-08-12 19:12:47.734 [Thread-7] DEBUG [ProjectConfigurationComponent] To run a build, run gradlew <task> ...
+2017-08-12 19:12:47.734 [Thread-7] DEBUG [ProjectConfigurationComponent] 
+2017-08-12 19:12:47.735 [Thread-7] DEBUG [ProjectConfigurationComponent] To see a list of available tasks, run gradlew tasks
+2017-08-12 19:12:47.735 [Thread-7] DEBUG [ProjectConfigurationComponent] 
+2017-08-12 19:12:47.735 [Thread-7] DEBUG [ProjectConfigurationComponent] To see a list of command-line options, run gradlew --help
+2017-08-12 19:12:47.735 [Thread-7] DEBUG [ProjectConfigurationComponent] 
+2017-08-12 19:12:47.735 [Thread-7] DEBUG [ProjectConfigurationComponent] To see more detail about a task, run gradlew help --task <task>
+2017-08-12 19:12:47.735 [Thread-7] DEBUG [ProjectConfigurationComponent] 
+2017-08-12 19:12:47.736 [Thread-7] DEBUG [ProjectConfigurationComponent] BUILD SUCCESSFUL in 0s
+2017-08-12 19:12:47.736 [Thread-7] DEBUG [ProjectConfigurationComponent] 1 actionable task: 1 executed
+2017-08-12 19:12:47.749 [WaitForProcess-java.lang.UNIXProcess@7bae216d] DEBUG [np] java.lang.UNIXProcess@7bae216d stopped with exit code 0
+2017-08-12 19:12:51.573 [ApplicationImpl pooled thread 6] DEBUG [nm] Executing [/home/dayfun/Apps/Android-Studio-Stable/jre/bin/java, -version].
+2017-08-12 19:12:51.575 [ApplicationImpl pooled thread 6] DEBUG [nm] Started java.lang.UNIXProcess@44480cc7
+2017-08-12 19:12:51.607 [Thread-8] DEBUG [ProjectConfigurationComponent$a$1] openjdk version "1.8.0_112-release"
+2017-08-12 19:12:51.608 [Thread-8] DEBUG [ProjectConfigurationComponent$a$1] OpenJDK Runtime Environment (build 1.8.0_112-release-b06)
+2017-08-12 19:12:51.608 [Thread-8] DEBUG [ProjectConfigurationComponent$a$1] OpenJDK 64-Bit Server VM (build 25.112-b06, mixed mode)
+2017-08-12 19:12:51.611 [WaitForProcess-java.lang.UNIXProcess@44480cc7] DEBUG [np] java.lang.UNIXProcess@44480cc7 stopped with exit code 0
+2017-08-12 19:12:51.611 [ApplicationImpl pooled thread 6] DEBUG [ProjectConfigurationComponent] Detected 64-bit JVM.
+2017-08-12 19:12:56.318 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [fO] Stopping.
+2017-08-12 19:12:56.318 [NanoHttpd Main Listener] DEBUG [NanoHTTPD] Failed to accept socket: java.net.SocketException: Socket closed
+2017-08-12 19:12:58.769 [ApplicationImpl pooled thread 5] INFO  [HttpServerComponent] HTTP server started on port: 45100
+2017-08-12 19:12:58.770 [ApplicationImpl pooled thread 11] DEBUG [ProjectConfigurationComponent] Project JDK is not set in project configuration.
+2017-08-12 19:12:58.958 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [OnboardingComponent] Performing initial startup validation check, startupActivationEnabled? false
+2017-08-12 19:12:58.958 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [gs] License validation passed.
+2017-08-12 19:12:58.958 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [eC] License: com.zeroturnaround.jrebel.android.studio.gC@14e8232a
+2017-08-12 19:12:58.958 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [eC] Performed background activation check, valid? true
+2017-08-12 19:12:58.959 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [OnboardingComponent] User is activated
+2017-08-12 19:12:58.959 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [OnboardingComponent] License is valid
+2017-08-12 19:12:58.959 [AWT-EventQueue-0 2.3#AI-162.4069837 Studio, eap:false, os:Linux 4.4.0-91-lowlatency, java-version:JetBrains s.r.o 1.8.0_112-release-b06] DEBUG [RegularRunComponent] Last invoked run time was: 2017-07-30T11:05:41.682-06:00.
+2017-08-12 19:12:58.959 [ApplicationImpl pooled thread 11] DEBUG [ProjectConfigurationComponent] Trying to launch a Gradle daemon in advance.
+2017-08-12 19:12:58.960 [ApplicationImpl pooled thread 11] DEBUG [ProjectConfigurationComponent] Found Gradle wrapper executable with /home/dayfun/Code_Complete/Tack/Cortet_Commercial_Android/gradlew.
+2017-08-12 19:12:58.960 [ApplicationImpl pooled thread 11] DEBUG [ProjectConfigurationComponent] Unable to fetch project SDK. Cannot start the Gradle daemon in advance.
+2017-08-12 19:13:15.790 [ApplicationImpl pooled thread 4] DEBUG [nm] Executing [/home/dayfun/Apps/Android-Studio-Stable/jre/bin/java, -version].
+2017-08-12 19:13:15.791 [ApplicationImpl pooled thread 4] DEBUG [nm] Started java.lang.UNIXProcess@6316e2a7
+2017-08-12 19:13:15.815 [Thread-16] DEBUG [ProjectConfigurationComponent$a$1] openjdk version "1.8.0_112-release"
+2017-08-12 19:13:15.816 [Thread-16] DEBUG [ProjectConfigurationComponent$a$1] OpenJDK Runtime Environment (build 1.8.0_112-release-b06)
+2017-08-12 19:13:15.816 [Thread-16] DEBUG [ProjectConfigurationComponent$a$1] OpenJDK 64-Bit Server VM (build 25.112-b06, mixed mode)
+2017-08-12 19:13:15.818 [WaitForProcess-java.lang.UNIXProcess@6316e2a7] DEBUG [np] java.lang.UNIXProcess@6316e2a7 stopped with exit code 0
+2017-08-12 19:13:15.819 [ApplicationImpl pooled thread 4] DEBUG [ProjectConfigurationComponent] Detected 64-bit JVM.
+2017-08-12 19:13:15.887 [ApplicationImpl pooled thread 12] DEBUG [nm] Executing [/home/dayfun/Apps/Android-Studio-Stable/jre/bin/java, -version].
+2017-08-12 19:13:15.888 [ApplicationImpl pooled thread 12] DEBUG [nm] Started java.lang.UNIXProcess@3daef07c
+2017-08-12 19:13:15.915 [Thread-17] DEBUG [ProjectConfigurationComponent$a$1] openjdk version "1.8.0_112-release"
+2017-08-12 19:13:15.915 [Thread-17] DEBUG [ProjectConfigurationComponent$a$1] OpenJDK Runtime Environment (build 1.8.0_112-release-b06)
+2017-08-12 19:13:15.915 [Thread-17] DEBUG [ProjectConfigurationComponent$a$1] OpenJDK 64-Bit Server VM (build 25.112-b06, mixed mode)
+2017-08-12 19:13:15.918 [WaitForProcess-java.lang.UNIXProcess@3daef07c] DEBUG [np] java.lang.UNIXProcess@3daef07c stopped with exit code 0
+2017-08-12 19:13:15.918 [ApplicationImpl pooled thread 12] DEBUG [ProjectConfigurationComponent] Detected 64-bit JVM.

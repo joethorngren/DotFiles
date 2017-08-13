@@ -11,3 +11,11 @@ alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 alias xcopy='xclip -selection clipboard'	# copy to clipboard, ctrl+c, ctrl+shift+c
 alias xpaste='xclip -selection clipboard -o'	# paste from clipboard, ctrl+v, ctrl+shift+v
 alias xselect='xclip -selection primary -o'	# paste from highlight, middle click, shift+insert
+
+alias geny="gmtool admin start 'Google Pixel - 7.1.0 - API 25 - 1080x1920'"
+
+alias install="sudo apt-get install "
+alias update="sudo apt-get update"
+alias upgrade="sudo apt-get upgrade"
+alias dist-upgrade="sudo apt-get dist-upgrade"
+alias updateAll="sudo apt-get update && sudo apt-get upgrade && sudo apt-get dist-upgrade"

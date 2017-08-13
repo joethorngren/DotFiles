@@ -21,7 +21,7 @@ export git_setup_aliases="yes"
 export GIT_REPO_DIR="$HOME/Code_Complete"
 # Add the full paths of any extra repos to GIT_REPOS, separated with ':'
 # e.g. "/opt/rails/project:/opt/rails/another project:$HOME/other/repo"
-export GIT_REPOS="$HOME/Code_Complete/Android:$HOME/Code_Complete/Exercism"
+export GIT_REPOS="$HOME/Code_Complete/Android:$HOME/Code_Complete/Exercism:${HOME}/Code_Complete/Tack/Cortet_Commercial_Android"
 export git_status_command="git_status_shortcuts"
 # Alias
 git_index_alias="c"    # Switch to a repo in the (c)ode directory
@@ -63,7 +63,7 @@ git_pull_rebase_alias="gplr"
 git_push_alias="gps"
 git_push_force_alias="gpsf"
 git_pull_then_push_alias="gpls"
-git_status_original_alias="gst"
+git_status_original_alias="gstat"
 git_status_short_alias="gss"
 git_clean_alias="gce"
 git_clean_force_alias="gcef"

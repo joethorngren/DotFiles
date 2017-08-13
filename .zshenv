@@ -13,4 +13,12 @@ export JAVA_HOME=$JAVA8_HOME
 export JDK_HOME=$JAVA8_HOME
 #export PYTHONPATH=/usr/lib/python3.6/site-packages
 
-export PATH=$HOME/bin:$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools:$PATH
+#default pomodoro session (minutes)
+export POMODORO_TIMEOUT=25
+#default pomodoro short break (minutes)
+export POMODORO_STIMEOUT=5
+#default pomodoro long break (minutes)
+export POMODORO_LTIMEOUT=15
+
+export PATH=$HOME/bin:$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools/bin:/opt/genymotion/:$PATH
+
