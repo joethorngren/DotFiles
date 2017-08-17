@@ -260,15 +260,20 @@ client.focused_inactive     $black                $inactive-bg-color    $inactiv
 client.urgent               $urgent-bg-color      $urgent-bg-color      $text-color              #e53935
 # }}}
 
-# I3 Status Bar {{{
+# i3 Status Bar {{{
 bar {
 	output "DP-0"
-	output "DP-2" 
-  	status_command i3status
-        font pango: System San Francisco Display 12
+	output "DP-2"
+	tray_output "DP-0"
+        tray_output "DP-2"
+        #status_command ~/.config/i3/bumblebee-status/bumblebee-status -m nic disk:home load cpu memory battery date time pasink pasource dnf -p interval=2.5 time.format="%H:%M CW %V" date.format="%a, %b %d %Y" home.path=/home -t solarized-powerline
+	status_command ~/.config/i3/bumblebee-status/bumblebee-status -m disk:home datetime -t gruvbox-powerline
+        workspace_buttons yes
+        font pango: SauceCodePro Nerd Font 14
+
 	colors {
 		background #2f343f
-        separator #757575
+                separator #757575
 		statusline #839496
 
 		#                  border             background         text
@@ -284,8 +289,10 @@ bar {
         output "HDMI-1"
 	tray_output "HDMI-0"
         tray_output "HDMI-1"
-        font pango: System San Francisco Display 11
-        status_command i3status
+	status_command ~/.config/i3/bumblebee-status/bumblebee-status -m disk:home datetime -t gruvbox-powerline
+        workspace_buttons yes
+        font pango: SauceCodePro Nerd Font 12
+
         colors {
                 background #2f343f
                 separator #757575
@@ -302,15 +309,15 @@ bar {
 # Window Assignments + Rules {{{
 
 # Studio
+assign [class="jetbrains-studio"] $workspace1
+
+#for_window [class="jetbrains-studio"] boarder none, move container to workspace $workspace1, $workspace1
 #for_window [class="jetbrains-studio" instance="sun-awt-X11-XFramePeer"] move container to workspace $workspace1
 #for_window [class="jetbrains-studio" instance="sun-awt-X11-XDialogPeer"] move container to workspace $workspace1
-
-for_window [class="jetbrains-studio"] boarder none, move container to workspace $workspace1, $workspace1
 #for_window [title="Settings"] move container to workspace $workspace1, focus
 #for_window [class="jetbrains-studio" floating] move absolute position center
 #for_window [class="jetbrains-studio" title="Project"] resize set 615 1413, move left, floating disable
 #for_window [class="jetbrains-studio"] border none
-
 
 # Replace in Path
 # Select Methods to Override/Implement
@@ -325,6 +332,26 @@ for_window [class="Genymotion Player"] move container to workspace $workspace4
 # Hangouts
 for_window [class="^Chromium-browser$" instance="^crx_knipolnnllmklapflnccelgolnpehhpl$"] floating disable
 assign [class="^Chromium-browser$" instance="^crx_knipolnnllmklapflnccelgolnpehhpl$"] → $workspace3
+
+# Task Warrior Pomodoro
+assign [class="Do_timeout.py"] $workspace4
+for_window [class="Do_timeout.py"] floating enable
+
+# Steam
+# https://github.com/ValveSoftware/steam-for-linux/issues/1040
+for_window [class="^Steam$" title="^Friends$"] floating enable
+for_window [class="^Steam$" title="Steam - News"] floating enable
+for_window [class="^Steam$" title=".* - Chat"] floating enable
+for_window [class="^Steam$" title="^Settings$"] floating enable
+for_window [class="^Steam$" title=".* - event started"] floating enable
+for_window [class="^Steam$" title=".* CD key"] floating enable
+for_window [class="^Steam$" title="^Steam - Self Updater$"] floating enable
+for_window [class="^Steam$" title="^Screenshot Uploader$"] floating enable
+for_window [class="^Steam$" title="^Steam Guard - Computer Authorization Required$"] floating enable
+for_window [title="^Steam Keyboard$"] floating enable
+
+assign [class="RocketLeague"] $workspace1
+for_window [class="RocketLeague"] fullscreen enable
 
 # }}}
 

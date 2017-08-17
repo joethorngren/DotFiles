@@ -20,5 +20,5 @@ export POMODORO_STIMEOUT=5
 #default pomodoro long break (minutes)
 export POMODORO_LTIMEOUT=15
 
-export PATH=$HOME/bin:$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools/bin:/opt/genymotion/:$PATH
+export PATH=$HOME/bin:$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools/bin:/opt/genymotion/:$HOME/Apps/AtlassianCLI/:$PATH
 

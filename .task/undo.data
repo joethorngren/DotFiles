@@ -96,3 +96,453 @@ time 1502592542
 old [description:"Prepare for Demo" entry:"1502589289" modified:"1502592515" project:"CEL" start:"1502592515" status:"pending" totalactivetime:"843seconds" uuid:"840852a3-301f-4d28-a050-0bdbde565331"]
 new [description:"Prepare for Demo" entry:"1502589289" modified:"1502592542" project:"CEL" status:"pending" totalactivetime:"870seconds" uuid:"840852a3-301f-4d28-a050-0bdbde565331"]
 ---
+time 1502593116
+old [description:"John ToDo" entry:"1502582636" modified:"1502586722" project:"CEL" status:"pending" uuid:"d23a250b-de7d-4d9e-82bf-58c7c072dd2e"]
+new [description:"John ToDo" entry:"1502582636" modified:"1502593116" project:"CEL" start:"1502593116" status:"pending" uuid:"d23a250b-de7d-4d9e-82bf-58c7c072dd2e"]
+---
+time 1502593571
+old [description:"John ToDo" entry:"1502582636" modified:"1502593116" project:"CEL" start:"1502593116" status:"pending" uuid:"d23a250b-de7d-4d9e-82bf-58c7c072dd2e"]
+new [description:"John ToDo" entry:"1502582636" modified:"1502593571" project:"CEL" status:"pending" totalactivetime:"455seconds" uuid:"d23a250b-de7d-4d9e-82bf-58c7c072dd2e"]
+---
+time 1502594210
+old [description:"BitBucket Repository" entry:"1502589466" modified:"1502589466" project:"CEL" status:"pending" uuid:"43ec2173-072b-485f-944c-3feccffe8474"]
+new [description:"BitBucket Repository" entry:"1502589466" modified:"1502594210" project:"CEL" start:"1502594210" status:"pending" uuid:"43ec2173-072b-485f-944c-3feccffe8474"]
+---
+time 1502595050
+old [description:"BitBucket Repository" entry:"1502589466" modified:"1502594210" project:"CEL" start:"1502594210" status:"pending" uuid:"43ec2173-072b-485f-944c-3feccffe8474"]
+new [description:"BitBucket Repository" end:"1502595050" entry:"1502589466" modified:"1502595050" project:"CEL" status:"completed" totalactivetime:"840seconds" uuid:"43ec2173-072b-485f-944c-3feccffe8474"]
+---
+time 1502595176
+old [description:"Clean Up Scripts Directory" entry:"1502589554" modified:"1502589554" project:"CEL" status:"pending" uuid:"20ad5db7-a4f1-4778-b46b-3785d282377b"]
+new [description:"Clean Up Scripts Directory" entry:"1502589554" modified:"1502595176" project:"CEL" start:"1502595176" status:"pending" uuid:"20ad5db7-a4f1-4778-b46b-3785d282377b"]
+---
+time 1502596663
+old [description:"Clean Up Scripts Directory" entry:"1502589554" modified:"1502595176" project:"CEL" start:"1502595176" status:"pending" uuid:"20ad5db7-a4f1-4778-b46b-3785d282377b"]
+new [description:"Clean Up Scripts Directory" entry:"1502589554" modified:"1502596663" project:"CEL" status:"pending" totalactivetime:"1487seconds" uuid:"20ad5db7-a4f1-4778-b46b-3785d282377b"]
+---
+time 1502596967
+old [description:"Clean Up Scripts Directory" entry:"1502589554" modified:"1502596663" project:"CEL" status:"pending" totalactivetime:"1487seconds" uuid:"20ad5db7-a4f1-4778-b46b-3785d282377b"]
+new [description:"Clean Up Scripts Directory" entry:"1502589554" modified:"1502596967" project:"CEL" start:"1502596967" status:"pending" totalactivetime:"1487seconds" uuid:"20ad5db7-a4f1-4778-b46b-3785d282377b"]
+---
+time 1502597807
+old [description:"Clean Up Scripts Directory" entry:"1502589554" modified:"1502596967" project:"CEL" start:"1502596967" status:"pending" totalactivetime:"1487seconds" uuid:"20ad5db7-a4f1-4778-b46b-3785d282377b"]
+new [description:"Clean Up Scripts Directory" end:"1502597806" entry:"1502589554" modified:"1502597807" project:"CEL" status:"completed" totalactivetime:"2326seconds" uuid:"20ad5db7-a4f1-4778-b46b-3785d282377b"]
+---
+time 1502598795
+new [description:"Kotlin Course" entry:"1502598795" modified:"1502598795" project:"Personal" status:"pending" uuid:"ffb6f6d9-f9ec-4721-ada1-0c61223313e8"]
+---
+time 1502598813
+old [description:"Kotlin Course" entry:"1502598795" modified:"1502598795" project:"Personal" status:"pending" uuid:"ffb6f6d9-f9ec-4721-ada1-0c61223313e8"]
+new [description:"Kotlin Course" entry:"1502598795" modified:"1502598813" project:"Personal" start:"1502598813" status:"pending" uuid:"ffb6f6d9-f9ec-4721-ada1-0c61223313e8"]
+---
+time 1502600195
+old [description:"Kotlin Course" entry:"1502598795" modified:"1502598813" project:"Personal" start:"1502598813" status:"pending" uuid:"ffb6f6d9-f9ec-4721-ada1-0c61223313e8"]
+new [description:"Kotlin Course" entry:"1502598795" modified:"1502600195" project:"Personal" status:"pending" totalactivetime:"1382seconds" uuid:"ffb6f6d9-f9ec-4721-ada1-0c61223313e8"]
+---
+time 1502600204
+old [description:"Kotlin Course" entry:"1502598795" modified:"1502600195" project:"Personal" status:"pending" totalactivetime:"1382seconds" uuid:"ffb6f6d9-f9ec-4721-ada1-0c61223313e8"]
+new [description:"Kotlin Course" entry:"1502598795" modified:"1502600204" project:"Personal" start:"1502600204" status:"pending" totalactivetime:"1382seconds" uuid:"ffb6f6d9-f9ec-4721-ada1-0c61223313e8"]
+---
+time 1502600208
+old [description:"Kotlin Course" entry:"1502598795" modified:"1502600204" project:"Personal" start:"1502600204" status:"pending" totalactivetime:"1382seconds" uuid:"ffb6f6d9-f9ec-4721-ada1-0c61223313e8"]
+new [description:"Kotlin Course" entry:"1502598795" modified:"1502600208" project:"Personal" status:"pending" totalactivetime:"1386seconds" uuid:"ffb6f6d9-f9ec-4721-ada1-0c61223313e8"]
+---
+time 1502649660
+new [description:"Write Story for Calendar Widget" entry:"1502649660" modified:"1502649660" project:"CEL" status:"pending" uuid:"afa33030-b5b6-40f3-aac4-25071a12bcee"]
+---
+time 1502650257
+new [description:"ShortcutFoo" due:"1502690400" entry:"1502650257" modified:"1502650257" project:"Dailies" recur:"1day" status:"recurring" uuid:"a59992c8-e676-490f-84d3-92c21a176961" wait:"1502604000"]
+---
+time 1502650258
+new [description:"ShortcutFoo" due:"1502690400" entry:"1502650258" imask:"0" modified:"1502650257" parent:"a59992c8-e676-490f-84d3-92c21a176961" project:"Dailies" recur:"1day" status:"waiting" uuid:"4a99e562-7f94-4ef4-844b-3b92eddcb33a" wait:"1502604000"]
+---
+time 1502650258
+old [description:"ShortcutFoo" due:"1502690400" entry:"1502650257" modified:"1502650257" project:"Dailies" recur:"1day" status:"recurring" uuid:"a59992c8-e676-490f-84d3-92c21a176961" wait:"1502604000"]
+new [description:"ShortcutFoo" due:"1502690400" entry:"1502650257" mask:"W" modified:"1502650258" project:"Dailies" recur:"1day" status:"recurring" uuid:"a59992c8-e676-490f-84d3-92c21a176961" wait:"1502604000"]
+---
+time 1502650279
+old [description:"ShortcutFoo" due:"1502690400" entry:"1502650257" mask:"W" modified:"1502650258" project:"Dailies" recur:"1day" status:"recurring" uuid:"a59992c8-e676-490f-84d3-92c21a176961" wait:"1502604000"]
+new [description:"ShortcutFoo" due:"1502690400" entry:"1502650257" mask:"+" modified:"1502650279" project:"Dailies" recur:"1day" status:"recurring" uuid:"a59992c8-e676-490f-84d3-92c21a176961" wait:"1502604000"]
+---
+time 1502650279
+old [description:"ShortcutFoo" due:"1502690400" entry:"1502650258" imask:"0" modified:"1502650257" parent:"a59992c8-e676-490f-84d3-92c21a176961" project:"Dailies" recur:"1day" status:"pending" uuid:"4a99e562-7f94-4ef4-844b-3b92eddcb33a"]
+new [description:"ShortcutFoo" due:"1502690400" end:"1502650278" entry:"1502650258" imask:"0.000000" modified:"1502650279" parent:"a59992c8-e676-490f-84d3-92c21a176961" project:"Dailies" recur:"1day" status:"completed" uuid:"4a99e562-7f94-4ef4-844b-3b92eddcb33a"]
+---
+time 1502650640
+new [description:"Submit Time on Harvest" due:"1503208800" entry:"1502650640" modified:"1502650640" recur:"weekly" status:"recurring" uuid:"ef9dfbf7-bade-426f-b527-cdb4b0215a87"]
+---
+time 1502650643
+new [description:"Submit Time on Harvest" due:"1503208800" entry:"1502650643" imask:"0" modified:"1502650640" parent:"ef9dfbf7-bade-426f-b527-cdb4b0215a87" recur:"weekly" status:"pending" uuid:"4a6b6db7-53aa-4603-b889-1e911944b8a0"]
+---
+time 1502650643
+old [description:"Submit Time on Harvest" due:"1503208800" entry:"1502650640" modified:"1502650640" recur:"weekly" status:"recurring" uuid:"ef9dfbf7-bade-426f-b527-cdb4b0215a87"]
+new [description:"Submit Time on Harvest" due:"1503208800" entry:"1502650640" mask:"-" modified:"1502650643" recur:"weekly" status:"recurring" uuid:"ef9dfbf7-bade-426f-b527-cdb4b0215a87"]
+---
+time 1502650731
+old [description:"Submit Time on Harvest" due:"1503208800" entry:"1502650640" mask:"-" modified:"1502650643" recur:"weekly" status:"recurring" uuid:"ef9dfbf7-bade-426f-b527-cdb4b0215a87"]
+new [description:"Submit Time on Harvest" due:"1502604000" entry:"1502650640" mask:"-" modified:"1502650731" recur:"weekly" status:"recurring" uuid:"ef9dfbf7-bade-426f-b527-cdb4b0215a87"]
+---
+time 1502650732
+old [description:"Submit Time on Harvest" due:"1503208800" entry:"1502650643" imask:"0" modified:"1502650640" parent:"ef9dfbf7-bade-426f-b527-cdb4b0215a87" recur:"weekly" status:"pending" uuid:"4a6b6db7-53aa-4603-b889-1e911944b8a0"]
+new [description:"Submit Time on Harvest" due:"1502604000" entry:"1502650643" imask:"0.000000" modified:"1502650732" parent:"ef9dfbf7-bade-426f-b527-cdb4b0215a87" recur:"weekly" status:"pending" uuid:"4a6b6db7-53aa-4603-b889-1e911944b8a0"]
+---
+time 1502650733
+new [description:"Submit Time on Harvest" due:"1503208800" entry:"1502650733" imask:"1" modified:"1502650731" parent:"ef9dfbf7-bade-426f-b527-cdb4b0215a87" recur:"weekly" status:"pending" uuid:"609e2e48-f311-4b7f-b7ed-5fec7d533a35"]
+---
+time 1502650733
+old [description:"Submit Time on Harvest" due:"1502604000" entry:"1502650640" mask:"-" modified:"1502650731" recur:"weekly" status:"recurring" uuid:"ef9dfbf7-bade-426f-b527-cdb4b0215a87"]
+new [description:"Submit Time on Harvest" due:"1502604000" entry:"1502650640" mask:"--" modified:"1502650733" recur:"weekly" status:"recurring" uuid:"ef9dfbf7-bade-426f-b527-cdb4b0215a87"]
+---
+time 1502650757
+old [description:"Submit Time on Harvest" due:"1503208800" entry:"1502650733" imask:"1" modified:"1502650731" parent:"ef9dfbf7-bade-426f-b527-cdb4b0215a87" recur:"weekly" status:"pending" uuid:"609e2e48-f311-4b7f-b7ed-5fec7d533a35"]
+new [description:"Submit Time on Harvest" due:"1503208800" entry:"1502650733" imask:"1.000000" modified:"1502650757" parent:"ef9dfbf7-bade-426f-b527-cdb4b0215a87" recur:"weekly" status:"waiting" uuid:"609e2e48-f311-4b7f-b7ed-5fec7d533a35" wait:"1503122400"]
+---
+time 1502650761
+old [description:"Submit Time on Harvest" due:"1502604000" entry:"1502650643" imask:"0.000000" modified:"1502650732" parent:"ef9dfbf7-bade-426f-b527-cdb4b0215a87" recur:"weekly" status:"pending" uuid:"4a6b6db7-53aa-4603-b889-1e911944b8a0"]
+new [description:"Submit Time on Harvest" due:"1502604000" entry:"1502650643" imask:"0.000000" modified:"1502650761" parent:"ef9dfbf7-bade-426f-b527-cdb4b0215a87" recur:"weekly" status:"waiting" uuid:"4a6b6db7-53aa-4603-b889-1e911944b8a0" wait:"1503122400"]
+---
+time 1502650761
+old [description:"Submit Time on Harvest" due:"1502604000" entry:"1502650640" mask:"--" modified:"1502650733" recur:"weekly" status:"recurring" uuid:"ef9dfbf7-bade-426f-b527-cdb4b0215a87"]
+new [description:"Submit Time on Harvest" due:"1502604000" entry:"1502650640" mask:"--" modified:"1502650761" recur:"weekly" status:"recurring" uuid:"ef9dfbf7-bade-426f-b527-cdb4b0215a87" wait:"1503122400"]
+---
+time 1502651143
+old [description:"Prepare for Demo" entry:"1502589289" modified:"1502592542" project:"CEL" status:"pending" totalactivetime:"870seconds" uuid:"840852a3-301f-4d28-a050-0bdbde565331"]
+new [description:"Prepare for Demo" entry:"1502589289" modified:"1502651143" project:"CEL" reviewed:"1502651143" status:"pending" totalactivetime:"870seconds" uuid:"840852a3-301f-4d28-a050-0bdbde565331"]
+---
+time 1502651145
+old [description:"John ToDo" entry:"1502582636" modified:"1502593571" project:"CEL" status:"pending" totalactivetime:"455seconds" uuid:"d23a250b-de7d-4d9e-82bf-58c7c072dd2e"]
+new [description:"John ToDo" entry:"1502582636" modified:"1502651145" project:"CEL" reviewed:"1502651145" status:"pending" totalactivetime:"455seconds" uuid:"d23a250b-de7d-4d9e-82bf-58c7c072dd2e"]
+---
+time 1502651147
+old [description:"Kotlin Course" entry:"1502598795" modified:"1502600208" project:"Personal" status:"pending" totalactivetime:"1386seconds" uuid:"ffb6f6d9-f9ec-4721-ada1-0c61223313e8"]
+new [description:"Kotlin Course" entry:"1502598795" modified:"1502651147" project:"Personal" reviewed:"1502651146" status:"pending" totalactivetime:"1386seconds" uuid:"ffb6f6d9-f9ec-4721-ada1-0c61223313e8"]
+---
+time 1502651149
+old [description:"Write Story for Calendar Widget" entry:"1502649660" modified:"1502649660" project:"CEL" status:"pending" uuid:"afa33030-b5b6-40f3-aac4-25071a12bcee"]
+new [description:"Write Story for Calendar Widget" entry:"1502649660" modified:"1502651149" project:"CEL" reviewed:"1502651149" status:"pending" uuid:"afa33030-b5b6-40f3-aac4-25071a12bcee"]
+---
+time 1502651212
+old [description:"Submit Time on Harvest" due:"1503208800" entry:"1502650733" imask:"1.000000" modified:"1502650757" parent:"ef9dfbf7-bade-426f-b527-cdb4b0215a87" recur:"weekly" status:"waiting" uuid:"609e2e48-f311-4b7f-b7ed-5fec7d533a35" wait:"1503122400"]
+new [description:"Submit Time on Harvest" due:"1502686800" entry:"1502650733" imask:"1.000000" modified:"1502651212" parent:"ef9dfbf7-bade-426f-b527-cdb4b0215a87" recur:"weekly" status:"waiting" uuid:"609e2e48-f311-4b7f-b7ed-5fec7d533a35" wait:"1502683200"]
+---
+time 1502651212
+old [description:"Submit Time on Harvest" due:"1502604000" entry:"1502650640" mask:"--" modified:"1502650761" recur:"weekly" status:"recurring" uuid:"ef9dfbf7-bade-426f-b527-cdb4b0215a87" wait:"1503122400"]
+new [description:"Submit Time on Harvest" due:"1502604000" entry:"1502650640" mask:"-W" modified:"1502651212" recur:"weekly" status:"recurring" uuid:"ef9dfbf7-bade-426f-b527-cdb4b0215a87" wait:"1503122400"]
+---
+time 1502651212
+old [description:"Submit Time on Harvest" due:"1502686800" entry:"1502650733" imask:"1.000000" modified:"1502651212" parent:"ef9dfbf7-bade-426f-b527-cdb4b0215a87" recur:"weekly" status:"waiting" uuid:"609e2e48-f311-4b7f-b7ed-5fec7d533a35" wait:"1502683200"]
+new [description:"Submit Time on Harvest" due:"1502686800" entry:"1502650733" imask:"1.000000" modified:"1502651212" parent:"ef9dfbf7-bade-426f-b527-cdb4b0215a87" recur:"weekly" reviewed:"1502651212" status:"waiting" uuid:"609e2e48-f311-4b7f-b7ed-5fec7d533a35" wait:"1502683200"]
+---
+time 1502651215
+old [description:"Submit Time on Harvest" due:"1502604000" entry:"1502650640" mask:"-W" modified:"1502651212" recur:"weekly" status:"recurring" uuid:"ef9dfbf7-bade-426f-b527-cdb4b0215a87" wait:"1503122400"]
+new [description:"Submit Time on Harvest" due:"1502604000" entry:"1502650640" mask:"WW" modified:"1502651215" recur:"weekly" status:"recurring" uuid:"ef9dfbf7-bade-426f-b527-cdb4b0215a87" wait:"1503122400"]
+---
+time 1502651215
+old [description:"Submit Time on Harvest" due:"1502604000" entry:"1502650643" imask:"0.000000" modified:"1502650761" parent:"ef9dfbf7-bade-426f-b527-cdb4b0215a87" recur:"weekly" status:"waiting" uuid:"4a6b6db7-53aa-4603-b889-1e911944b8a0" wait:"1503122400"]
+new [description:"Submit Time on Harvest" due:"1502604000" entry:"1502650643" imask:"0.000000" modified:"1502651215" parent:"ef9dfbf7-bade-426f-b527-cdb4b0215a87" recur:"weekly" reviewed:"1502651215" status:"waiting" uuid:"4a6b6db7-53aa-4603-b889-1e911944b8a0" wait:"1503122400"]
+---
+time 1502651215
+old [description:"Submit Time on Harvest" due:"1502604000" entry:"1502650640" mask:"WW" modified:"1502651215" recur:"weekly" status:"recurring" uuid:"ef9dfbf7-bade-426f-b527-cdb4b0215a87" wait:"1503122400"]
+new [description:"Submit Time on Harvest" due:"1502604000" entry:"1502650640" mask:"WW" modified:"1502651215" recur:"weekly" reviewed:"1502651215" status:"recurring" uuid:"ef9dfbf7-bade-426f-b527-cdb4b0215a87" wait:"1503122400"]
+---
+time 1502651218
+old [description:"Submit Time on Harvest" due:"1502686800" entry:"1502650733" imask:"1.000000" modified:"1502651212" parent:"ef9dfbf7-bade-426f-b527-cdb4b0215a87" recur:"weekly" reviewed:"1502651212" status:"waiting" uuid:"609e2e48-f311-4b7f-b7ed-5fec7d533a35" wait:"1502683200"]
+new [description:"Submit Time on Harvest" due:"1502686800" entry:"1502650733" imask:"1.000000" modified:"1502651218" parent:"ef9dfbf7-bade-426f-b527-cdb4b0215a87" recur:"weekly" reviewed:"1502651218" status:"waiting" uuid:"609e2e48-f311-4b7f-b7ed-5fec7d533a35" wait:"1502683200"]
+---
+time 1502651243
+old [description:"Write Story for Calendar Widget" entry:"1502649660" modified:"1502651149" project:"CEL" reviewed:"1502651149" status:"pending" uuid:"afa33030-b5b6-40f3-aac4-25071a12bcee"]
+new [description:"Write Story for Calendar Widget" entry:"1502649660" modified:"1502651243" project:"CEL" reviewed:"1502651149" start:"1502651243" status:"pending" uuid:"afa33030-b5b6-40f3-aac4-25071a12bcee"]
+---
+time 1502651897
+new [description:"Write Stories for Existing UI before JT" entry:"1502651897" modified:"1502651897" project:"CEL" status:"pending" uuid:"af83471b-5345-46b5-8674-97f9d7fbfa3f"]
+---
+time 1502651985
+old [description:"Write Stories for Existing UI before JT" entry:"1502651897" modified:"1502651897" project:"CEL" status:"pending" uuid:"af83471b-5345-46b5-8674-97f9d7fbfa3f"]
+new [description:"Write Stories for Existing UI before JT" entry:"1502651897" modified:"1502651985" project:"CEL" start:"1502651985" status:"pending" uuid:"af83471b-5345-46b5-8674-97f9d7fbfa3f"]
+---
+time 1502652738
+old [description:"Write Story for Calendar Widget" entry:"1502649660" modified:"1502651243" project:"CEL" reviewed:"1502651149" start:"1502651243" status:"pending" uuid:"afa33030-b5b6-40f3-aac4-25071a12bcee"]
+new [description:"Write Story for Calendar Widget" entry:"1502649660" modified:"1502652738" project:"CEL" reviewed:"1502651149" status:"pending" totalactivetime:"1495seconds" uuid:"afa33030-b5b6-40f3-aac4-25071a12bcee"]
+---
+time 1502652918
+new [description:"Setup Task Server on LightHouse Cloud" entry:"1502652918" modified:"1502652918" project:"Personal" status:"pending" uuid:"cd6d0b4e-84f0-40fb-9e25-55d8eb8ae0e2"]
+---
+time 1502652947
+new [description:"Install Ubuntu on LightHouse Cloud" entry:"1502652947" modified:"1502652947" project:"Personal" status:"pending" uuid:"2be9c39e-2b25-497f-b9e1-aeb9f84a7d3b"]
+---
+time 1502652971
+old [description:"Setup Task Server on LightHouse Cloud" entry:"1502652918" modified:"1502652918" project:"Personal" status:"pending" uuid:"cd6d0b4e-84f0-40fb-9e25-55d8eb8ae0e2"]
+new [depends:"2be9c39e-2b25-497f-b9e1-aeb9f84a7d3b" description:"Setup Task Server on LightHouse Cloud" entry:"1502652918" modified:"1502652971" project:"Personal" status:"pending" uuid:"cd6d0b4e-84f0-40fb-9e25-55d8eb8ae0e2"]
+---
+time 1502653096
+old [description:"Write Stories for Existing UI before JT" entry:"1502651897" modified:"1502651985" project:"CEL" start:"1502651985" status:"pending" uuid:"af83471b-5345-46b5-8674-97f9d7fbfa3f"]
+new [description:"Write Stories for Existing UI before JT" entry:"1502651897" modified:"1502653096" project:"CEL" status:"pending" totalactivetime:"1111seconds" uuid:"af83471b-5345-46b5-8674-97f9d7fbfa3f"]
+---
+time 1502653253
+old [description:"Install Ubuntu on LightHouse Cloud" entry:"1502652947" modified:"1502652947" project:"Personal" status:"pending" uuid:"2be9c39e-2b25-497f-b9e1-aeb9f84a7d3b"]
+new [description:"Install Ubuntu on LightHouse Cloud" entry:"1502652947" modified:"1502653253" priority:"0" project:"Personal" status:"pending" uuid:"2be9c39e-2b25-497f-b9e1-aeb9f84a7d3b"]
+---
+time 1502653321
+old [description:"Install Ubuntu on LightHouse Cloud" entry:"1502652947" modified:"1502653253" priority:"0" project:"Personal" status:"pending" uuid:"2be9c39e-2b25-497f-b9e1-aeb9f84a7d3b"]
+new [description:"Install Ubuntu on LightHouse Cloud" entry:"1502652947" modified:"1502653321" project:"Personal" status:"pending" uuid:"2be9c39e-2b25-497f-b9e1-aeb9f84a7d3b"]
+---
+time 1502653400
+old [description:"Write Story for Calendar Widget" entry:"1502649660" modified:"1502652738" project:"CEL" reviewed:"1502651149" status:"pending" totalactivetime:"1495seconds" uuid:"afa33030-b5b6-40f3-aac4-25071a12bcee"]
+new [description:"Write Story for Calendar Widget" due:"1502604000" entry:"1502649660" modified:"1502653400" project:"CEL" reviewed:"1502651149" status:"pending" totalactivetime:"1495seconds" uuid:"afa33030-b5b6-40f3-aac4-25071a12bcee"]
+---
+time 1502653408
+old [description:"Write Stories for Existing UI before JT" entry:"1502651897" modified:"1502653096" project:"CEL" status:"pending" totalactivetime:"1111seconds" uuid:"af83471b-5345-46b5-8674-97f9d7fbfa3f"]
+new [description:"due today" entry:"1502651897" modified:"1502653408" project:"CEL" status:"pending" totalactivetime:"1111seconds" uuid:"af83471b-5345-46b5-8674-97f9d7fbfa3f"]
+---
+time 1502653441
+old [description:"Write Story for Calendar Widget" due:"1502604000" entry:"1502649660" modified:"1502653400" project:"CEL" reviewed:"1502651149" status:"pending" totalactivetime:"1495seconds" uuid:"afa33030-b5b6-40f3-aac4-25071a12bcee"]
+new [description:"Write Stories for Existing UI before JT" due:"1502604000" entry:"1502649660" modified:"1502653441" project:"CEL" reviewed:"1502651149" status:"pending" totalactivetime:"1495seconds" uuid:"afa33030-b5b6-40f3-aac4-25071a12bcee"]
+---
+time 1502653468
+old [description:"due today" entry:"1502651897" modified:"1502653408" project:"CEL" status:"pending" totalactivetime:"1111seconds" uuid:"af83471b-5345-46b5-8674-97f9d7fbfa3f"]
+new [description:"Write Stories for Existing UI before JT" due:"1502604000" entry:"1502651897" modified:"1502653468" project:"CEL" status:"pending" totalactivetime:"1111seconds" uuid:"af83471b-5345-46b5-8674-97f9d7fbfa3f"]
+---
+time 1502654581
+old [description:"Write Stories for Existing UI before JT" due:"1502604000" entry:"1502649660" modified:"1502653441" project:"CEL" reviewed:"1502651149" status:"pending" totalactivetime:"1495seconds" uuid:"afa33030-b5b6-40f3-aac4-25071a12bcee"]
+new [description:"Write Stories for Existing UI before JT" due:"1502604000" entry:"1502649660" modified:"1502654581" project:"CEL" reviewed:"1502651149" start:"1502654581" status:"pending" totalactivetime:"1495seconds" uuid:"afa33030-b5b6-40f3-aac4-25071a12bcee"]
+---
+time 1502654587
+old [description:"Write Stories for Existing UI before JT" due:"1502604000" entry:"1502649660" modified:"1502654581" project:"CEL" reviewed:"1502651149" start:"1502654581" status:"pending" totalactivetime:"1495seconds" uuid:"afa33030-b5b6-40f3-aac4-25071a12bcee"]
+new [description:"Write Stories for Existing UI before JT" due:"1502604000" entry:"1502649660" modified:"1502654587" project:"CEL" reviewed:"1502651149" status:"pending" totalactivetime:"1501seconds" uuid:"afa33030-b5b6-40f3-aac4-25071a12bcee"]
+---
+time 1502654589
+old [description:"Write Stories for Existing UI before JT" due:"1502604000" entry:"1502649660" modified:"1502654587" project:"CEL" reviewed:"1502651149" status:"pending" totalactivetime:"1501seconds" uuid:"afa33030-b5b6-40f3-aac4-25071a12bcee"]
+new [description:"Write Stories for Existing UI before JT" due:"1502604000" entry:"1502649660" modified:"1502654589" project:"CEL" reviewed:"1502651149" start:"1502654589" status:"pending" totalactivetime:"1501seconds" uuid:"afa33030-b5b6-40f3-aac4-25071a12bcee"]
+---
+time 1502656084
+old [description:"Write Stories for Existing UI before JT" due:"1502604000" entry:"1502649660" modified:"1502654589" project:"CEL" reviewed:"1502651149" start:"1502654589" status:"pending" totalactivetime:"1501seconds" uuid:"afa33030-b5b6-40f3-aac4-25071a12bcee"]
+new [description:"Write Stories for Existing UI before JT" due:"1502604000" entry:"1502649660" modified:"1502656084" project:"CEL" reviewed:"1502651149" status:"pending" totalactivetime:"2996seconds" uuid:"afa33030-b5b6-40f3-aac4-25071a12bcee"]
+---
+time 1502656101
+old [description:"Write Stories for Existing UI before JT" due:"1502604000" entry:"1502651897" modified:"1502653468" project:"CEL" status:"pending" totalactivetime:"1111seconds" uuid:"af83471b-5345-46b5-8674-97f9d7fbfa3f"]
+new [description:"Write Stories for Calendar Widget" due:"1502604000" entry:"1502651897" modified:"1502656101" project:"CEL" status:"pending" totalactivetime:"1111seconds" uuid:"af83471b-5345-46b5-8674-97f9d7fbfa3f"]
+---
+time 1502656114
+old [description:"Write Stories for Existing UI before JT" due:"1502604000" entry:"1502649660" modified:"1502656084" project:"CEL" reviewed:"1502651149" status:"pending" totalactivetime:"2996seconds" uuid:"afa33030-b5b6-40f3-aac4-25071a12bcee"]
+new [description:"Write Stories for Existing UI before JT" due:"1502604000" end:"1502656114" entry:"1502649660" modified:"1502656114" project:"CEL" reviewed:"1502651149" status:"completed" totalactivetime:"2996seconds" uuid:"afa33030-b5b6-40f3-aac4-25071a12bcee"]
+---
+time 1502656676
+new [description:"CCC-162" entry:"1502656676" modified:"1502656676" project:"CEL" status:"pending" uuid:"81b1b37c-8803-431c-9f1d-911f74954803"]
+---
+time 1502656696
+old [description:"CCC-162" entry:"1502656676" modified:"1502656676" project:"CEL" status:"pending" uuid:"81b1b37c-8803-431c-9f1d-911f74954803"]
+new [description:"CCC-162" entry:"1502656676" modified:"1502656696" project:"CEL" start:"1502656696" status:"pending" uuid:"81b1b37c-8803-431c-9f1d-911f74954803"]
+---
+time 1502658194
+old [description:"CCC-162" entry:"1502656676" modified:"1502656696" project:"CEL" start:"1502656696" status:"pending" uuid:"81b1b37c-8803-431c-9f1d-911f74954803"]
+new [description:"CCC-162" entry:"1502656676" modified:"1502658194" project:"CEL" status:"pending" totalactivetime:"1498seconds" uuid:"81b1b37c-8803-431c-9f1d-911f74954803"]
+---
+time 1502660659
+old [description:"John ToDo" entry:"1502582636" modified:"1502651145" project:"CEL" reviewed:"1502651145" status:"pending" totalactivetime:"455seconds" uuid:"d23a250b-de7d-4d9e-82bf-58c7c072dd2e"]
+new [description:"John ToDo" entry:"1502582636" modified:"1502660659" project:"CEL" reviewed:"1502651145" start:"1502660659" status:"pending" totalactivetime:"455seconds" uuid:"d23a250b-de7d-4d9e-82bf-58c7c072dd2e"]
+---
+time 1502661103
+new [description:"Setup CEL App Vocab Meeting" entry:"1502661103" modified:"1502661103" project:"CEL" status:"pending" uuid:"f8b9f699-e67a-4b8e-ab8a-3ad55cc9ab65"]
+---
+time 1502661280
+old [description:"John ToDo" entry:"1502582636" modified:"1502660659" project:"CEL" reviewed:"1502651145" start:"1502660659" status:"pending" totalactivetime:"455seconds" uuid:"d23a250b-de7d-4d9e-82bf-58c7c072dd2e"]
+new [description:"John ToDo" end:"1502661280" entry:"1502582636" modified:"1502661280" project:"CEL" reviewed:"1502651145" status:"completed" totalactivetime:"1076seconds" uuid:"d23a250b-de7d-4d9e-82bf-58c7c072dd2e"]
+---
+time 1502661298
+old [description:"CCC-162" entry:"1502656676" modified:"1502658194" project:"CEL" status:"pending" totalactivetime:"1498seconds" uuid:"81b1b37c-8803-431c-9f1d-911f74954803"]
+new [description:"CCC-162" entry:"1502656676" modified:"1502661298" project:"CEL" start:"1502661297" status:"pending" totalactivetime:"1498seconds" uuid:"81b1b37c-8803-431c-9f1d-911f74954803"]
+---
+time 1502662156
+old [description:"CCC-162" entry:"1502656676" modified:"1502661298" project:"CEL" start:"1502661297" status:"pending" totalactivetime:"1498seconds" uuid:"81b1b37c-8803-431c-9f1d-911f74954803"]
+new [description:"CCC-162" entry:"1502656676" modified:"1502662156" project:"CEL" status:"pending" totalactivetime:"2357seconds" uuid:"81b1b37c-8803-431c-9f1d-911f74954803"]
+---
+time 1502662458
+old [description:"CCC-162" entry:"1502656676" modified:"1502662156" project:"CEL" status:"pending" totalactivetime:"2357seconds" uuid:"81b1b37c-8803-431c-9f1d-911f74954803"]
+new [description:"CCC-162" entry:"1502656676" modified:"1502662458" project:"CEL" start:"1502662458" status:"pending" totalactivetime:"2357seconds" uuid:"81b1b37c-8803-431c-9f1d-911f74954803"]
+---
+time 1502663956
+old [description:"CCC-162" entry:"1502656676" modified:"1502662458" project:"CEL" start:"1502662458" status:"pending" totalactivetime:"2357seconds" uuid:"81b1b37c-8803-431c-9f1d-911f74954803"]
+new [description:"CCC-162" entry:"1502656676" modified:"1502663956" project:"CEL" status:"pending" totalactivetime:"3855seconds" uuid:"81b1b37c-8803-431c-9f1d-911f74954803"]
+---
+time 1502664360
+old [description:"CCC-162" entry:"1502656676" modified:"1502663956" project:"CEL" status:"pending" totalactivetime:"3855seconds" uuid:"81b1b37c-8803-431c-9f1d-911f74954803"]
+new [description:"CCC-162" entry:"1502656676" modified:"1502664360" project:"CEL" start:"1502664360" status:"pending" totalactivetime:"3855seconds" uuid:"81b1b37c-8803-431c-9f1d-911f74954803"]
+---
+time 1502665856
+old [description:"CCC-162" entry:"1502656676" modified:"1502664360" project:"CEL" start:"1502664360" status:"pending" totalactivetime:"3855seconds" uuid:"81b1b37c-8803-431c-9f1d-911f74954803"]
+new [description:"CCC-162" entry:"1502656676" modified:"1502665856" project:"CEL" status:"pending" totalactivetime:"5351seconds" uuid:"81b1b37c-8803-431c-9f1d-911f74954803"]
+---
+time 1502668577
+old [description:"CCC-162" entry:"1502656676" modified:"1502665856" project:"CEL" status:"pending" totalactivetime:"5351seconds" uuid:"81b1b37c-8803-431c-9f1d-911f74954803"]
+new [description:"CCC-162" entry:"1502656676" modified:"1502668577" project:"CEL" start:"1502668577" status:"pending" totalactivetime:"5351seconds" uuid:"81b1b37c-8803-431c-9f1d-911f74954803"]
+---
+time 1502670077
+old [description:"CCC-162" entry:"1502656676" modified:"1502668577" project:"CEL" start:"1502668577" status:"pending" totalactivetime:"5351seconds" uuid:"81b1b37c-8803-431c-9f1d-911f74954803"]
+new [description:"CCC-162" entry:"1502656676" modified:"1502670077" project:"CEL" status:"pending" totalactivetime:"6851seconds" uuid:"81b1b37c-8803-431c-9f1d-911f74954803"]
+---
+time 1502671009
+old [description:"CCC-162" entry:"1502656676" modified:"1502670077" project:"CEL" status:"pending" totalactivetime:"6851seconds" uuid:"81b1b37c-8803-431c-9f1d-911f74954803"]
+new [description:"CCC-162" entry:"1502656676" modified:"1502671009" project:"CEL" start:"1502671009" status:"pending" totalactivetime:"6851seconds" uuid:"81b1b37c-8803-431c-9f1d-911f74954803"]
+---
+time 1502672507
+old [description:"CCC-162" entry:"1502656676" modified:"1502671009" project:"CEL" start:"1502671009" status:"pending" totalactivetime:"6851seconds" uuid:"81b1b37c-8803-431c-9f1d-911f74954803"]
+new [description:"CCC-162" entry:"1502656676" modified:"1502672507" project:"CEL" status:"pending" totalactivetime:"8349seconds" uuid:"81b1b37c-8803-431c-9f1d-911f74954803"]
+---
+time 1502672510
+old [description:"CCC-162" entry:"1502656676" modified:"1502672507" project:"CEL" status:"pending" totalactivetime:"8349seconds" uuid:"81b1b37c-8803-431c-9f1d-911f74954803"]
+new [description:"CCC-162" entry:"1502656676" modified:"1502672510" project:"CEL" start:"1502672510" status:"pending" totalactivetime:"8349seconds" uuid:"81b1b37c-8803-431c-9f1d-911f74954803"]
+---
+time 1502674007
+old [description:"CCC-162" entry:"1502656676" modified:"1502672510" project:"CEL" start:"1502672510" status:"pending" totalactivetime:"8349seconds" uuid:"81b1b37c-8803-431c-9f1d-911f74954803"]
+new [description:"CCC-162" entry:"1502656676" modified:"1502674007" project:"CEL" status:"pending" totalactivetime:"9846seconds" uuid:"81b1b37c-8803-431c-9f1d-911f74954803"]
+---
+time 1502674310
+old [description:"CCC-162" entry:"1502656676" modified:"1502674007" project:"CEL" status:"pending" totalactivetime:"9846seconds" uuid:"81b1b37c-8803-431c-9f1d-911f74954803"]
+new [description:"CCC-162" entry:"1502656676" modified:"1502674310" project:"CEL" start:"1502674310" status:"pending" totalactivetime:"9846seconds" uuid:"81b1b37c-8803-431c-9f1d-911f74954803"]
+---
+time 1502675807
+old [description:"CCC-162" entry:"1502656676" modified:"1502674310" project:"CEL" start:"1502674310" status:"pending" totalactivetime:"9846seconds" uuid:"81b1b37c-8803-431c-9f1d-911f74954803"]
+new [description:"CCC-162" entry:"1502656676" modified:"1502675807" project:"CEL" status:"pending" totalactivetime:"11343seconds" uuid:"81b1b37c-8803-431c-9f1d-911f74954803"]
+---
+time 1502676264
+old [description:"CCC-162" entry:"1502656676" modified:"1502675807" project:"CEL" status:"pending" totalactivetime:"11343seconds" uuid:"81b1b37c-8803-431c-9f1d-911f74954803"]
+new [description:"CCC-162" entry:"1502656676" modified:"1502676264" project:"CEL" start:"1502676264" status:"pending" totalactivetime:"11343seconds" uuid:"81b1b37c-8803-431c-9f1d-911f74954803"]
+---
+time 1502677763
+old [description:"CCC-162" entry:"1502656676" modified:"1502676264" project:"CEL" start:"1502676264" status:"pending" totalactivetime:"11343seconds" uuid:"81b1b37c-8803-431c-9f1d-911f74954803"]
+new [description:"CCC-162" entry:"1502656676" modified:"1502677763" project:"CEL" status:"pending" totalactivetime:"12842seconds" uuid:"81b1b37c-8803-431c-9f1d-911f74954803"]
+---
+time 1502678686
+old [description:"CCC-162" entry:"1502656676" modified:"1502677763" project:"CEL" status:"pending" totalactivetime:"12842seconds" uuid:"81b1b37c-8803-431c-9f1d-911f74954803"]
+new [description:"CCC-162" entry:"1502656676" modified:"1502678686" project:"CEL" start:"1502678686" status:"pending" totalactivetime:"12842seconds" uuid:"81b1b37c-8803-431c-9f1d-911f74954803"]
+---
+time 1502680183
+old [description:"CCC-162" entry:"1502656676" modified:"1502678686" project:"CEL" start:"1502678686" status:"pending" totalactivetime:"12842seconds" uuid:"81b1b37c-8803-431c-9f1d-911f74954803"]
+new [description:"CCC-162" entry:"1502656676" modified:"1502680183" project:"CEL" status:"pending" totalactivetime:"14339seconds" uuid:"81b1b37c-8803-431c-9f1d-911f74954803"]
+---
+time 1502680486
+old [description:"CCC-162" entry:"1502656676" modified:"1502680183" project:"CEL" status:"pending" totalactivetime:"14339seconds" uuid:"81b1b37c-8803-431c-9f1d-911f74954803"]
+new [description:"CCC-162" entry:"1502656676" modified:"1502680486" project:"CEL" start:"1502680486" status:"pending" totalactivetime:"14339seconds" uuid:"81b1b37c-8803-431c-9f1d-911f74954803"]
+---
+time 1502681983
+old [description:"CCC-162" entry:"1502656676" modified:"1502680486" project:"CEL" start:"1502680486" status:"pending" totalactivetime:"14339seconds" uuid:"81b1b37c-8803-431c-9f1d-911f74954803"]
+new [description:"CCC-162" entry:"1502656676" modified:"1502681983" project:"CEL" status:"pending" totalactivetime:"15836seconds" uuid:"81b1b37c-8803-431c-9f1d-911f74954803"]
+---
+time 1502689305
+old [description:"Submit Time on Harvest" due:"1502604000" entry:"1502650640" mask:"WW" modified:"1502651215" recur:"weekly" reviewed:"1502651215" status:"recurring" uuid:"ef9dfbf7-bade-426f-b527-cdb4b0215a87" wait:"1503122400"]
+new [description:"Submit Time on Harvest" due:"1502604000" entry:"1502650640" mask:"W+" modified:"1502689305" recur:"weekly" reviewed:"1502651215" status:"recurring" uuid:"ef9dfbf7-bade-426f-b527-cdb4b0215a87" wait:"1503122400"]
+---
+time 1502689305
+old [description:"Submit Time on Harvest" due:"1502686800" entry:"1502650733" imask:"1.000000" modified:"1502651218" parent:"ef9dfbf7-bade-426f-b527-cdb4b0215a87" recur:"weekly" reviewed:"1502651218" status:"pending" uuid:"609e2e48-f311-4b7f-b7ed-5fec7d533a35"]
+new [description:"Submit Time on Harvest" due:"1502686800" end:"1502689305" entry:"1502650733" imask:"1.000000" modified:"1502689305" parent:"ef9dfbf7-bade-426f-b527-cdb4b0215a87" recur:"weekly" reviewed:"1502651218" status:"completed" uuid:"609e2e48-f311-4b7f-b7ed-5fec7d533a35"]
+---
+time 1502689323
+old [description:"Write Stories for Calendar Widget" due:"1502604000" entry:"1502651897" modified:"1502656101" project:"CEL" status:"pending" totalactivetime:"1111seconds" uuid:"af83471b-5345-46b5-8674-97f9d7fbfa3f"]
+new [description:"Write Stories for Calendar Widget" due:"1502604000" entry:"1502651897" modified:"1502689323" project:"CEL" status:"waiting" totalactivetime:"1111seconds" uuid:"af83471b-5345-46b5-8674-97f9d7fbfa3f" wait:"1502690400"]
+---
+time 1502690404
+new [description:"ShortcutFoo" due:"1502776800" entry:"1502690404" imask:"1" modified:"1502650279" parent:"a59992c8-e676-490f-84d3-92c21a176961" project:"Dailies" recur:"1day" status:"waiting" uuid:"e29f052b-493c-44d5-b27a-3f529f59ef9a" wait:"1502690400"]
+---
+time 1502690404
+old [description:"ShortcutFoo" due:"1502690400" entry:"1502650257" mask:"+" modified:"1502650279" project:"Dailies" recur:"1day" status:"recurring" uuid:"a59992c8-e676-490f-84d3-92c21a176961" wait:"1502604000"]
+new [description:"ShortcutFoo" due:"1502690400" entry:"1502650257" mask:"+W" modified:"1502690404" project:"Dailies" recur:"1day" status:"recurring" uuid:"a59992c8-e676-490f-84d3-92c21a176961" wait:"1502604000"]
+---
+time 1502748388
+old [description:"Prepare for Demo" entry:"1502589289" modified:"1502651143" project:"CEL" reviewed:"1502651143" status:"pending" totalactivetime:"870seconds" uuid:"840852a3-301f-4d28-a050-0bdbde565331"]
+new [description:"Prepare for Demo" end:"1502748388" entry:"1502589289" modified:"1502748388" project:"CEL" reviewed:"1502651143" status:"completed" totalactivetime:"870seconds" uuid:"840852a3-301f-4d28-a050-0bdbde565331"]
+---
+time 1502748394
+old [description:"CCC-162" entry:"1502656676" modified:"1502681983" project:"CEL" status:"pending" totalactivetime:"15836seconds" uuid:"81b1b37c-8803-431c-9f1d-911f74954803"]
+new [description:"CCC-162" entry:"1502656676" modified:"1502748394" project:"CEL" start:"1502748394" status:"pending" totalactivetime:"15836seconds" uuid:"81b1b37c-8803-431c-9f1d-911f74954803"]
+---
+time 1502749891
+old [description:"CCC-162" entry:"1502656676" modified:"1502748394" project:"CEL" start:"1502748394" status:"pending" totalactivetime:"15836seconds" uuid:"81b1b37c-8803-431c-9f1d-911f74954803"]
+new [description:"CCC-162" entry:"1502656676" modified:"1502749891" project:"CEL" status:"pending" totalactivetime:"17333seconds" uuid:"81b1b37c-8803-431c-9f1d-911f74954803"]
+---
+time 1502750541
+old [description:"CCC-162" entry:"1502656676" modified:"1502749891" project:"CEL" status:"pending" totalactivetime:"17333seconds" uuid:"81b1b37c-8803-431c-9f1d-911f74954803"]
+new [description:"CCC-162" entry:"1502656676" modified:"1502750541" project:"CEL" start:"1502750541" status:"pending" totalactivetime:"17333seconds" uuid:"81b1b37c-8803-431c-9f1d-911f74954803"]
+---
+time 1502752037
+old [description:"CCC-162" entry:"1502656676" modified:"1502750541" project:"CEL" start:"1502750541" status:"pending" totalactivetime:"17333seconds" uuid:"81b1b37c-8803-431c-9f1d-911f74954803"]
+new [description:"CCC-162" entry:"1502656676" modified:"1502752037" project:"CEL" status:"pending" totalactivetime:"18829seconds" uuid:"81b1b37c-8803-431c-9f1d-911f74954803"]
+---
+time 1502752826
+old [description:"CCC-162" entry:"1502656676" modified:"1502752037" project:"CEL" status:"pending" totalactivetime:"18829seconds" uuid:"81b1b37c-8803-431c-9f1d-911f74954803"]
+new [description:"CCC-162" entry:"1502656676" modified:"1502752826" project:"CEL" start:"1502752826" status:"pending" totalactivetime:"18829seconds" uuid:"81b1b37c-8803-431c-9f1d-911f74954803"]
+---
+time 1502753340
+old [description:"CCC-162" entry:"1502656676" modified:"1502752826" project:"CEL" start:"1502752826" status:"pending" totalactivetime:"18829seconds" uuid:"81b1b37c-8803-431c-9f1d-911f74954803"]
+new [description:"CCC-162" entry:"1502656676" modified:"1502753340" project:"CEL" status:"pending" totalactivetime:"19343seconds" uuid:"81b1b37c-8803-431c-9f1d-911f74954803"]
+---
+time 1502810469
+new [description:"ShortcutFoo" due:"1502863200" entry:"1502810469" imask:"2" modified:"1502690404" parent:"a59992c8-e676-490f-84d3-92c21a176961" project:"Dailies" recur:"1day" status:"waiting" uuid:"c47ce6be-9dca-4013-9dc3-d3b6c62ee282" wait:"1502776800"]
+---
+time 1502810469
+old [description:"ShortcutFoo" due:"1502690400" entry:"1502650257" mask:"+W" modified:"1502690404" project:"Dailies" recur:"1day" status:"recurring" uuid:"a59992c8-e676-490f-84d3-92c21a176961" wait:"1502604000"]
+new [description:"ShortcutFoo" due:"1502690400" entry:"1502650257" mask:"+WW" modified:"1502810469" project:"Dailies" recur:"1day" status:"recurring" uuid:"a59992c8-e676-490f-84d3-92c21a176961" wait:"1502604000"]
+---
+time 1502823095
+old [description:"CCC-162" entry:"1502656676" modified:"1502753340" project:"CEL" status:"pending" totalactivetime:"19343seconds" uuid:"81b1b37c-8803-431c-9f1d-911f74954803"]
+new [description:"CCC-162" end:"1502823095" entry:"1502656676" modified:"1502823095" project:"CEL" status:"completed" totalactivetime:"19343seconds" uuid:"81b1b37c-8803-431c-9f1d-911f74954803"]
+---
+time 1502823160
+old [description:"ShortcutFoo" due:"1502690400" entry:"1502650257" mask:"+WW" modified:"1502810469" project:"Dailies" recur:"1day" status:"recurring" uuid:"a59992c8-e676-490f-84d3-92c21a176961" wait:"1502604000"]
+new [description:"ShortcutFoo" due:"1502690400" entry:"1502650257" mask:"+W+" modified:"1502823160" project:"Dailies" recur:"1day" status:"recurring" uuid:"a59992c8-e676-490f-84d3-92c21a176961" wait:"1502604000"]
+---
+time 1502823160
+old [description:"ShortcutFoo" due:"1502863200" entry:"1502810469" imask:"2" modified:"1502690404" parent:"a59992c8-e676-490f-84d3-92c21a176961" project:"Dailies" recur:"1day" status:"pending" uuid:"c47ce6be-9dca-4013-9dc3-d3b6c62ee282"]
+new [description:"ShortcutFoo" due:"1502863200" end:"1502823160" entry:"1502810469" imask:"2.000000" modified:"1502823160" parent:"a59992c8-e676-490f-84d3-92c21a176961" project:"Dailies" recur:"1day" status:"completed" uuid:"c47ce6be-9dca-4013-9dc3-d3b6c62ee282"]
+---
+time 1502824291
+new [description:"CCC-170" entry:"1502824291" modified:"1502824291" project:"CEL" status:"pending" uuid:"7852b738-44e1-4d72-9686-34aa1ae22cf1"]
+---
+time 1502824307
+old [description:"CCC-170" entry:"1502824291" modified:"1502824291" project:"CEL" status:"pending" uuid:"7852b738-44e1-4d72-9686-34aa1ae22cf1"]
+new [description:"CCC-170" entry:"1502824291" modified:"1502824307" project:"CEL" start:"1502824307" status:"pending" uuid:"7852b738-44e1-4d72-9686-34aa1ae22cf1"]
+---
+time 1502824322
+old [description:"ShortcutFoo" due:"1502690400" entry:"1502650257" mask:"+W+" modified:"1502823160" project:"Dailies" recur:"1day" status:"recurring" uuid:"a59992c8-e676-490f-84d3-92c21a176961" wait:"1502604000"]
+new [description:"ShortcutFoo" due:"1502690400" entry:"1502650257" mask:"+X+" modified:"1502824322" project:"Dailies" recur:"1day" status:"recurring" uuid:"a59992c8-e676-490f-84d3-92c21a176961" wait:"1502604000"]
+---
+time 1502824322
+old [description:"ShortcutFoo" due:"1502776800" entry:"1502690404" imask:"1" modified:"1502650279" parent:"a59992c8-e676-490f-84d3-92c21a176961" project:"Dailies" recur:"1day" status:"pending" uuid:"e29f052b-493c-44d5-b27a-3f529f59ef9a"]
+new [description:"ShortcutFoo" due:"1502776800" end:"1502824319" entry:"1502690404" imask:"1.000000" modified:"1502824322" parent:"a59992c8-e676-490f-84d3-92c21a176961" project:"Dailies" recur:"1day" status:"deleted" uuid:"e29f052b-493c-44d5-b27a-3f529f59ef9a"]
+---
+time 1502825806
+old [description:"CCC-170" entry:"1502824291" modified:"1502824307" project:"CEL" start:"1502824307" status:"pending" uuid:"7852b738-44e1-4d72-9686-34aa1ae22cf1"]
+new [description:"CCC-170" entry:"1502824291" modified:"1502825806" project:"CEL" status:"pending" totalactivetime:"1499seconds" uuid:"7852b738-44e1-4d72-9686-34aa1ae22cf1"]
+---
+time 1502826110
+old [description:"CCC-170" entry:"1502824291" modified:"1502825806" project:"CEL" status:"pending" totalactivetime:"1499seconds" uuid:"7852b738-44e1-4d72-9686-34aa1ae22cf1"]
+new [description:"CCC-170" entry:"1502824291" modified:"1502826110" project:"CEL" start:"1502826110" status:"pending" totalactivetime:"1499seconds" uuid:"7852b738-44e1-4d72-9686-34aa1ae22cf1"]
+---
+time 1502827606
+old [description:"CCC-170" entry:"1502824291" modified:"1502826110" project:"CEL" start:"1502826110" status:"pending" totalactivetime:"1499seconds" uuid:"7852b738-44e1-4d72-9686-34aa1ae22cf1"]
+new [description:"CCC-170" entry:"1502824291" modified:"1502827606" project:"CEL" status:"pending" totalactivetime:"2995seconds" uuid:"7852b738-44e1-4d72-9686-34aa1ae22cf1"]
+---
+time 1502828831
+new [description:"CEL Standup" entry:"1502828831" modified:"1502828831" project:"CEL" status:"pending" uuid:"0856a9e6-cf77-4594-9317-0d1e5f1e2472"]
+---
+time 1502833301
+old [description:"CEL Standup" entry:"1502828831" modified:"1502828831" project:"CEL" status:"pending" uuid:"0856a9e6-cf77-4594-9317-0d1e5f1e2472"]
+new [description:"CEL Standup" end:"1502833301" entry:"1502828831" modified:"1502833301" project:"CEL" status:"completed" uuid:"0856a9e6-cf77-4594-9317-0d1e5f1e2472"]
+---
+time 1502833309
+old [description:"Write Stories for Calendar Widget" due:"1502604000" entry:"1502651897" modified:"1502689323" project:"CEL" status:"pending" totalactivetime:"1111seconds" uuid:"af83471b-5345-46b5-8674-97f9d7fbfa3f"]
+new [description:"Write Stories for Calendar Widget" due:"1502604000" end:"1502833309" entry:"1502651897" modified:"1502833309" project:"CEL" status:"completed" totalactivetime:"1111seconds" uuid:"af83471b-5345-46b5-8674-97f9d7fbfa3f"]
+---
+time 1502863204
+new [description:"ShortcutFoo" due:"1502949600" entry:"1502863204" imask:"3" modified:"1502824322" parent:"a59992c8-e676-490f-84d3-92c21a176961" project:"Dailies" recur:"1day" status:"waiting" uuid:"b33434cb-84aa-4241-9650-c4efac157f5e" wait:"1502863200"]
+---
+time 1502863204
+old [description:"ShortcutFoo" due:"1502690400" entry:"1502650257" mask:"+X+" modified:"1502824322" project:"Dailies" recur:"1day" status:"recurring" uuid:"a59992c8-e676-490f-84d3-92c21a176961" wait:"1502604000"]
+new [description:"ShortcutFoo" due:"1502690400" entry:"1502650257" mask:"+X+W" modified:"1502863204" project:"Dailies" recur:"1day" status:"recurring" uuid:"a59992c8-e676-490f-84d3-92c21a176961" wait:"1502604000"]
+---
+time 1502978723
+new [description:"ShortcutFoo" due:"1503036000" entry:"1502978723" imask:"4" modified:"1502863204" parent:"a59992c8-e676-490f-84d3-92c21a176961" project:"Dailies" recur:"1day" status:"waiting" uuid:"a8035159-9203-4985-a208-a99d3500bf72" wait:"1502949600"]
+---
+time 1502978723
+old [description:"ShortcutFoo" due:"1502690400" entry:"1502650257" mask:"+X+W" modified:"1502863204" project:"Dailies" recur:"1day" status:"recurring" uuid:"a59992c8-e676-490f-84d3-92c21a176961" wait:"1502604000"]
+new [description:"ShortcutFoo" due:"1502690400" entry:"1502650257" mask:"+X+WW" modified:"1502978723" project:"Dailies" recur:"1day" status:"recurring" uuid:"a59992c8-e676-490f-84d3-92c21a176961" wait:"1502604000"]
+---
