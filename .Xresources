@@ -7,11 +7,12 @@ rofi.color-normal: #fdf6e3, #002b36, #eee8d5, #586e75, #eee8d5
 rofi.color-active: #fdf6e3, #268bd2, #eee8d5, #268bd2, #fdf6e3
 rofi.color-urgent: #fdf6e3, #dc322f, #eee8d5, #dc322f, #fdf6e3
 
-! Fonts {{{
-Xft.antialias: true  
-Xft.hinting:   true  
-Xft.rgba:      rgb  
-Xft.hintstyle: hintfull  
-Xft.dpi:       96
-! }}}
-Xcursor.size:   16  
+Xcursor.size:  48
+
+Xft.dpi: 282
+Xft.autohint: false
+Xft.lcdfilter: lcddefault
+Xft.hintstyle: hintslight
+Xft.hinting: true
+Xft.antialias: true
+Xft.rgba: rgb
