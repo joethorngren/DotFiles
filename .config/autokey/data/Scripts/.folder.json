@@ -1,0 +1,23 @@
+{
+    "type": "folder",
+    "hotkey": {
+        "modifiers": [],
+        "hotKey": null
+    },
+    "filter": {
+        "isRecursive": false,
+        "regex": null
+    },
+    "title": "Scripts",
+    "abbreviation": {
+        "abbreviations": [],
+        "backspace": true,
+        "triggerInside": false,
+        "immediate": false,
+        "wordChars": "[\\w]",
+        "ignoreCase": false
+    },
+    "showInTrayMenu": false,
+    "usageCount": 2,
+    "modes": []
+}

@@ -1,0 +1,30 @@
+{
+    "type": "script",
+    "hotkey": {
+        "modifiers": [
+            "<alt>"
+        ],
+        "hotKey": "<print_screen>"
+    },
+    "store": {},
+    "filter": {
+        "isRecursive": false,
+        "regex": null
+    },
+    "prompt": false,
+    "abbreviation": {
+        "abbreviations": [],
+        "backspace": true,
+        "triggerInside": false,
+        "immediate": false,
+        "wordChars": "[\\w]",
+        "ignoreCase": false
+    },
+    "modes": [
+        3
+    ],
+    "showInTrayMenu": true,
+    "usageCount": 2,
+    "omitTrigger": false,
+    "description": "Display window info"
+}

@@ -1,0 +1,25 @@
+{
+    "showInTrayMenu": false,
+    "type": "folder",
+    "filter": {
+        "regex": null,
+        "isRecursive": false
+    },
+    "abbreviation": {
+        "ignoreCase": false,
+        "triggerInside": false,
+        "abbreviations": [],
+        "immediate": false,
+        "wordChars": "[\\w]",
+        "backspace": true
+    },
+    "usageCount": 0,
+    "hotkey": {
+        "hotKey": "<f7>",
+        "modifiers": [
+            "<ctrl>"
+        ]
+    },
+    "title": "Phrases",
+    "modes": []
+}

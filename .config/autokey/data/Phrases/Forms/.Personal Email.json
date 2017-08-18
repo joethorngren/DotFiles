@@ -1,0 +1,31 @@
+{
+    "matchCase": false,
+    "hotkey": {
+        "hotKey": null,
+        "modifiers": []
+    },
+    "prompt": false,
+    "abbreviation": {
+        "wordChars": "[\\w]",
+        "immediate": true,
+        "backspace": true,
+        "triggerInside": false,
+        "ignoreCase": false,
+        "abbreviations": [
+            "jt@g"
+        ]
+    },
+    "usageCount": 5,
+    "omitTrigger": false,
+    "sendMode": "kb",
+    "modes": [
+        1
+    ],
+    "description": "Personal Email",
+    "type": "phrase",
+    "filter": {
+        "regex": null,
+        "isRecursive": false
+    },
+    "showInTrayMenu": false
+}
