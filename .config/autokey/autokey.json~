@@ -4,15 +4,15 @@
         "enableQT4Workaround": false,
         "workAroundApps": ".*VirtualBox.*|krdc.Krdc",
         "windowDefaultSize": [
-            1074,
-            942
+            3434,
+            1409
         ],
         "serviceRunning": true,
         "promptToSave": false,
         "interfaceType": "XRecord",
         "triggerItemByInitial": false,
         "undoUsingBackspace": true,
-        "hPanePosition": 392,
+        "hPanePosition": 1258,
         "sortByUsageCount": true,
         "showToolbar": true,
         "notificationIcon": "autokey-status",

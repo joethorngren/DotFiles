@@ -606,3 +606,90 @@
 2017-08-17 18:40:23,169 INFO - config-manager - Persisting configuration
 2017-08-17 18:40:23,169 INFO - config-manager - Backing up existing config file
 2017-08-17 18:40:23,170 INFO - config-manager - Finished persisting configuration - no errors
+2017-08-18 07:52:50,506 INFO - root - Initialising application
+2017-08-18 07:52:50,509 INFO - root - Initialise global hotkeys
+2017-08-18 07:52:50,510 INFO - config-manager - Loading config from existing file: /home/dayfun/.config/autokey/autokey.json
+2017-08-18 07:52:50,514 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2017-08-18 07:52:50,515 INFO - config-manager - Successfully loaded configuration
+2017-08-18 07:52:50,515 INFO - service - Starting service
+2017-08-18 07:52:50,540 INFO - interface - XRecord interface thread starting
+2017-08-18 07:52:50,541 INFO - service - Service now marked as running
+2017-08-18 07:52:50,565 INFO - root - Entering main()
+2017-08-21 10:32:07,517 INFO - root - Initialising application
+2017-08-21 10:32:07,522 INFO - root - Initialise global hotkeys
+2017-08-21 10:32:07,522 INFO - config-manager - Loading config from existing file: /home/dayfun/.config/autokey/autokey.json
+2017-08-21 10:32:07,529 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2017-08-21 10:32:07,529 INFO - config-manager - Successfully loaded configuration
+2017-08-21 10:32:07,530 INFO - service - Starting service
+2017-08-21 10:32:07,570 INFO - interface - XRecord interface thread starting
+2017-08-21 10:32:07,571 INFO - service - Service now marked as running
+2017-08-21 10:32:07,602 INFO - root - Entering main()
+2017-08-21 19:03:00,017 INFO - root - Initialising application
+2017-08-21 19:03:00,022 INFO - root - Initialise global hotkeys
+2017-08-21 19:03:00,022 INFO - config-manager - Loading config from existing file: /home/dayfun/.config/autokey/autokey.json
+2017-08-21 19:03:00,030 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2017-08-21 19:03:00,031 INFO - config-manager - Successfully loaded configuration
+2017-08-21 19:03:00,031 INFO - service - Starting service
+2017-08-21 19:03:00,073 INFO - interface - XRecord interface thread starting
+2017-08-21 19:03:00,074 INFO - service - Service now marked as running
+2017-08-21 19:03:00,100 INFO - root - Entering main()
+2017-08-22 18:04:38,873 INFO - root - Initialising application
+2017-08-22 18:04:38,879 INFO - root - Initialise global hotkeys
+2017-08-22 18:04:38,879 INFO - config-manager - Loading config from existing file: /home/dayfun/.config/autokey/autokey.json
+2017-08-22 18:04:38,887 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2017-08-22 18:04:38,887 INFO - config-manager - Successfully loaded configuration
+2017-08-22 18:04:38,887 INFO - service - Starting service
+2017-08-22 18:04:38,922 INFO - interface - XRecord interface thread starting
+2017-08-22 18:04:38,923 INFO - service - Service now marked as running
+2017-08-22 18:04:38,947 INFO - root - Entering main()
+2017-08-23 12:13:31,950 INFO - root - Initialising application
+2017-08-23 12:13:31,954 INFO - root - Initialise global hotkeys
+2017-08-23 12:13:31,954 INFO - config-manager - Loading config from existing file: /home/dayfun/.config/autokey/autokey.json
+2017-08-23 12:13:31,960 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2017-08-23 12:13:31,960 INFO - config-manager - Successfully loaded configuration
+2017-08-23 12:13:31,961 INFO - service - Starting service
+2017-08-23 12:13:31,992 INFO - interface - XRecord interface thread starting
+2017-08-23 12:13:31,992 INFO - service - Service now marked as running
+2017-08-23 12:13:32,010 INFO - root - Entering main()
+2017-08-23 18:13:04,689 INFO - root - Initialising application
+2017-08-23 18:13:04,694 INFO - root - Initialise global hotkeys
+2017-08-23 18:13:04,694 INFO - config-manager - Loading config from existing file: /home/dayfun/.config/autokey/autokey.json
+2017-08-23 18:13:04,701 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2017-08-23 18:13:04,701 INFO - config-manager - Successfully loaded configuration
+2017-08-23 18:13:04,702 INFO - service - Starting service
+2017-08-23 18:13:04,734 INFO - interface - XRecord interface thread starting
+2017-08-23 18:13:04,735 INFO - service - Service now marked as running
+2017-08-23 18:13:04,757 INFO - root - Entering main()
+2017-08-25 13:19:51,559 INFO - root - Initialising application
+2017-08-25 13:19:51,564 INFO - root - Initialise global hotkeys
+2017-08-25 13:19:51,564 INFO - config-manager - Loading config from existing file: /home/dayfun/.config/autokey/autokey.json
+2017-08-25 13:19:51,573 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2017-08-25 13:19:51,574 INFO - config-manager - Successfully loaded configuration
+2017-08-25 13:19:51,574 INFO - service - Starting service
+2017-08-25 13:19:51,606 INFO - interface - XRecord interface thread starting
+2017-08-25 13:19:51,607 INFO - service - Service now marked as running
+2017-08-25 13:19:51,624 INFO - root - Entering main()
+2017-08-25 14:16:58,695 INFO - root - Initialising application
+2017-08-25 14:16:58,701 INFO - root - Initialise global hotkeys
+2017-08-25 14:16:58,701 INFO - config-manager - Loading config from existing file: /home/dayfun/.config/autokey/autokey.json
+2017-08-25 14:16:58,703 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2017-08-25 14:16:58,704 INFO - config-manager - Successfully loaded configuration
+2017-08-25 14:16:58,704 INFO - service - Starting service
+2017-08-25 14:16:58,743 INFO - interface - XRecord interface thread starting
+2017-08-25 14:16:58,744 INFO - service - Service now marked as running
+2017-08-25 14:16:58,767 INFO - root - Entering main()
+2017-08-26 00:36:40,156 INFO - root - Initialising application
+2017-08-26 00:36:40,160 INFO - root - Initialise global hotkeys
+2017-08-26 00:36:40,160 INFO - config-manager - Loading config from existing file: /home/dayfun/.config/autokey/autokey.json
+2017-08-26 00:36:40,162 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2017-08-26 00:36:40,162 INFO - config-manager - Successfully loaded configuration
+2017-08-26 00:36:40,163 INFO - service - Starting service
+2017-08-26 00:36:40,197 INFO - interface - XRecord interface thread starting
+2017-08-26 00:36:40,198 INFO - service - Service now marked as running
+2017-08-26 00:36:40,225 INFO - root - Entering main()
+2017-08-26 00:43:07,428 INFO - root - Displaying configuration window
+2017-08-26 00:43:23,867 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2017-08-26 00:43:25,748 INFO - config-manager - Configuration changed - rebuilding in-memory structures
+2017-08-26 00:43:25,749 INFO - config-manager - Persisting configuration
+2017-08-26 00:43:25,750 INFO - config-manager - Backing up existing config file
+2017-08-26 00:43:25,751 INFO - config-manager - Finished persisting configuration - no errors

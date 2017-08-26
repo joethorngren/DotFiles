@@ -1,31 +1,31 @@
 {
-    "prompt": false,
-    "showInTrayMenu": true,
-    "matchCase": false,
+    "usageCount": 12,
+    "modes": [
+        1
+    ],
+    "abbreviation": {
+        "backspace": true,
+        "wordChars": "[^\\t]",
+        "ignoreCase": true,
+        "triggerInside": false,
+        "abbreviations": [
+            "jt1"
+        ],
+        "immediate": true
+    },
+    "sendMode": "kb",
+    "type": "phrase",
+    "filter": {
+        "regex": null,
+        "isRecursive": false
+    },
     "hotkey": {
         "hotKey": null,
         "modifiers": []
     },
-    "description": "Name: 1 Word Lower Case",
-    "abbreviation": {
-        "triggerInside": false,
-        "ignoreCase": true,
-        "wordChars": "[^\\t]",
-        "immediate": true,
-        "backspace": true,
-        "abbreviations": [
-            "jt1"
-        ]
-    },
     "omitTrigger": false,
-    "filter": {
-        "isRecursive": false,
-        "regex": null
-    },
-    "usageCount": 12,
-    "sendMode": "kb",
-    "modes": [
-        1
-    ],
-    "type": "phrase"
+    "description": "Name: 1 Word Lower Case",
+    "showInTrayMenu": true,
+    "prompt": false,
+    "matchCase": false
 }

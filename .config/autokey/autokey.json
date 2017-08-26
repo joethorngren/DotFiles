@@ -1,46 +1,46 @@
 {
-    "settings": {
-        "scriptGlobals": {},
-        "enableQT4Workaround": false,
-        "workAroundApps": ".*VirtualBox.*|krdc.Krdc",
-        "windowDefaultSize": [
-            3434,
-            1409
+    "userCodeDir": null,
+    "version": "0.93.10",
+    "toggleServiceHotkey": {
+        "modifiers": [
+            "<shift>",
+            "<super>"
         ],
-        "serviceRunning": true,
-        "promptToSave": false,
-        "interfaceType": "XRecord",
-        "triggerItemByInitial": false,
-        "undoUsingBackspace": true,
-        "hPanePosition": 1258,
-        "sortByUsageCount": true,
-        "showToolbar": true,
-        "notificationIcon": "autokey-status",
-        "menuTakesFocus": false,
+        "enabled": true,
+        "hotKey": "k"
+    },
+    "configHotkey": {
+        "modifiers": [
+            "<super>"
+        ],
+        "enabled": true,
+        "hotKey": "k"
+    },
+    "settings": {
+        "enableQT4Workaround": false,
+        "showTrayIcon": true,
         "columnWidths": [
             150,
             50,
             100
         ],
-        "showTrayIcon": true,
-        "isFirstRun": true
-    },
-    "toggleServiceHotkey": {
-        "enabled": true,
-        "modifiers": [
-            "<shift>",
-            "<super>"
+        "hPanePosition": 392,
+        "isFirstRun": true,
+        "scriptGlobals": {},
+        "menuTakesFocus": false,
+        "sortByUsageCount": true,
+        "windowDefaultSize": [
+            1074,
+            942
         ],
-        "hotKey": "k"
+        "workAroundApps": ".*VirtualBox.*|krdc.Krdc",
+        "serviceRunning": true,
+        "interfaceType": "XRecord",
+        "showToolbar": true,
+        "notificationIcon": "autokey-status",
+        "triggerItemByInitial": false,
+        "undoUsingBackspace": true,
+        "promptToSave": false
     },
-    "folders": [],
-    "configHotkey": {
-        "enabled": true,
-        "modifiers": [
-            "<super>"
-        ],
-        "hotKey": "k"
-    },
-    "version": "0.93.10",
-    "userCodeDir": null
+    "folders": []
 }
