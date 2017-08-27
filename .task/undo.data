@@ -608,3 +608,168 @@ time 1503729399
 old [description:"ShortcutFoo" due:"1502690400" entry:"1502650257" mask:"+X+WWWWWWWWWW" modified:"1503640804" project:"Dailies" recur:"1day" status:"recurring" uuid:"a59992c8-e676-490f-84d3-92c21a176961" wait:"1502604000"]
 new [description:"ShortcutFoo" due:"1502690400" entry:"1502650257" mask:"+X+WWWWWWWWWWW" modified:"1503729399" project:"Dailies" recur:"1day" status:"recurring" uuid:"a59992c8-e676-490f-84d3-92c21a176961" wait:"1502604000"]
 ---
+time 1503778908
+old [description:"ShortcutFoo" due:"1502690400" entry:"1502650257" mask:"+X+WWWWWWWWWWW" modified:"1503729399" project:"Dailies" recur:"1day" status:"recurring" uuid:"a59992c8-e676-490f-84d3-92c21a176961" wait:"1502604000"]
+new [description:"ShortcutFoo" due:"1502690400" entry:"1502650257" mask:"+X+XWWWWWWWWWW" modified:"1503778908" project:"Dailies" recur:"1day" status:"recurring" uuid:"a59992c8-e676-490f-84d3-92c21a176961" wait:"1502604000"]
+---
+time 1503778908
+old [description:"ShortcutFoo" due:"1502949600" entry:"1502863204" imask:"3" modified:"1502824322" parent:"a59992c8-e676-490f-84d3-92c21a176961" project:"Dailies" recur:"1day" status:"pending" uuid:"b33434cb-84aa-4241-9650-c4efac157f5e"]
+new [description:"ShortcutFoo" due:"1502949600" end:"1503778906" entry:"1502863204" imask:"3.000000" modified:"1503778908" parent:"a59992c8-e676-490f-84d3-92c21a176961" project:"Dailies" recur:"1day" status:"deleted" uuid:"b33434cb-84aa-4241-9650-c4efac157f5e"]
+---
+time 1503778914
+old [description:"ShortcutFoo" due:"1502690400" entry:"1502650257" mask:"+X+XWWWWWWWWWW" modified:"1503778908" project:"Dailies" recur:"1day" status:"recurring" uuid:"a59992c8-e676-490f-84d3-92c21a176961" wait:"1502604000"]
+new [description:"ShortcutFoo" due:"1502690400" entry:"1502650257" mask:"+X+XXWWWWWWWWW" modified:"1503778914" project:"Dailies" recur:"1day" status:"recurring" uuid:"a59992c8-e676-490f-84d3-92c21a176961" wait:"1502604000"]
+---
+time 1503778914
+old [description:"ShortcutFoo" due:"1503036000" entry:"1502978723" imask:"4" modified:"1502863204" parent:"a59992c8-e676-490f-84d3-92c21a176961" project:"Dailies" recur:"1day" status:"pending" uuid:"a8035159-9203-4985-a208-a99d3500bf72"]
+new [description:"ShortcutFoo" due:"1503036000" end:"1503778912" entry:"1502978723" imask:"4.000000" modified:"1503778914" parent:"a59992c8-e676-490f-84d3-92c21a176961" project:"Dailies" recur:"1day" status:"deleted" uuid:"a8035159-9203-4985-a208-a99d3500bf72"]
+---
+time 1503778915
+old [description:"ShortcutFoo" due:"1502690400" entry:"1502650257" mask:"+X+XXWWWWWWWWW" modified:"1503778914" project:"Dailies" recur:"1day" status:"recurring" uuid:"a59992c8-e676-490f-84d3-92c21a176961" wait:"1502604000"]
+new [description:"ShortcutFoo" due:"1502690400" entry:"1502650257" mask:"+X+XXXWWWWWWWW" modified:"1503778915" project:"Dailies" recur:"1day" status:"recurring" uuid:"a59992c8-e676-490f-84d3-92c21a176961" wait:"1502604000"]
+---
+time 1503778915
+old [description:"ShortcutFoo" due:"1503122400" entry:"1503064368" imask:"5" modified:"1502978723" parent:"a59992c8-e676-490f-84d3-92c21a176961" project:"Dailies" recur:"1day" status:"pending" uuid:"4fc21d28-23c9-40ff-8ef2-3b90a784bbaf"]
+new [description:"ShortcutFoo" due:"1503122400" end:"1503778915" entry:"1503064368" imask:"5.000000" modified:"1503778915" parent:"a59992c8-e676-490f-84d3-92c21a176961" project:"Dailies" recur:"1day" status:"deleted" uuid:"4fc21d28-23c9-40ff-8ef2-3b90a784bbaf"]
+---
+time 1503778917
+old [description:"ShortcutFoo" due:"1502690400" entry:"1502650257" mask:"+X+XXXWWWWWWWW" modified:"1503778915" project:"Dailies" recur:"1day" status:"recurring" uuid:"a59992c8-e676-490f-84d3-92c21a176961" wait:"1502604000"]
+new [description:"ShortcutFoo" due:"1502690400" entry:"1502650257" mask:"+X+XXXXWWWWWWW" modified:"1503778917" project:"Dailies" recur:"1day" status:"recurring" uuid:"a59992c8-e676-490f-84d3-92c21a176961" wait:"1502604000"]
+---
+time 1503778917
+old [description:"ShortcutFoo" due:"1503208800" entry:"1503333126" imask:"6" modified:"1503064369" parent:"a59992c8-e676-490f-84d3-92c21a176961" project:"Dailies" recur:"1day" status:"pending" uuid:"957b6a6a-0bcf-4d30-a10c-894682d73a94"]
+new [description:"ShortcutFoo" due:"1503208800" end:"1503778917" entry:"1503333126" imask:"6.000000" modified:"1503778917" parent:"a59992c8-e676-490f-84d3-92c21a176961" project:"Dailies" recur:"1day" status:"deleted" uuid:"957b6a6a-0bcf-4d30-a10c-894682d73a94"]
+---
+time 1503778917
+old [description:"ShortcutFoo" due:"1502690400" entry:"1502650257" mask:"+X+XXXXWWWWWWW" modified:"1503778917" project:"Dailies" recur:"1day" status:"recurring" uuid:"a59992c8-e676-490f-84d3-92c21a176961" wait:"1502604000"]
+new [description:"ShortcutFoo" due:"1502690400" entry:"1502650257" mask:"+X+XXXXXWWWWWW" modified:"1503778917" project:"Dailies" recur:"1day" status:"recurring" uuid:"a59992c8-e676-490f-84d3-92c21a176961" wait:"1502604000"]
+---
+time 1503778917
+old [description:"ShortcutFoo" due:"1503295200" entry:"1503333126" imask:"7" modified:"1503064369" parent:"a59992c8-e676-490f-84d3-92c21a176961" project:"Dailies" recur:"1day" status:"pending" uuid:"cc89867d-f099-4ab2-8a8e-dd459eb2d685"]
+new [description:"ShortcutFoo" due:"1503295200" end:"1503778917" entry:"1503333126" imask:"7.000000" modified:"1503778917" parent:"a59992c8-e676-490f-84d3-92c21a176961" project:"Dailies" recur:"1day" status:"deleted" uuid:"cc89867d-f099-4ab2-8a8e-dd459eb2d685"]
+---
+time 1503778918
+old [description:"ShortcutFoo" due:"1502690400" entry:"1502650257" mask:"+X+XXXXXWWWWWW" modified:"1503778917" project:"Dailies" recur:"1day" status:"recurring" uuid:"a59992c8-e676-490f-84d3-92c21a176961" wait:"1502604000"]
+new [description:"ShortcutFoo" due:"1502690400" entry:"1502650257" mask:"+X+XXXXXXWWWWW" modified:"1503778918" project:"Dailies" recur:"1day" status:"recurring" uuid:"a59992c8-e676-490f-84d3-92c21a176961" wait:"1502604000"]
+---
+time 1503778918
+old [description:"ShortcutFoo" due:"1503381600" entry:"1503333126" imask:"8" modified:"1503064369" parent:"a59992c8-e676-490f-84d3-92c21a176961" project:"Dailies" recur:"1day" status:"pending" uuid:"5a999df5-781d-4fab-a47c-2bd684aa17a6"]
+new [description:"ShortcutFoo" due:"1503381600" end:"1503778918" entry:"1503333126" imask:"8.000000" modified:"1503778918" parent:"a59992c8-e676-490f-84d3-92c21a176961" project:"Dailies" recur:"1day" status:"deleted" uuid:"5a999df5-781d-4fab-a47c-2bd684aa17a6"]
+---
+time 1503778919
+old [description:"Submit Time on Harvest" due:"1502604000" entry:"1502650640" mask:"W+W" modified:"1503333126" recur:"weekly" reviewed:"1502651215" status:"recurring" uuid:"ef9dfbf7-bade-426f-b527-cdb4b0215a87" wait:"1503122400"]
+new [description:"Submit Time on Harvest" due:"1502604000" entry:"1502650640" mask:"W+X" modified:"1503778919" recur:"weekly" reviewed:"1502651215" status:"recurring" uuid:"ef9dfbf7-bade-426f-b527-cdb4b0215a87" wait:"1503122400"]
+---
+time 1503778919
+old [description:"Submit Time on Harvest" due:"1503813600" entry:"1503333126" imask:"2" modified:"1502689305" parent:"ef9dfbf7-bade-426f-b527-cdb4b0215a87" recur:"weekly" reviewed:"1502651215" status:"waiting" uuid:"1b35142d-398a-47b1-9aef-37bc79d7ea25" wait:"1504332000"]
+new [description:"Submit Time on Harvest" due:"1503813600" end:"1503778919" entry:"1503333126" imask:"2.000000" modified:"1503778919" parent:"ef9dfbf7-bade-426f-b527-cdb4b0215a87" recur:"weekly" reviewed:"1502651215" status:"deleted" uuid:"1b35142d-398a-47b1-9aef-37bc79d7ea25" wait:"1504332000"]
+---
+time 1503778919
+old [description:"ShortcutFoo" due:"1502690400" entry:"1502650257" mask:"+X+XXXXXXWWWWW" modified:"1503778918" project:"Dailies" recur:"1day" status:"recurring" uuid:"a59992c8-e676-490f-84d3-92c21a176961" wait:"1502604000"]
+new [description:"ShortcutFoo" due:"1502690400" entry:"1502650257" mask:"+X+XXXXXXXWWWW" modified:"1503778919" project:"Dailies" recur:"1day" status:"recurring" uuid:"a59992c8-e676-490f-84d3-92c21a176961" wait:"1502604000"]
+---
+time 1503778920
+old [description:"ShortcutFoo" due:"1503468000" entry:"1503446677" imask:"9" modified:"1503333126" parent:"a59992c8-e676-490f-84d3-92c21a176961" project:"Dailies" recur:"1day" status:"pending" uuid:"a04d06e5-b32a-41a6-adc4-6d7e9c68fe15"]
+new [description:"ShortcutFoo" due:"1503468000" end:"1503778919" entry:"1503446677" imask:"9.000000" modified:"1503778920" parent:"a59992c8-e676-490f-84d3-92c21a176961" project:"Dailies" recur:"1day" status:"deleted" uuid:"a04d06e5-b32a-41a6-adc4-6d7e9c68fe15"]
+---
+time 1503778920
+old [description:"ShortcutFoo" due:"1502690400" entry:"1502650257" mask:"+X+XXXXXXXWWWW" modified:"1503778919" project:"Dailies" recur:"1day" status:"recurring" uuid:"a59992c8-e676-490f-84d3-92c21a176961" wait:"1502604000"]
+new [description:"ShortcutFoo" due:"1502690400" entry:"1502650257" mask:"+X+XXXXXXXXWWW" modified:"1503778920" project:"Dailies" recur:"1day" status:"recurring" uuid:"a59992c8-e676-490f-84d3-92c21a176961" wait:"1502604000"]
+---
+time 1503778920
+old [description:"ShortcutFoo" due:"1503554400" entry:"1503512011" imask:"10" modified:"1503446677" parent:"a59992c8-e676-490f-84d3-92c21a176961" project:"Dailies" recur:"1day" status:"pending" uuid:"6922a10e-a4e8-42c4-90d9-8da53f360e3e"]
+new [description:"ShortcutFoo" due:"1503554400" end:"1503778920" entry:"1503512011" imask:"10.000000" modified:"1503778920" parent:"a59992c8-e676-490f-84d3-92c21a176961" project:"Dailies" recur:"1day" status:"deleted" uuid:"6922a10e-a4e8-42c4-90d9-8da53f360e3e"]
+---
+time 1503778921
+old [description:"ShortcutFoo" due:"1502690400" entry:"1502650257" mask:"+X+XXXXXXXXWWW" modified:"1503778920" project:"Dailies" recur:"1day" status:"recurring" uuid:"a59992c8-e676-490f-84d3-92c21a176961" wait:"1502604000"]
+new [description:"ShortcutFoo" due:"1502690400" entry:"1502650257" mask:"+X+XXXXXXXXXWW" modified:"1503778921" project:"Dailies" recur:"1day" status:"recurring" uuid:"a59992c8-e676-490f-84d3-92c21a176961" wait:"1502604000"]
+---
+time 1503778921
+old [description:"ShortcutFoo" due:"1503640800" entry:"1503554400" imask:"11" modified:"1503512011" parent:"a59992c8-e676-490f-84d3-92c21a176961" project:"Dailies" recur:"1day" status:"pending" uuid:"a9eeb34a-86d7-45c3-b212-5f9d929927dd"]
+new [description:"ShortcutFoo" due:"1503640800" end:"1503778921" entry:"1503554400" imask:"11.000000" modified:"1503778921" parent:"a59992c8-e676-490f-84d3-92c21a176961" project:"Dailies" recur:"1day" status:"deleted" uuid:"a9eeb34a-86d7-45c3-b212-5f9d929927dd"]
+---
+time 1503778921
+old [description:"ShortcutFoo" due:"1502690400" entry:"1502650257" mask:"+X+XXXXXXXXXWW" modified:"1503778921" project:"Dailies" recur:"1day" status:"recurring" uuid:"a59992c8-e676-490f-84d3-92c21a176961" wait:"1502604000"]
+new [description:"ShortcutFoo" due:"1502690400" entry:"1502650257" mask:"+X+XXXXXXXXXXW" modified:"1503778921" project:"Dailies" recur:"1day" status:"recurring" uuid:"a59992c8-e676-490f-84d3-92c21a176961" wait:"1502604000"]
+---
+time 1503778921
+old [description:"ShortcutFoo" due:"1503727200" entry:"1503640804" imask:"12" modified:"1503554400" parent:"a59992c8-e676-490f-84d3-92c21a176961" project:"Dailies" recur:"1day" status:"pending" uuid:"ad59e2de-1722-4415-9938-5c4b54e71db4"]
+new [description:"ShortcutFoo" due:"1503727200" end:"1503778921" entry:"1503640804" imask:"12.000000" modified:"1503778921" parent:"a59992c8-e676-490f-84d3-92c21a176961" project:"Dailies" recur:"1day" status:"deleted" uuid:"ad59e2de-1722-4415-9938-5c4b54e71db4"]
+---
+time 1503778922
+old [description:"ShortcutFoo" due:"1502690400" entry:"1502650257" mask:"+X+XXXXXXXXXXW" modified:"1503778921" project:"Dailies" recur:"1day" status:"recurring" uuid:"a59992c8-e676-490f-84d3-92c21a176961" wait:"1502604000"]
+new [description:"ShortcutFoo" due:"1502690400" entry:"1502650257" mask:"+X+XXXXXXXXXXX" modified:"1503778922" project:"Dailies" recur:"1day" status:"recurring" uuid:"a59992c8-e676-490f-84d3-92c21a176961" wait:"1502604000"]
+---
+time 1503778922
+old [description:"ShortcutFoo" due:"1503813600" entry:"1503729398" imask:"13" modified:"1503640804" parent:"a59992c8-e676-490f-84d3-92c21a176961" project:"Dailies" recur:"1day" status:"pending" uuid:"c731464e-7a91-43fd-b83b-932f6edda815"]
+new [description:"ShortcutFoo" due:"1503813600" end:"1503778922" entry:"1503729398" imask:"13.000000" modified:"1503778922" parent:"a59992c8-e676-490f-84d3-92c21a176961" project:"Dailies" recur:"1day" status:"deleted" uuid:"c731464e-7a91-43fd-b83b-932f6edda815"]
+---
+time 1503778933
+old [description:"Submit Time on Harvest" due:"1502604000" entry:"1502650640" mask:"W+X" modified:"1503778919" recur:"weekly" reviewed:"1502651215" status:"recurring" uuid:"ef9dfbf7-bade-426f-b527-cdb4b0215a87" wait:"1503122400"]
+new [description:"Submit Time on Harvest" due:"1502604000" entry:"1502650640" mask:"++X" modified:"1503778933" recur:"weekly" reviewed:"1502651215" status:"recurring" uuid:"ef9dfbf7-bade-426f-b527-cdb4b0215a87" wait:"1503122400"]
+---
+time 1503778933
+old [description:"Submit Time on Harvest" due:"1502604000" entry:"1502650643" imask:"0.000000" modified:"1502651215" parent:"ef9dfbf7-bade-426f-b527-cdb4b0215a87" recur:"weekly" reviewed:"1502651215" status:"pending" uuid:"4a6b6db7-53aa-4603-b889-1e911944b8a0"]
+new [description:"Submit Time on Harvest" due:"1502604000" end:"1503778933" entry:"1502650643" imask:"0.000000" modified:"1503778933" parent:"ef9dfbf7-bade-426f-b527-cdb4b0215a87" recur:"weekly" reviewed:"1502651215" status:"completed" uuid:"4a6b6db7-53aa-4603-b889-1e911944b8a0"]
+---
+time 1503778939
+old [description:"CCC-170" entry:"1502824291" modified:"1502827606" project:"CEL" status:"pending" totalactivetime:"2995seconds" uuid:"7852b738-44e1-4d72-9686-34aa1ae22cf1"]
+new [description:"CCC-170" end:"1503778939" entry:"1502824291" modified:"1503778939" project:"CEL" status:"completed" totalactivetime:"2995seconds" uuid:"7852b738-44e1-4d72-9686-34aa1ae22cf1"]
+---
+time 1503778962
+old [description:"Setup CEL App Vocab Meeting" entry:"1502661103" modified:"1502661103" project:"CEL" status:"pending" uuid:"f8b9f699-e67a-4b8e-ab8a-3ad55cc9ab65"]
+new [description:"Setup CEL App Vocab Meeting" end:"1503778961" entry:"1502661103" modified:"1503778962" project:"CEL" status:"deleted" uuid:"f8b9f699-e67a-4b8e-ab8a-3ad55cc9ab65"]
+---
+time 1503778987
+new [description:"Review PR's" entry:"1503778987" modified:"1503778987" status:"pending" uuid:"d77c5693-23c9-4f71-8d30-80566858397d"]
+---
+time 1503779005
+old [description:"Review PR's" entry:"1503778987" modified:"1503778987" status:"pending" uuid:"d77c5693-23c9-4f71-8d30-80566858397d"]
+new [description:"Review PR's" entry:"1503778987" modified:"1503779005" start:"1503779005" status:"pending" uuid:"d77c5693-23c9-4f71-8d30-80566858397d"]
+---
+time 1503780505
+old [description:"Review PR's" entry:"1503778987" modified:"1503779005" start:"1503779005" status:"pending" uuid:"d77c5693-23c9-4f71-8d30-80566858397d"]
+new [description:"Review PR's" entry:"1503778987" modified:"1503780505" status:"pending" totalactivetime:"1500seconds" uuid:"d77c5693-23c9-4f71-8d30-80566858397d"]
+---
+time 1503780809
+old [description:"Review PR's" entry:"1503778987" modified:"1503780505" status:"pending" totalactivetime:"1500seconds" uuid:"d77c5693-23c9-4f71-8d30-80566858397d"]
+new [description:"Review PR's" entry:"1503778987" modified:"1503780809" start:"1503780809" status:"pending" totalactivetime:"1500seconds" uuid:"d77c5693-23c9-4f71-8d30-80566858397d"]
+---
+time 1503782305
+old [description:"Review PR's" entry:"1503778987" modified:"1503780809" start:"1503780809" status:"pending" totalactivetime:"1500seconds" uuid:"d77c5693-23c9-4f71-8d30-80566858397d"]
+new [description:"Review PR's" entry:"1503778987" modified:"1503782305" status:"pending" totalactivetime:"2996seconds" uuid:"d77c5693-23c9-4f71-8d30-80566858397d"]
+---
+time 1503792674
+new [description:"Install Android Studio" entry:"1503792674" modified:"1503792674" project:"Ubuntu-Init" status:"pending" uuid:"13890e99-a511-406b-b0c5-9e6cb235812e"]
+---
+time 1503792894
+old [description:"Install Android Studio" entry:"1503792674" modified:"1503792674" project:"Ubuntu-Init" status:"pending" uuid:"13890e99-a511-406b-b0c5-9e6cb235812e"]
+new [description:"Install Android Studio" entry:"1503792674" modified:"1503792894" project:"Ubuntu-Init" start:"1503792894" status:"pending" uuid:"13890e99-a511-406b-b0c5-9e6cb235812e"]
+---
+time 1503794391
+old [description:"Install Android Studio" entry:"1503792674" modified:"1503792894" project:"Ubuntu-Init" start:"1503792894" status:"pending" uuid:"13890e99-a511-406b-b0c5-9e6cb235812e"]
+new [description:"Install Android Studio" entry:"1503792674" modified:"1503794391" project:"Ubuntu-Init" status:"pending" totalactivetime:"1497seconds" uuid:"13890e99-a511-406b-b0c5-9e6cb235812e"]
+---
+time 1503794677
+new [description:"Fix dotfiles install" entry:"1503794677" modified:"1503794677" project:"Ubuntu-Init" status:"pending" uuid:"7d49704f-5ace-444f-8946-fd1816f0c654"]
+---
+time 1503794694
+old [description:"Install Android Studio" entry:"1503792674" modified:"1503794391" project:"Ubuntu-Init" status:"pending" totalactivetime:"1497seconds" uuid:"13890e99-a511-406b-b0c5-9e6cb235812e"]
+new [description:"Install Android Studio" entry:"1503792674" modified:"1503794694" project:"Ubuntu-Init" start:"1503794694" status:"pending" totalactivetime:"1497seconds" uuid:"13890e99-a511-406b-b0c5-9e6cb235812e"]
+---
+time 1503794696
+old [description:"Review PR's" entry:"1503778987" modified:"1503782305" status:"pending" totalactivetime:"2996seconds" uuid:"d77c5693-23c9-4f71-8d30-80566858397d"]
+new [description:"Review PR's" entry:"1503778987" modified:"1503794696" project:"CEL" status:"pending" totalactivetime:"2996seconds" uuid:"d77c5693-23c9-4f71-8d30-80566858397d"]
+---
+time 1503796192
+old [description:"Install Android Studio" entry:"1503792674" modified:"1503794694" project:"Ubuntu-Init" start:"1503794694" status:"pending" totalactivetime:"1497seconds" uuid:"13890e99-a511-406b-b0c5-9e6cb235812e"]
+new [description:"Install Android Studio" entry:"1503792674" modified:"1503796192" project:"Ubuntu-Init" status:"pending" totalactivetime:"2995seconds" uuid:"13890e99-a511-406b-b0c5-9e6cb235812e"]
+---
+time 1503797253
+old [description:"Install Android Studio" entry:"1503792674" modified:"1503796192" project:"Ubuntu-Init" status:"pending" totalactivetime:"2995seconds" uuid:"13890e99-a511-406b-b0c5-9e6cb235812e"]
+new [description:"Install Android Studio" end:"1503797253" entry:"1503792674" modified:"1503797253" project:"Ubuntu-Init" status:"completed" totalactivetime:"2995seconds" uuid:"13890e99-a511-406b-b0c5-9e6cb235812e"]
+---
+time 1503798279
+old [description:"Review PR's" entry:"1503778987" modified:"1503794696" project:"CEL" status:"pending" totalactivetime:"2996seconds" uuid:"d77c5693-23c9-4f71-8d30-80566858397d"]
+new [description:"Review PR's" entry:"1503778987" modified:"1503798279" project:"CEL" start:"1503798279" status:"pending" totalactivetime:"2996seconds" uuid:"d77c5693-23c9-4f71-8d30-80566858397d"]
+---
