@@ -21,7 +21,7 @@ export git_setup_aliases="yes"
 export GIT_REPO_DIR="$HOME/Code_Complete"
 # Add the full paths of any extra repos to GIT_REPOS, separated with ':'
 # e.g. "/opt/rails/project:/opt/rails/another project:$HOME/other/repo"
-export GIT_REPOS="$HOME/Code_Complete/Android:$HOME/Code_Complete/Exercism:${HOME}/Code_Complete/Tack/Cortet_Commercial_Android"
+export GIT_REPOS="$GIT_REPO_DIR/Android:$GIT_REPO_DIR/Exercism:$GIT_REPO_DIR/Tack/Cortet_Commercial_Android:$GIT_REPO_DIR/Ubuntu-Init"
 export git_status_command="git_status_shortcuts"
 # Alias
 git_index_alias="c"    # Switch to a repo in the (c)ode directory

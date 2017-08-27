@@ -26,4 +26,5 @@
 	publish = "!git push -u origin $(git branch-name)"
 	# Delete the remote version of the current branch
 	unpublish = "!git push origin :$(git branch-name)"
-	nuke = !sh -c 'git branch -D $1 && git push origin :$1' -
+        nuke = !sh -c 'git branch -D $1 && git push origin :$1' -
+        rmrbr = "!git push --delete origin $1" 
