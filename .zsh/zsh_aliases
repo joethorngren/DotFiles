@@ -1,6 +1,6 @@
 alias cc="cd ~/Code_Complete/"
 
-alias i3="vim ~/.config/i3/config"
+alias i3c="vim ~/.config/i3/config"
 alias zshrc="vim ~/.zshrc"
 
 
