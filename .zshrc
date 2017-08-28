@@ -45,7 +45,7 @@ source "$ZSH_HOME/zsh_aliases"
 source "$ZSH_HOME/zsh_options"
 source "$ZSH_HOME/history.zsh"
 
-eval 'keychain --eval --agents ssh tack_rsa'
+#eval 'keychain --eval --agents ssh tack_rsa'
 
 export SDKMAN_DIR="${HOME}/.sdkman"
 [[ -s "${HOME}/.sdkman/bin/sdkman-init.sh" ]] && source "${HOME}/.sdkman/bin/sdkman-init.sh"

@@ -114,23 +114,23 @@ set $workspace10 "10:"
 set $workspace11 "11:"
 set $workspace12 "12:"
 
-set $bottom "DP-2"
-set $top    "DP-0"
-set $left   "HDMI-0"
-set $right  "HDMI-1"
-
-workspace $workspace1 output $bottom
-workspace $workspace2 output $top
-workspace $workspace3 output $left
-workspace $workspace4 output $right
-workspace $workspace5 output $bottom
-workspace $workspace6 output $top
-workspace $workspace7 output $top
-workspace $workspace8 output $right
-workspace $workspace9 output $bottom
-workspace $workspace10 output $top
-workspace $workspace11 output $left
-workspace $workspace12 output $right
+#set $bottom "DP-2"
+#set $top    "DP-0"
+#set $left   "HDMI-0"
+#set $right  "HDMI-1"
+#
+#workspace $workspace1 output $bottom
+#workspace $workspace2 output $top
+#workspace $workspace3 output $left
+#workspace $workspace4 output $right
+#workspace $workspace5 output $bottom
+#workspace $workspace6 output $top
+#workspace $workspace7 output $top
+#workspace $workspace8 output $right
+#workspace $workspace9 output $bottom
+#workspace $workspace10 output $top
+#workspace $workspace11 output $left
+#workspace $workspace12 output $right
 
 # switch to workspace
 bindsym $mod+1 workspace $workspace1
@@ -330,25 +330,26 @@ for_window [class="RocketLeague"] fullscreen enable
 # }}}
 
 # Startup {{{
-exec_always --no-startup-id exec ~/.screenlayout/1x2x1.sh
-exec_always --no-startup-id exec nitrogen --restore
 
-exec --no-startup-id exec pulseaudio --start
-exec --no-startup-id exec $HOME/Apps/TaskWarrior/Pomodoro/pomodoro-daemon.py
+exec_always --no-startup-id exec nitrogen --restore
 exec --no-startup-id exec autokey
-exec --no-startup-id exec nm-applet
-exec --no-startup-id exec clipit -n
-exec --no-startup-id exec compton -f
 exec --no-startup-id exec shutter --min_at_startup
 
-exec --no-startup-id i3-msg 'workspace "3:   Slack"; layout stacking' 
+#exec_always --no-startup-id exec ~/.screenlayout/1x2x1.sh
+#exec --no-startup-id exec pulseaudio --start
+#exec --no-startup-id exec $HOME/Apps/TaskWarrior/Pomodoro/pomodoro-daemon.py
+#exec --no-startup-id exec nm-applet
+#exec --no-startup-id exec clipit -n
+#exec --no-startup-id exec compton -f
+
+#exec --no-startup-id i3-msg 'workspace "3:   Slack"; layout stacking' 
 #exec --no-startup-id i3-msg 'workspace "2:   Chrome"; exec chromium-browser;'
-exec --no-startup-id i3-msg 'workspace "3:   Slack"; exec slack'
+#exec --no-startup-id i3-msg 'workspace "3:   Slack"; exec slack'
 #exec --no-startup-id i3-msg 'workspace "4:   Terminals"; exec i3-sensible-terminal'
 
 # }}}
 
-## Plasma Integration
+# Plasma Integration {{{
 # Try to kill the wallpaper set by Plasma (it takes up the entire workspace and hides everythiing)
 exec --no-startup-id wmctrl -c Plasma
 for_window [title="Desktop — Plasma"] kill; floating enable; border none
@@ -364,3 +365,4 @@ for_window [class="Kmix"] floating enable; border none
 for_window [class="Klipper"] floating enable; border none
 for_window [class="Plasmoidviewer"] floating enable; border none
 
+# }}}

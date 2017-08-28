@@ -28,3 +28,4 @@
 	unpublish = "!git push origin :$(git branch-name)"
         nuke = !sh -c 'git branch -D $1 && git push origin :$1' -
         rmrbr = "!git push --delete origin $1" 
+	checkupstream = "!git rev-parse --abbrev-ref --symbolic-full-name @{u}"
