@@ -1,46 +1,46 @@
 {
-    "userCodeDir": null,
-    "version": "0.93.10",
+    "folders": [], 
     "toggleServiceHotkey": {
+        "hotKey": "k", 
         "modifiers": [
-            "<shift>",
+            "<shift>", 
             "<super>"
-        ],
-        "enabled": true,
-        "hotKey": "k"
-    },
-    "configHotkey": {
-        "modifiers": [
-            "<super>"
-        ],
-        "enabled": true,
-        "hotKey": "k"
-    },
+        ], 
+        "enabled": true
+    }, 
     "settings": {
-        "enableQT4Workaround": false,
-        "showTrayIcon": true,
-        "columnWidths": [
-            150,
-            50,
-            100
-        ],
-        "hPanePosition": 392,
-        "isFirstRun": true,
-        "scriptGlobals": {},
-        "menuTakesFocus": false,
-        "sortByUsageCount": true,
+        "showTrayIcon": true, 
+        "sortByUsageCount": true, 
+        "triggerItemByInitial": false, 
+        "scriptGlobals": {}, 
+        "undoUsingBackspace": true, 
+        "notificationIcon": "autokey-status", 
+        "enableQT4Workaround": false, 
+        "promptToSave": false, 
+        "menuTakesFocus": false, 
+        "interfaceType": "XRecord", 
         "windowDefaultSize": [
-            1074,
-            942
-        ],
-        "workAroundApps": ".*VirtualBox.*|krdc.Krdc",
-        "serviceRunning": true,
-        "interfaceType": "XRecord",
-        "showToolbar": true,
-        "notificationIcon": "autokey-status",
-        "triggerItemByInitial": false,
-        "undoUsingBackspace": true,
-        "promptToSave": false
-    },
-    "folders": []
+            1906, 
+            2004
+        ], 
+        "showToolbar": true, 
+        "serviceRunning": true, 
+        "columnWidths": [
+            150, 
+            50, 
+            100
+        ], 
+        "workAroundApps": ".*VirtualBox.*|krdc.Krdc", 
+        "hPanePosition": 696, 
+        "isFirstRun": true
+    }, 
+    "userCodeDir": null, 
+    "version": "0.93.10", 
+    "configHotkey": {
+        "hotKey": "k", 
+        "modifiers": [
+            "<super>"
+        ], 
+        "enabled": true
+    }
 }
