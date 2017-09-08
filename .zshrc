@@ -32,6 +32,9 @@ plugins=(git zsh-dircolors-solarized zsh-autosuggestions httpie taskwarrior)
 source $ZSH/oh-my-zsh.sh
 
 zstyle ':completion:*' list-colors "${(@s.:.)LS_COLORS}"
+zstyle ':completion:*' accept-exact '*(N)'
+zstyle ':completion:*' use-cache on
+zstyle ':completion:*' cache-path ~/.zsh/cache
 
 bindkey '^ ' autosuggest-accept
 

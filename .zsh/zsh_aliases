@@ -1,11 +1,15 @@
-alias cc="cd ~/Code_Complete/"
+alias cc="cd ~/Code_Complete"
+alias dl="cd ~/Downloads"
+alias lib="cd ~/Library"
+alias libb="cd ~/Library/Books"
+alias libv="cd ~/Library/Videos"
+alias apps="cd ~/Apps"
 
-alias i3c="vim ~/.config/i3/config"
+alias sit="source ~/.zshrc"
+alias i3c="vim ~/.config/i3/config.base"
 alias zshrc="vim ~/.zshrc"
 
-
 alias ls='ls -la --color=auto'
-
 alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 
 alias xcopy='xclip -selection clipboard'	# copy to clipboard, ctrl+c, ctrl+shift+c
@@ -19,4 +23,9 @@ alias update="sudo apt-get update"
 alias upgrade="sudo apt-get upgrade"
 alias dist-upgrade="sudo apt-get dist-upgrade"
 alias updateAll="sudo apt-get update -y && sudo apt-get upgrade -y && sudo apt-get dist-upgrade -y"
-alias autoremove="sudo apt-get autoremove -y"
+alias autoremove="sudo apt-get autoremove "
+alias remove="sudo apt-get remove "
+
+alias dpkgi="sudo dpkg -i "
+
+alias i3-office="cd ~/.config/i3 && j4-make-config -a monitor-configs/laptop-dual-external blade-solo"
