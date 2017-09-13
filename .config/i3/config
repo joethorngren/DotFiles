@@ -269,7 +269,7 @@ bar {
         #status_command ~/.config/i3/bumblebee-status/bumblebee-status -m nic disk:home load cpu memory battery date time pasink pasource dnf -p interval=2.5 time.format="%H:%M CW %V" date.format="%a, %b %d %Y" home.path=/home -t solarized-powerline
 	status_command ~/.config/i3/bumblebee-status/bumblebee-status -m disk:home datetime -t gruvbox-powerline
         workspace_buttons yes
-        font pango: SauceCodePro Nerd Font 14
+        font pango: SauceCodePro Nerd Font 11
 
 	colors {
 		background #2f343f
@@ -291,7 +291,7 @@ bar {
         tray_output "HDMI-1"
 	status_command ~/.config/i3/bumblebee-status/bumblebee-status -m disk:home datetime -t gruvbox-powerline
         workspace_buttons yes
-        font pango: SauceCodePro Nerd Font 12
+        font pango: SauceCodePro Nerd Font 9
 
         colors {
                 background #2f343f

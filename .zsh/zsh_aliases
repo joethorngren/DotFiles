@@ -1,8 +1,8 @@
 alias cc="cd ~/Code_Complete/"
+alias dl="cd ~/Downloads/"
 
-alias i3="vim ~/.config/i3/config"
+alias i3c="vim ~/.config/i3/config"
 alias zshrc="vim ~/.zshrc"
-
 
 alias ls='ls -la --color=auto'
 
