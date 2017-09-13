@@ -41,9 +41,11 @@ compctl -K _pip_completion pip3
 
 bindkey '^ ' autosuggest-accept
 
-autoload -Uz compinit promptinit
+autoload -Uz compinit promptinit 
 compinit
 promptinit
+
+autoload -U zmv 
 
 [ -s "${HOME}/.scm_breeze/scm_breeze.sh" ] && source "${HOME}/.scm_breeze/scm_breeze.sh"
 
@@ -55,3 +57,5 @@ eval 'keychain --eval --agents ssh id_rsa'
 
 export SDKMAN_DIR="${HOME}/.sdkman"
 [[ -s "${HOME}/.sdkman/bin/sdkman-init.sh" ]] && source "${HOME}/.sdkman/bin/sdkman-init.sh"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

@@ -140,6 +140,8 @@ if [ "$git_setup_aliases" = "yes" ]; then
   __git_alias "$git_reset_last_commit"              'git' 'reset HEAD~'
   __git_alias "$git_top_level_alias"                'git' 'rev-parse' '--show-toplevel'
   __git_alias "$git_merge_alias"                    'git' 'merge'
+  __git_alias "$git_merge_squash_alias"             'git' 'merge' '--squash'
+  __git_alias "$git_merge_abort_alias"              'git' 'merge' '--abort'
   __git_alias "$git_merge_no_fast_forward_alias"    'git' 'merge' '--no-ff'
   __git_alias "$git_merge_only_fast_forward_alias"  'git' 'merge' '--ff'
   __git_alias "$git_cherry_pick_alias"              'git' 'cherry-pick'

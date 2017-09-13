@@ -1,7 +1,0 @@
-[description:"Kotlin Course" entry:"1502598795" modified:"1502651147" project:"Personal" reviewed:"1502651146" status:"pending" totalactivetime:"1386seconds" uuid:"ffb6f6d9-f9ec-4721-ada1-0c61223313e8"]
-[description:"ShortcutFoo" due:"1502690400" entry:"1502650257" mask:"+X+XXXXXXXXXXX" modified:"1503778922" project:"Dailies" recur:"1day" status:"recurring" uuid:"a59992c8-e676-490f-84d3-92c21a176961" wait:"1502604000"]
-[description:"Submit Time on Harvest" due:"1502604000" entry:"1502650640" mask:"++X" modified:"1503778933" recur:"weekly" reviewed:"1502651215" status:"recurring" uuid:"ef9dfbf7-bade-426f-b527-cdb4b0215a87" wait:"1503122400"]
-[depends:"2be9c39e-2b25-497f-b9e1-aeb9f84a7d3b" description:"Setup Task Server on LightHouse Cloud" entry:"1502652918" modified:"1502652971" project:"Personal" status:"pending" uuid:"cd6d0b4e-84f0-40fb-9e25-55d8eb8ae0e2"]
-[description:"Install Ubuntu on LightHouse Cloud" entry:"1502652947" modified:"1502653321" project:"Personal" status:"pending" uuid:"2be9c39e-2b25-497f-b9e1-aeb9f84a7d3b"]
-[description:"Review PR's" entry:"1503778987" modified:"1503798279" project:"CEL" start:"1503798279" status:"pending" totalactivetime:"2996seconds" uuid:"d77c5693-23c9-4f71-8d30-80566858397d"]
-[description:"Fix dotfiles install" entry:"1503794677" modified:"1503794677" project:"Ubuntu-Init" status:"pending" uuid:"7d49704f-5ace-444f-8946-fd1816f0c654"]

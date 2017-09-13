@@ -11,6 +11,12 @@ alias sit="source ~/.zshrc"
 alias i3c="vim ~/.config/i3/config.base"
 alias i3cd="cd ~/.config/i3/"
 
+alias cc="cd ~/Code_Complete/"
+alias dl="cd ~/Downloads/"
+
+alias i3c="vim ~/.config/i3/config"
+alias zshrc="vim ~/.zshrc"
+
 alias ls='ls -la --color=auto'
 alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
 

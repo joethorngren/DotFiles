@@ -230,12 +230,50 @@ bindsym $alt+Control+Delete mode "$mode_system"
 
 # $i3-workspace-config
 
-# class                 border  backgr. text    indicator
-client.focused #81a2be #81a2be #1d1f21 #282a2e
-client.focused_inactive #373b41 #373b41 #969896 #282a2e
-client.unfocused #282a2e #282a2e #969896 #282a2e
-client.urgent #373b41 #cc6666 #ffffff #cc6666
+# i3 Status Bar {{{
+bar {
+	output "DP-0"
+	output "DP-2"
+	tray_output "DP-0"
+        tray_output "DP-2"
+        #status_command ~/.config/i3/bumblebee-status/bumblebee-status -m nic disk:home load cpu memory battery date time pasink pasource dnf -p interval=2.5 time.format="%H:%M CW %V" date.format="%a, %b %d %Y" home.path=/home -t solarized-powerline
+	status_command ~/.config/i3/bumblebee-status/bumblebee-status -m disk:home datetime -t gruvbox-powerline
+        workspace_buttons yes
+        font pango: SauceCodePro Nerd Font 11
 
+	colors {
+		background #2f343f
+                separator #757575
+		statusline #839496
+
+		#                  border             background         text
+		focused_workspace  $bg-color          $bg-color          $text-color
+		inactive_workspace $inactive-bg-color $inactive-bg-color $inactive-text-color
+		urgent_workspace   $urgent-bg-color   $urgent-bg-color   $text-color
+	}
+}
+
+# bar
+bar {
+        output "HDMI-0"
+        output "HDMI-1"
+	tray_output "HDMI-0"
+        tray_output "HDMI-1"
+	status_command ~/.config/i3/bumblebee-status/bumblebee-status -m disk:home datetime -t gruvbox-powerline
+        workspace_buttons yes
+        font pango: SauceCodePro Nerd Font 9
+
+        colors {
+                background #2f343f
+                separator #757575
+                statusline #839496
+                #                  border             background         text
+                focused_workspace  $bg-color          $bg-color          $text-color
+                inactive_workspace $inactive-bg-color $inactive-bg-color $inactive-text-color
+                urgent_workspace   $urgent-bg-color   $urgent-bg-color   $text-color
+        }
+}
+>>>>>>> 8cf1d169c173f97853a5421a01e2083c02ac9ffd
 
 
 # Window Assignments + Rules {{{
