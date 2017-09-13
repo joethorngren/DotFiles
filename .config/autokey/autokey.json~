@@ -1,46 +1,46 @@
 {
-    "folders": [], 
-    "toggleServiceHotkey": {
-        "hotKey": "k", 
-        "modifiers": [
-            "<shift>", 
-            "<super>"
-        ], 
-        "enabled": true
-    }, 
     "settings": {
-        "showTrayIcon": true, 
-        "sortByUsageCount": true, 
-        "triggerItemByInitial": false, 
-        "scriptGlobals": {}, 
-        "undoUsingBackspace": true, 
-        "notificationIcon": "autokey-status", 
-        "enableQT4Workaround": false, 
-        "promptToSave": false, 
-        "menuTakesFocus": false, 
-        "interfaceType": "XRecord", 
-        "windowDefaultSize": [
-            1906, 
-            2004
-        ], 
-        "showToolbar": true, 
-        "serviceRunning": true, 
+        "sortByUsageCount": true,
+        "hPanePosition": 696,
+        "serviceRunning": true,
+        "promptToSave": false,
+        "notificationIcon": "autokey-status",
+        "triggerItemByInitial": false,
+        "showToolbar": true,
+        "showTrayIcon": true,
+        "interfaceType": "XRecord",
         "columnWidths": [
-            150, 
-            50, 
+            150,
+            50,
             100
-        ], 
-        "workAroundApps": ".*VirtualBox.*|krdc.Krdc", 
-        "hPanePosition": 696, 
-        "isFirstRun": true
-    }, 
-    "userCodeDir": null, 
-    "version": "0.93.10", 
+        ],
+        "workAroundApps": ".*VirtualBox.*|krdc.Krdc",
+        "isFirstRun": true,
+        "menuTakesFocus": false,
+        "enableQT4Workaround": false,
+        "scriptGlobals": {},
+        "windowDefaultSize": [
+            1906,
+            1008
+        ],
+        "undoUsingBackspace": true
+    },
+    "userCodeDir": null,
     "configHotkey": {
-        "hotKey": "k", 
+        "hotKey": "k",
+        "enabled": true,
         "modifiers": [
             "<super>"
-        ], 
-        "enabled": true
+        ]
+    },
+    "version": "0.93.10",
+    "folders": [],
+    "toggleServiceHotkey": {
+        "hotKey": "k",
+        "enabled": true,
+        "modifiers": [
+            "<shift>",
+            "<super>"
+        ]
     }
 }

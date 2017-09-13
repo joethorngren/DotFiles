@@ -100,39 +100,24 @@ bindsym $mod+a focus parent
 #bindsym $mod+d focus child
 #}}}
 
-# Workspace Config {{{
-set $workspace1 "1:  Android Studio"
-set $workspace2 "2:  Chrome"
-set $workspace3 "3:  Slack"
-set $workspace4 "4:  Terminals"
-set $workspace5 "5:  IntelliJ"
-set $workspace6 "6:  Calibre"
-set $workspace7 "7:  Git"
-set $workspace8 "8:"
-set $workspace9 "9:"
-set $workspace10 "10:"
-set $workspace11 "11:"
+# General Workspace Settings {{{
+
+# Workspace Names
+
+set $workspace1 "1: " 
+set $workspace2 "2: " 
+set $workspace3 "3: " 
+set $workspace4 "4: " 
+set $workspace5 "5: " 
+set $workspace6 "6: " 
+set $workspace7 "7: " 
+set $workspace8 "8:" 
+set $workspace9 "9:" 
+set $workspace10 "10:" 
+set $workspace11 "11:" 
 set $workspace12 "12:"
 
-#set $bottom "DP-2"
-#set $top    "DP-0"
-#set $left   "HDMI-0"
-#set $right  "HDMI-1"
-#
-#workspace $workspace1 output $bottom
-#workspace $workspace2 output $top
-#workspace $workspace3 output $left
-#workspace $workspace4 output $right
-#workspace $workspace5 output $bottom
-#workspace $workspace6 output $top
-#workspace $workspace7 output $top
-#workspace $workspace8 output $right
-#workspace $workspace9 output $bottom
-#workspace $workspace10 output $top
-#workspace $workspace11 output $left
-#workspace $workspace12 output $right
-
-# switch to workspace
+# Switch to workspace
 bindsym $mod+1 workspace $workspace1
 bindsym $mod+2 workspace $workspace2
 bindsym $mod+3 workspace $workspace3
@@ -148,7 +133,7 @@ bindsym $mod+0 workspace $workspace10
 # bindsym $mod+ workspace $workspace11
 # bindsym $mod+ workspace $workspace12
 
-# move focused container to workspace
+# Move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace $workspace1
 bindsym $mod+Shift+2 move container to workspace $workspace2
 bindsym $mod+Shift+3 move container to workspace $workspace3
@@ -163,13 +148,12 @@ bindsym $mod+Shift+0 move container to workspace $workspace10
 #}}}
 
 # Rofi Settings {{{
-#bindsym $mod+d exec rofi -show run -eh 2 -width 100 -padding 100 -opacity "80" -bw 0 -hlfg "#9575cd" -font "System San Francisco Display 14"
 bindsym $mod+d exec i3-dmenu-desktop --dmenu='rofi -i -dmenu -m -4 -location 0 -show run -lines 8 -bw 0 -font "SauceCodePro 14" -padding 50 -no-disable-history'
 
 # }}}
 
 # Misc. {{{
-bindsym $mod+w exec --no-startup-id ~/bin/quickswitch.py
+#bindsym $mod+w exec --no-startup-id ~/bin/quickswitch.py
 
 bindsym $mod+c exec --no-startup-id chromium-browser
 
@@ -244,48 +228,21 @@ bindsym $alt+Control+Delete mode "$mode_system"
 
 ###}}}
 
-# Window Colors {{{
-set $black               #000000
-set $bg-color 	         #4286f4
-set $inactive-bg-color   #ffff99
-set $text-color          #f3f4f5
-set $inactive-text-color #676E7D
-set $urgent-bg-color     #E53935
+# $i3-workspace-config
 
-# window colors
-#                          border                background            text                     indicator
-client.focused              $black                $bg-color             $text-color              #e53935
-client.unfocused            $black                $inactive-bg-color    $inactive-text-color     #e53935
-client.focused_inactive     $black                $inactive-bg-color    $inactive-text-color     #e53935
-client.urgent               $urgent-bg-color      $urgent-bg-color      $text-color              #e53935
-# }}}
+# class                 border  backgr. text    indicator
+client.focused #81a2be #81a2be #1d1f21 #282a2e
+client.focused_inactive #373b41 #373b41 #969896 #282a2e
+client.unfocused #282a2e #282a2e #969896 #282a2e
+client.urgent #373b41 #cc6666 #ffffff #cc6666
 
-# i3 Status Bar {{{
-# bar
-#bar {
-#	status_command ~/.config/i3/bumblebee-status/bumblebee-status -m disk:home datetime -t gruvbox-powerline
-#        workspace_buttons yes
-#        font pango: SauceCodePro Nerd Font 12
-#
-#        colors {
-#                background #2f343f
-#                separator #757575
-#                statusline #839496
-#                #                  border             background         text
-#                focused_workspace  $bg-color          $bg-color          $text-color
-#                inactive_workspace $inactive-bg-color $inactive-bg-color $inactive-text-color
-#                urgent_workspace   $urgent-bg-color   $urgent-bg-color   $text-color
-#        }
-#}
 
-# }}}
 
 # Window Assignments + Rules {{{
 
 # Studio
 assign [class="jetbrains-studio"] $workspace1
-
-#for_window [class="jetbrains-studio"] boarder none, move container to workspace $workspace1, $workspace1
+for_window [class="jetbrains-studio"] boarder none, move container to workspace $workspace1, $workspace1
 #for_window [class="jetbrains-studio" instance="sun-awt-X11-XFramePeer"] move container to workspace $workspace1
 #for_window [class="jetbrains-studio" instance="sun-awt-X11-XDialogPeer"] move container to workspace $workspace1
 #for_window [title="Settings"] move container to workspace $workspace1, focus
@@ -332,21 +289,10 @@ for_window [class="RocketLeague"] fullscreen enable
 # Startup {{{
 
 exec_always --no-startup-id exec nitrogen --restore
-exec --no-startup-id exec autokey
+exec --no-startup-id exec autokey-gtk
 exec --no-startup-id exec shutter --min_at_startup
-
-#exec_always --no-startup-id exec ~/.screenlayout/1x2x1.sh
-#exec --no-startup-id exec pulseaudio --start
-#exec --no-startup-id exec $HOME/Apps/TaskWarrior/Pomodoro/pomodoro-daemon.py
-#exec --no-startup-id exec nm-applet
-#exec --no-startup-id exec clipit -n
-#exec --no-startup-id exec compton -f
-
-#exec --no-startup-id i3-msg 'workspace "3:   Slack"; layout stacking' 
-#exec --no-startup-id i3-msg 'workspace "2:   Chrome"; exec chromium-browser;'
-#exec --no-startup-id i3-msg 'workspace "3:   Slack"; exec slack'
-#exec --no-startup-id i3-msg 'workspace "4:   Terminals"; exec i3-sensible-terminal'
-
+exec --no-startup-id exec imwheel
+exec --no-startup-id exec ~/bin/remap-caps.sh
 # }}}
 
 # Plasma Integration {{{
