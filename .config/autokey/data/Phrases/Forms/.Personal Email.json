@@ -1,31 +1,29 @@
 {
-    "matchCase": false,
-    "hotkey": {
-        "hotKey": null,
-        "modifiers": []
-    },
-    "prompt": false,
+    "usageCount": 14, 
+    "omitTrigger": false, 
+    "prompt": false, 
+    "description": "Personal Email", 
     "abbreviation": {
-        "wordChars": "[\\w]",
-        "immediate": true,
-        "backspace": true,
-        "triggerInside": false,
-        "ignoreCase": false,
+        "wordChars": "[\\w]", 
         "abbreviations": [
             "jt@g"
-        ]
-    },
-    "usageCount": 5,
-    "omitTrigger": false,
-    "sendMode": "kb",
-    "modes": [
-        1
-    ],
-    "description": "Personal Email",
-    "type": "phrase",
+        ], 
+        "immediate": true, 
+        "ignoreCase": false, 
+        "backspace": true, 
+        "triggerInside": false
+    }, 
+    "hotkey": {
+        "hotKey": null, 
+        "modifiers": []
+    }, 
+    "modes": [], 
+    "showInTrayMenu": false, 
+    "matchCase": false, 
     "filter": {
-        "regex": null,
+        "regex": null, 
         "isRecursive": false
-    },
-    "showInTrayMenu": false
+    }, 
+    "type": "phrase", 
+    "sendMode": "kb"
 }

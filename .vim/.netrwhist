@@ -1,11 +1,3 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =9
-let g:netrw_dirhist_1='/home/dayfun/.zplug'
-let g:netrw_dirhist_2='/home/dayfun/Ubuntu-Init'
-let g:netrw_dirhist_3='/home/dayfun/Ubuntu-Init/main'
-let g:netrw_dirhist_4='/home/dayfun/Ubuntu-Init/main/src'
-let g:netrw_dirhist_5='/home/dayfun/Ubuntu-Init/main/src/lib'
-let g:netrw_dirhist_6='/home/dayfun/Ubuntu-Init/main/src/lib/config'
-let g:netrw_dirhist_7='/home/dayfun/Ubuntu-Init'
-let g:netrw_dirhist_8='/home/oh_henry'
-let g:netrw_dirhist_9='/home/oh_henry/i3-kde-dotfiles'
+let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_1='/home/oh_henry/.config/i3/monitor-configs'

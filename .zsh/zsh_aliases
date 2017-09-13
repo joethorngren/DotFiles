@@ -5,9 +5,11 @@ alias libb="cd ~/Library/Books"
 alias libv="cd ~/Library/Videos"
 alias apps="cd ~/Apps"
 
+alias zshrc="vim ~/.zshrc"
+alias za="vim ~/.zsh/zsh_alises"
 alias sit="source ~/.zshrc"
 alias i3c="vim ~/.config/i3/config.base"
-alias zshrc="vim ~/.zshrc"
+alias i3cd="cd ~/.config/i3/"
 
 alias ls='ls -la --color=auto'
 alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"

@@ -27,7 +27,7 @@ POWERLEVEL9K_VCS_MODIFIED_FOREGROUND='black'
 POWERLEVEL9K_VCS_MODIFIED_BACKGROUND='red'
 
 
-plugins=(git zsh-dircolors-solarized zsh-autosuggestions httpie taskwarrior)
+plugins=(git zsh-dircolors-solarized zsh-autosuggestions httpie taskwarrior fzf-zsh)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -35,6 +35,9 @@ zstyle ':completion:*' list-colors "${(@s.:.)LS_COLORS}"
 zstyle ':completion:*' accept-exact '*(N)'
 zstyle ':completion:*' use-cache on
 zstyle ':completion:*' cache-path ~/.zsh/cache
+
+eval "`pip completion --zsh`"
+compctl -K _pip_completion pip3
 
 bindkey '^ ' autosuggest-accept
 
@@ -48,7 +51,7 @@ source "$ZSH_HOME/zsh_aliases"
 source "$ZSH_HOME/zsh_options"
 source "$ZSH_HOME/history.zsh"
 
-#eval 'keychain --eval --agents ssh tack_rsa'
+eval 'keychain --eval --agents ssh id_rsa'
 
 export SDKMAN_DIR="${HOME}/.sdkman"
 [[ -s "${HOME}/.sdkman/bin/sdkman-init.sh" ]] && source "${HOME}/.sdkman/bin/sdkman-init.sh"
