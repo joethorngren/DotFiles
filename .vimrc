@@ -1,9 +1,4 @@
 syntax enable
-set nu
-set foldmethod=marker       " enable marker folding
-
-
-autocmd vimenter * NERDTree
 
 set foldmethod=marker       " enable marker folding
 set number 

@@ -4,6 +4,7 @@ alias lib="cd ~/Library"
 alias libb="cd ~/Library/Books"
 alias libv="cd ~/Library/Videos"
 alias apps="cd ~/Apps"
+alias res="cd ~/Resources"
 
 alias zshrc="vim ~/.zshrc"
 alias za="vim ~/.zsh/zsh_alises"

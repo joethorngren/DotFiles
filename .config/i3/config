@@ -230,50 +230,12 @@ bindsym $alt+Control+Delete mode "$mode_system"
 
 # $i3-workspace-config
 
-# i3 Status Bar {{{
-bar {
-	output "DP-0"
-	output "DP-2"
-	tray_output "DP-0"
-        tray_output "DP-2"
-        #status_command ~/.config/i3/bumblebee-status/bumblebee-status -m nic disk:home load cpu memory battery date time pasink pasource dnf -p interval=2.5 time.format="%H:%M CW %V" date.format="%a, %b %d %Y" home.path=/home -t solarized-powerline
-	status_command ~/.config/i3/bumblebee-status/bumblebee-status -m disk:home datetime -t gruvbox-powerline
-        workspace_buttons yes
-        font pango: SauceCodePro Nerd Font 11
+# class                 border  backgr. text    indicator
+client.focused #81a2be #81a2be #1d1f21 #282a2e
+client.focused_inactive #373b41 #373b41 #969896 #282a2e
+client.unfocused #282a2e #282a2e #969896 #282a2e
+client.urgent #373b41 #cc6666 #ffffff #cc6666
 
-	colors {
-		background #2f343f
-                separator #757575
-		statusline #839496
-
-		#                  border             background         text
-		focused_workspace  $bg-color          $bg-color          $text-color
-		inactive_workspace $inactive-bg-color $inactive-bg-color $inactive-text-color
-		urgent_workspace   $urgent-bg-color   $urgent-bg-color   $text-color
-	}
-}
-
-# bar
-bar {
-        output "HDMI-0"
-        output "HDMI-1"
-	tray_output "HDMI-0"
-        tray_output "HDMI-1"
-	status_command ~/.config/i3/bumblebee-status/bumblebee-status -m disk:home datetime -t gruvbox-powerline
-        workspace_buttons yes
-        font pango: SauceCodePro Nerd Font 9
-
-        colors {
-                background #2f343f
-                separator #757575
-                statusline #839496
-                #                  border             background         text
-                focused_workspace  $bg-color          $bg-color          $text-color
-                inactive_workspace $inactive-bg-color $inactive-bg-color $inactive-text-color
-                urgent_workspace   $urgent-bg-color   $urgent-bg-color   $text-color
-        }
-}
->>>>>>> 8cf1d169c173f97853a5421a01e2083c02ac9ffd
 
 
 # Window Assignments + Rules {{{
@@ -350,3 +312,25 @@ for_window [class="Klipper"] floating enable; border none
 for_window [class="Plasmoidviewer"] floating enable; border none
 
 # }}}
+# $i3-workspace-config
+# Workspace Config {{{
+
+set $left   "DP-1"
+set $right  "HDMI-0"
+
+workspace $workspace1 output $left
+workspace $workspace2 output $right
+workspace $workspace3 output $right
+workspace $workspace4 output $left
+workspace $workspace5 output $left
+workspace $workspace6 output $right
+workspace $workspace7 output $left
+workspace $workspace8 output $right
+workspace $workspace9 output $left
+workspace $workspace10 output $right
+workspace $workspace11 output $left
+workspace $workspace12 output $right
+
+# }}}
+
+exec_always --no-startup-id exec ~/.screenlayout/laptop-2x1.sh
