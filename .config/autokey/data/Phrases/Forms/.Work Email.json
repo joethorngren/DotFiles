@@ -1,31 +1,31 @@
 {
-    "usageCount": 7, 
-    "omitTrigger": false, 
-    "prompt": false, 
-    "description": "Work Email", 
+    "type": "phrase",
+    "matchCase": false,
+    "sendMode": "kb",
     "abbreviation": {
-        "wordChars": "[^\\t]", 
+        "wordChars": "[^\\t]",
+        "backspace": true,
+        "ignoreCase": false,
         "abbreviations": [
             "jt@w"
-        ], 
-        "immediate": true, 
-        "ignoreCase": false, 
-        "backspace": true, 
-        "triggerInside": false
-    }, 
+        ],
+        "triggerInside": false,
+        "immediate": true
+    },
+    "prompt": false,
     "hotkey": {
-        "hotKey": null, 
+        "hotKey": null,
         "modifiers": []
-    }, 
+    },
     "modes": [
         1
-    ], 
-    "showInTrayMenu": true, 
-    "matchCase": false, 
+    ],
+    "description": "Work Email",
+    "showInTrayMenu": false,
     "filter": {
-        "regex": null, 
-        "isRecursive": false
-    }, 
-    "type": "phrase", 
-    "sendMode": "kb"
+        "isRecursive": false,
+        "regex": null
+    },
+    "usageCount": 7,
+    "omitTrigger": false
 }
