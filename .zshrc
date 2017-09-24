@@ -22,11 +22,11 @@ POWERLEVEL9K_CONTEXT_DEFAULT_FOREGROUND="black"
 POWERLEVEL9K_CONTEXT_ROOT_BACKGROUND="red"
 POWERLEVEL9K_CONTEXT_ROOT_FOREGROUND="blue"
 
-POWERLEVEL9K_VI_MODE_INSERT_FOREGROUND='226'
-POWERLEVEL9K_VI_MODE_INSERT_BACKGROUND='000'
+POWERLEVEL9K_VI_MODE_INSERT_FOREGROUND='black'
+POWERLEVEL9K_VI_MODE_INSERT_BACKGROUND='yellow'
 
-POWERLEVEL9K_VI_MODE_NORMAL_FOREGROUND='190'
-POWERLEVEL9K_VI_MODE_NORMAL_BACKGROUND='034'
+POWERLEVEL9K_VI_MODE_NORMAL_FOREGROUND='white'
+POWERLEVEL9K_VI_MODE_NORMAL_BACKGROUND='red'
 
 # Advanced `vcs` color customization
 POWERLEVEL9K_VCS_FOREGROUND='blue'
@@ -63,22 +63,18 @@ zstyle ':completion:*' accept-exact '*(N)'
 zstyle ':completion:*' use-cache on
 zstyle ':completion:*' cache-path ~/.zsh/cache
 
+# sections completion !
+zstyle ':completion:*' verbose yes
+zstyle ':completion:*:descriptions' format $'\e[00;34m%d'
+zstyle ':completion:*:messages' format $'\e[00;31m%d'
+zstyle ':completion:*' group-name ''
+zstyle ':completion:*:manuals' separate-sections true
+
 eval "`pip completion --zsh`"
 compctl -K _pip_completion pip3
 
-bindkey '^ ' autosuggest-accept
+#bindkey '^ ' autosuggest-accept
 
-# Vim Mode {{{
-
-bindkey -v 
-
-KEYTIMEOUT=1
-
-bindkey -a u undo
-bindkey -a '^T' redo
-bindkey '^?' backward-delete-char  #backspace
-
-# }}} 
 autoload -Uz compinit promptinit 
 compinit
 promptinit

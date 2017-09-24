@@ -1,31 +1,31 @@
 {
-    "usageCount": 0, 
-    "omitTrigger": false, 
-    "prompt": false, 
-    "description": "Home Address", 
-    "abbreviation": {
-        "wordChars": "[\\w]", 
-        "abbreviations": [
-            "adr"
-        ], 
-        "immediate": false, 
-        "ignoreCase": false, 
-        "backspace": true, 
-        "triggerInside": false
-    }, 
-    "hotkey": {
-        "hotKey": null, 
-        "modifiers": []
-    }, 
+    "description": "Home Address",
     "modes": [
         1
-    ], 
-    "showInTrayMenu": false, 
-    "matchCase": false, 
+    ],
+    "usageCount": 1,
+    "prompt": false,
+    "omitTrigger": false,
     "filter": {
-        "regex": null, 
-        "isRecursive": false
-    }, 
-    "type": "phrase", 
-    "sendMode": "kb"
+        "isRecursive": false,
+        "regex": null
+    },
+    "matchCase": false,
+    "sendMode": "kb",
+    "abbreviation": {
+        "wordChars": "[\\w]",
+        "triggerInside": false,
+        "backspace": true,
+        "abbreviations": [
+            "@ad"
+        ],
+        "immediate": true,
+        "ignoreCase": false
+    },
+    "type": "phrase",
+    "showInTrayMenu": false,
+    "hotkey": {
+        "modifiers": [],
+        "hotKey": null
+    }
 }
