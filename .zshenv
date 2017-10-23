@@ -1,6 +1,6 @@
 export TERM="xterm-256color"
 export HISTFILE=${HOME}/.zsh_history
-export TERMINAL=/usr/bin/terminator
+export TERMINAL=/usr/bin/konsole
 export EDITOR=/usr/bin/vim
 export MANPATH=/usr/local/man:$MANPATH
 export ZSH_HOME=${HOME}/.zsh
@@ -9,6 +9,8 @@ export GRADLE_USER_HOME=${HOME}/.gradle/
 export JAVA_HOME=${HOME}/.sdkman/candidates/java/current
 
 export I3_CONFIG_DIR=${HOME}/.config/i3
+
+export QT_SELECT=qt5
 
 #default pomodoro session (minutes)
 export POMODORO_TIMEOUT=25

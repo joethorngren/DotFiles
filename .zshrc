@@ -87,10 +87,9 @@ autoload -U zmv
 
 [ -s "${HOME}/.scm_breeze/scm_breeze.sh" ] && source "${HOME}/.scm_breeze/scm_breeze.sh"
 
-eval 'keychain --eval --agents ssh id_rsa'
+eval 'keychain --eval --agents ssh tack-lighthouse'
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 export SDKMAN_DIR="${HOME}/.sdkman"
 [[ -s "${HOME}/.sdkman/bin/sdkman-init.sh" ]] && source "${HOME}/.sdkman/bin/sdkman-init.sh"
-
