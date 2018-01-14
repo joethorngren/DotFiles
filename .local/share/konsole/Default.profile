@@ -1,6 +1,6 @@
 [Appearance]
 ColorScheme=DarkPastels
-Font=Hack,9,-1,5,50,0,0,0,0,0,Regular
+Font=Fira Code Retina,10,-1,5,57,0,0,0,0,0
 LineSpacing=1
 
 [General]

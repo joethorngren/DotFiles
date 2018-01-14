@@ -19,8 +19,8 @@
 
 # }}}
 
-######################################################################################################################################################################
-######################################################################################################################################################################
+#####################################################################################################################################################################
+#####################################################################################################################################################################
 
 # i3 Settings {{{ 
 
@@ -55,8 +55,8 @@ bindsym $mod+x debuglog toggle
 
 # }}}
 
-######################################################################################################################################################################
-######################################################################################################################################################################
+#####################################################################################################################################################################
+#####################################################################################################################################################################
 
 # Container Controls {{{
 # split in horizontal orientation
@@ -76,10 +76,9 @@ bindsym $mod+e layout toggle split; exec notify-send -t 1000 'Layout Split'
 # toggle window tiling / floating
 bindsym $mod+Shift+space floating toggle
 
-# }}}
 
-######################################################################################################################################################################
-######################################################################################################################################################################
+#####################################################################################################################################################################
+#####################################################################################################################################################################
 
 ## change focus
 bindsym $mod+h focus left
@@ -87,10 +86,23 @@ bindsym $mod+j focus down
 bindsym $mod+k focus up
 bindsym $mod+l focus right
 
+## ALTERNATIVE: change focus: arrows
+bindsym $mod+Left focus left
+bindsym $mod+Down focus down
+bindsym $mod+Up focus up
+bindsym $mod+Right focus right
+
 ## move focused window
 bindsym $mod+Shift+h move left
 bindsym $mod+Shift+j move down
 bindsym $mod+Shift+k move up
+bindsym $mod+Shift+l move right
+
+## ALTERNATIVE, move focused window: arrows 
+bindsym $mod+Shift+Left move left
+bindsym $mod+Shift+Down move down
+bindsym $mod+Shift+Up move up
+bindsym $mod+Shift+Right move right
 
 ## Focus the parent container
 bindsym $mod+a focus parent
@@ -98,22 +110,10 @@ bindsym $mod+a focus parent
 ## Focus the child container
 bindsym $mod+Shift+a focus child
 
-### ALTERNATIVE: change focus: arrows
-#bindsym $mod+Left focus left
-#bindsym $mod+Down focus down
-#bindsym $mod+Up focus up
-#bindsym $mod+Right focus right
-
-### ALTERNATIVE, move focused window: arrows 
-# bindsym $mod+Shift+Left move left
-# bindsym $mod+Shift+Down move down
-# bindsym $mod+Shift+Up move up
-# bindsym $mod+Shift+Right move right
-
 # }}}
 
-######################################################################################################################################################################
-######################################################################################################################################################################
+#####################################################################################################################################################################
+#####################################################################################################################################################################
 
 # Workspace Settings {{{
 
@@ -123,7 +123,7 @@ set $workspace1 ""
 set $workspace2 "" 
 set $workspace3 "" 
 set $workspace4 "" 
-set $workspace5 "" 
+set $workspace5 "" 
 set $workspace6 "" 
 set $workspace7 "" 
 set $workspace8 "8:" 
@@ -156,14 +156,21 @@ bindsym $mod+Shift+0 move container to workspace $workspace10
 
 #}}}
 
-######################################################################################################################################################################
-######################################################################################################################################################################
+#####################################################################################################################################################################
+#####################################################################################################################################################################
 
 # Misc. {{{
+### TESTING!!! {{{
+#popup_during_fullscreen smart
+popup_during_fullscreen leave_fullscreen
 
-popup_during_fullscreen smart
+focus_on_window_activation urgent
+
 workspace_auto_back_and_forth yes
+
 focus_follows_mouse yes
+# focus_follows_mouse yes
+# }}}
 
 # Make the currently focused window a scratchpad
 bindsym $mod+Shift+minus move scratchpad
@@ -185,8 +192,8 @@ client.urgent #373b41 #cc6666 #ffffff #cc6666
 
 # }}}
 
-######################################################################################################################################################################
-######################################################################################################################################################################
+#####################################################################################################################################################################
+#####################################################################################################################################################################
 
 # Modes {{{
 
@@ -239,8 +246,8 @@ bindsym $alt+Control+Delete mode "$mode_system"
 
 ###}}}
 
-######################################################################################################################################################################
-######################################################################################################################################################################
+#####################################################################################################################################################################
+#####################################################################################################################################################################
 
 # Hotkeys to run app/script {{{
 
@@ -248,19 +255,19 @@ bindsym $alt+Control+Delete mode "$mode_system"
 bindsym $mod+Return exec konsole
 #bindsym $mod+w exec --no-startup-id ~/bin/quickswitch.py
 bindsym $mod+d exec i3-dmenu-desktop --dmenu='rofi -i -dmenu -m -4 -location 0 -show run -lines 8 -bw 0 -font "SauceCodePro 14" -padding 50 -no-disable-history'
-bindsym $mod+c exec --no-startup-id chromium-browser
-bindsym $mod+i exec --no-startup-id firefox
+bindsym $mod+c exec --no-startup-id ~/Apps/Firefox/firefox
+bindsym $mod+i exec --no-startup-id chromium
 
 # }}}
 
-######################################################################################################################################################################
-######################################################################################################################################################################
+#####################################################################################################################################################################
+#####################################################################################################################################################################
 
 # i3 Status Bar {{{
 #bar {
-#	output "DP-0"
+#	output "HDMI-0"
 #	output "DP-2"
-#	tray_output "DP-2"
+#	#status_command i3status
 #	status_command ~/.config/i3/bumblebee-status/bumblebee-status -m disk:home datetime -t gruvbox-powerline
 #        workspace_buttons yes
 #        font pango: "Source Code Pro for Powerline" 11
@@ -268,90 +275,44 @@ bindsym $mod+i exec --no-startup-id firefox
 #		background #2f343f
 #                separator #757575
 #		statusline #000000
-#
+#	}
 #		#                  border             background         text
-#		focused_workspace  $bg-color          $bg-color          $text-color
+#		focused_workspace  $bg-color $bg-color $text-color
 #		inactive_workspace $inactive-bg-color $inactive-bg-color $inactive-text-color
 #		urgent_workspace   $urgent-bg-color   $urgent-bg-color   $text-color
 #	}
-}
+#}
 
 # bar
 #bar {
-#        output "HDMI-0"
 #        output "HDMI-1"
-#	tray_output "HDMI-0"
 #        tray_output "HDMI-1"
+#	#status_command i3status
 #	status_command ~/.config/i3/bumblebee-status/bumblebee-status -m disk:home datetime -t gruvbox-powerline
 #        workspace_buttons yes
-#        font pango: SauceCodePro Nerd Font 10
+#        font pango: "Source Code Pro for Powerline" 10
 #
 #        colors {
 #                background #2f343f
 #                separator #757575
 #                statusline #02f9a7
+#	}
 #                #                  border             background         text
 #                focused_workspace  $bg-color          $bg-color          $text-color
 #                inactive_workspace $inactive-bg-color $inactive-bg-color $inactive-text-color
 #                urgent_workspace   $urgent-bg-color   $urgent-bg-color   $text-color
 #        }
-}
+#}
 
 # }}}
 
-######################################################################################################################################################################
-######################################################################################################################################################################
+#####################################################################################################################################################################
+#####################################################################################################################################################################
 
-# Window Assignments + Rules {{{
+#####################################################################################################################################################################
+#####################################################################################################################################################################
 
-# Studio
-assign [class="jetbrains-studio"] $workspace1
-for_window [class="jetbrains-studio"] boarder none, move container to workspace $workspace1, $workspace1
-
-# Replace in Path
-# Select Methods to Override/Implement
-# Select Methods to Implement
-
-# Git GUI
-for_window [class="Git-gui"] move container to workspace $workspace2, fullscreen enable, focus
-
-# Genymotion
-for_window [class="Genymotion Player"] move container to workspace $workspace4
-
-# Hangouts
-for_window [class="^Chromium-browser$" instance="^crx_knipolnnllmklapflnccelgolnpehhpl$"] floating disable
-assign [class="^Chromium-browser$" instance="^crx_knipolnnllmklapflnccelgolnpehhpl$"] → $workspace3
-
-# Task Warrior Pomodoro
-assign [class="Do_timeout.py"] $workspace4
-for_window [class="Do_timeout.py"] floating enable
-
-# Steam
-# https://github.com/ValveSoftware/steam-for-linux/issues/1040
-for_window [class="^Steam$" title="^Friends$"] floating enable
-for_window [class="^Steam$" title="Steam - News"] floating enable
-for_window [class="^Steam$" title=".* - Chat"] floating enable
-for_window [class="^Steam$" title="^Settings$"] floating enable
-for_window [class="^Steam$" title=".* - event started"] floating enable
-for_window [class="^Steam$" title=".* CD key"] floating enable
-for_window [class="^Steam$" title="^Steam - Self Updater$"] floating enable
-for_window [class="^Steam$" title="^Screenshot Uploader$"] floating enable
-for_window [class="^Steam$" title="^Steam Guard - Computer Authorization Required$"] floating enable
-for_window [title="^Steam Keyboard$"] floating enable
-
-assign [class="RocketLeague"] $workspace1
-for_window [class="RocketLeague"] fullscreen enable
-
-#for_window [class="jetbrains-studio" instance="sun-awt-X11-XFramePeer"] move container to workspace $workspace1
-#for_window [class="jetbrains-studio" instance="sun-awt-X11-XDialogPeer"] move container to workspace $workspace1
-#for_window [title="Settings"] move container to workspace $workspace1, focus
-#for_window [class="jetbrains-studio" floating] move absolute position center
-#for_window [class="jetbrains-studio" title="Project"] resize set 615 1413, move left, floating disable
-#for_window [class="jetbrains-studio"] border none
-
-# }}}
-######################################################################################################################################################################
-######################################################################################################################################################################
+## Window Rules {{{
 
 ## Plasma Integration {{{ 
 
@@ -379,51 +340,66 @@ for_window [class="Kmix"] floating enable; border none
 for_window [class="Klipper"] floating enable; border none
 for_window [class="Plasmoidviewer"] floating enable; border none
 
-
-
 # }}}
 
-######################################################################################################################################################################
-######################################################################################################################################################################
+#####################################################################################################################################################################
+#####################################################################################################################################################################
+
+## Apps {{{
+for_window [class="jetbrains-studio" title="^Merge Revisions for.*"] floating disable, move container to workspace $workspace1, fullscreen enable;
+for_window [title="Git Gui"] fullscreen enable;
+for_window [title="^Git Gui.*" class="Dialog"] floating enable;
+for_window [class="^[gG]itk"] fullscreen enable;
+
+## }}}
+
+## }}}
 
 # $i3-workspace-config
 
-######################################################################################################################################################################
-######################################################################################################################################################################
+#####################################################################################################################################################################
+#####################################################################################################################################################################
 
 # Workspace Config {{{
 
 set $bottom "DP-2"
-set $top    "DP-0"
-set $left   "HDMI-0"
-set $right  "HDMI-1"
+set $top    "HDMI-0"
+set $left   "HDMI-1"
+
+#set $bottom "DP-0"
+#set $top    "DP-2"
+#set $left   "HDMI-0"
+#set $right  "HDMI-1"
+
 
 workspace $workspace1 output $bottom
 workspace $workspace2 output $top
 workspace $workspace3 output $left
-workspace $workspace4 output $right
+workspace $workspace4 output $left
 workspace $workspace5 output $bottom
 workspace $workspace6 output $top
 workspace $workspace7 output $top
-workspace $workspace8 output $right
+workspace $workspace8 output $bottom
 workspace $workspace9 output $bottom
 workspace $workspace10 output $top
 
 # }}}
 
-######################################################################################################################################################################
-######################################################################################################################################################################
+#####################################################################################################################################################################
+#####################################################################################################################################################################
 
 # Startup {{{
 
+exec --no-startup-id exec ~/.screenlayout/3-dual-34-solo-24-portrait.sh
 exec --no-startup-id exec nitrogen --restore
 exec --no-startup-id exec autokey-gtk
 exec --no-startup-id exec imwheel
-exec --no-startup-id exec ~/bin/remap-caps.sh
+#exec --no-startup-id exec ~/bin/remap-caps.sh
+exec --no-startup-id exec ~/bin/reset-kde-shortcuts.sh
 
 # }}}
 
-######################################################################################################################################################################
-######################################################################################################################################################################
+#####################################################################################################################################################################
+#####################################################################################################################################################################
 
 

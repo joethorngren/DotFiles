@@ -16,9 +16,9 @@
 	# Mark a file as "assume unchanged", which means that Git will treat it
 	# as though there are no changes to it even if there are. Useful for
 	# temporary changes to tracked files
-	assume = update-index --assume-unchanged
+	untrack = update-index --assume-unchanged
 	# Reverse the above
-	unassume = update-index --no-assume-unchanged
+	track = update-index --no-assume-unchanged
 	# Show the files that are currently assume-unchanged
 	assumed = "!git ls-files -v | grep ^h | cut -c 3-"
 	# Push the current branch to the remote "origin", and set it to track
@@ -29,3 +29,4 @@
         nuke = !sh -c 'git branch -D $1 && git push origin :$1' -
         rmrbr = "!git push --delete origin $1" 
 	checkupstream = "!git rev-parse --abbrev-ref --symbolic-full-name @{u}"
+	newBranch = ! "f () { git checkout -b $1; git push -u origin $1 }; f"

@@ -38,3 +38,9 @@ alias remove="sudo apt-get remove "
 alias dpkgi="sudo dpkg -i "
 
 alias i3-office="cd ~/.config/i3 && j4-make-config -a monitor-configs/laptop-dual-external blade-solo"
+alias sc-present="sh ~/.screenlayout/1-single-34-bottom.sh"
+alias sc-default="sh ~/.screenlayout/3-dual-34-solo-24-portrait.sh"
+
+alias grss="git reset --soft HEAD~1"
+
+alias anki="schroot -c anki -- anki"

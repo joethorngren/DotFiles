@@ -8,6 +8,7 @@ ZSH_THEME="powerlevel9k/powerlevel9k"
 
 POWERLEVEL9K_PROMPT_ON_NEWLINE=true
 POWERLEVEL9K_PROMPT_ADD_NEWLINE=true
+POWERLEVEL9K_RPROMPT_ON_NEWLINE=true
 POWERLEVEL9K_MODE="nerdfont-complete"
 
 POWERLEVEL9K_SHORTEN_DIR_LENGTH=1
@@ -15,7 +16,7 @@ POWERLEVEL9K_SHORTEN_STRATEGY="truncate_from_right"
 POWERLEVEL9K_SHORTEN_DELIMITER=".."
 
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(vi_mode ssh context dir)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(background_jobs vcs time)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(background_jobs vcs time newline)
 
 POWERLEVEL9K_CONTEXT_DEFAULT_BACKGROUND="white"
 POWERLEVEL9K_CONTEXT_DEFAULT_FOREGROUND="black"
@@ -37,7 +38,7 @@ POWERLEVEL9K_VCS_MODIFIED_BACKGROUND='red'
 
 # }}} 
 
-plugins=(git zsh-dircolors-solarized httpie taskwarrior fzf-zsh vi-mode zsh-autosuggestions zsh-syntax-highlighting)
+plugins=(git zsh-dircolors-solarized fzf-zsh vi-mode zsh-autosuggestions zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 source "$ZSH_HOME/zsh_aliases"
