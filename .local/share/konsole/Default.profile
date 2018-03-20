@@ -2,6 +2,7 @@
 ColorScheme=DarkPastels
 Font=Fira Code Retina,10,-1,5,57,0,0,0,0,0
 LineSpacing=1
+UseFontLineChararacters=true
 
 [General]
 Environment=TERM=xterm-256color,COLORTERM=truecolor

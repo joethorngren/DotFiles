@@ -45,7 +45,6 @@ bindsym $mod+Shift+e exec "i3-nagbar -f SauceCodePro NF 14 -t warning -m 'You pr
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
-
 # kill focused window
 bindsym $mod+Shift+q kill
 
@@ -255,7 +254,7 @@ bindsym $alt+Control+Delete mode "$mode_system"
 bindsym $mod+Return exec konsole
 #bindsym $mod+w exec --no-startup-id ~/bin/quickswitch.py
 bindsym $mod+d exec i3-dmenu-desktop --dmenu='rofi -i -dmenu -m -4 -location 0 -show run -lines 8 -bw 0 -font "SauceCodePro 14" -padding 50 -no-disable-history'
-bindsym $mod+c exec --no-startup-id ~/Apps/Firefox/firefox
+bindsym $mod+c exec --no-startup-id firefox
 bindsym $mod+i exec --no-startup-id chromium
 
 # }}}
@@ -324,13 +323,7 @@ for_window [title="Desktop — Plasma"] kill; floating enable; border none
 
 # Avoid tiling popups, dropdown windows from plasma
 # for the first time, manually resize them, i3 will remember the setting for floating windows
-for_window [class="plasmashell"] floating enable;
-for_window [class="Plasma"] floating enable; border none
-exec --no-startup-id wmctrl -c Plasma
-for_window [title="Desktop — Plasma"] kill; floating enable; border none
-
-# Avoid tiling popups, dropdown windows from plasma
-# for the first time, manually resize them, i3 will remember the setting for floating windows
+for_window [class="kcmshell5"] floating enable;
 for_window [class="plasmashell"] floating enable;
 for_window [class="Plasma"] floating enable; border none
 for_window [title="plasma-desktop"] floating enable; border none
@@ -340,17 +333,28 @@ for_window [class="Kmix"] floating enable; border none
 for_window [class="Klipper"] floating enable; border none
 for_window [class="Plasmoidviewer"] floating enable; border none
 
+for_window [class="kcmshell5" title="Global Shortcuts — System Settings Module"] floating disable; border none
+
+
 # }}}
 
 #####################################################################################################################################################################
 #####################################################################################################################################################################
 
 ## Apps {{{
-for_window [class="jetbrains-studio" title="^Merge Revisions for.*"] floating disable, move container to workspace $workspace1, fullscreen enable;
+for_window [class="jetbrains-studio" title="(?i)^Merge Revisions for.*"] floating disable, move container to workspace $workspace1, fullscreen enable;
+for_window [class="jetbrains-studio" title="(?i)^Select Deployment Target$"]  move container to workspace $workspace1
+for_window [class="jetbrains-studio" title="(?i)^Tip of the Day$"]  move container to workspace $workspace1
+for_window [class="jetbrains-studio" title="(?i)^open file or project$"]  move container to workspace $workspace1
+for_window [class="jetbrains-studio" title="(?i)^Settings$"]  move container to workspace $workspace1
+
+
 for_window [title="Git Gui"] fullscreen enable;
 for_window [title="^Git Gui.*" class="Dialog"] floating enable;
 for_window [class="^[gG]itk"] fullscreen enable;
 
+assign [class="jetbrains-studio"] $workspace1
+#title="Welcome to Android Studio"] 
 ## }}}
 
 ## }}}
@@ -363,23 +367,33 @@ for_window [class="^[gG]itk"] fullscreen enable;
 # Workspace Config {{{
 
 set $bottom "DP-2"
-set $top    "HDMI-0"
-set $left   "HDMI-1"
+set $top    "DP-0"
+set $left   "HDMI-0"
+set $right  "HDMI-1"
 
-#set $bottom "DP-0"
-#set $top    "DP-2"
+#set $middle "DP-2"
 #set $left   "HDMI-0"
 #set $right  "HDMI-1"
-
+#
+#workspace $workspace1 output $middle
+#workspace $workspace2 output $middle
+#workspace $workspace3 output $left
+#workspace $workspace4 output $right
+#workspace $workspace5 output $middle
+#workspace $workspace6 output $middle
+#workspace $workspace7 output $left
+#workspace $workspace8 output $right
+#workspace $workspace9 output $middle
+#workspace $workspace10 output $middle
 
 workspace $workspace1 output $bottom
 workspace $workspace2 output $top
 workspace $workspace3 output $left
-workspace $workspace4 output $left
+workspace $workspace4 output $right
 workspace $workspace5 output $bottom
 workspace $workspace6 output $top
-workspace $workspace7 output $top
-workspace $workspace8 output $bottom
+workspace $workspace7 output $left
+workspace $workspace8 output $right
 workspace $workspace9 output $bottom
 workspace $workspace10 output $top
 
@@ -390,12 +404,10 @@ workspace $workspace10 output $top
 
 # Startup {{{
 
-exec --no-startup-id exec ~/.screenlayout/3-dual-34-solo-24-portrait.sh
-exec --no-startup-id exec nitrogen --restore
-exec --no-startup-id exec autokey-gtk
-exec --no-startup-id exec imwheel
-#exec --no-startup-id exec ~/bin/remap-caps.sh
-exec --no-startup-id exec ~/bin/reset-kde-shortcuts.sh
+exec --no-startup-id exec ~/.screenlayout/4-dual-34-dual-24-portrait.sh
+#exec --no-startup-id exec ~/.screenlayout/3-top-34-plus-wings.sh
+
+exec nitrogen --restore
 
 # }}}
 

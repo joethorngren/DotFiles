@@ -4,10 +4,10 @@ export TERMINAL=/usr/bin/konsole
 export EDITOR=/usr/bin/vim
 export MANPATH=/usr/local/man:$MANPATH
 export ZSH_HOME=${HOME}/.zsh
-export ANDROID_HOME=${HOME}/Android
-export GRADLE_USER_HOME=${HOME}/.gradle/
+export ANDROID_HOME=${HOME}/Android/Sdk
+export GRADLE_USER_HOME=${HOME}/.gradle
 export JAVA_HOME=${HOME}/.sdkman/candidates/java/current
-
+export KEYTIMEOUT=1
 export I3_CONFIG_DIR=${HOME}/.config/i3
 
 export QT_SELECT=qt5

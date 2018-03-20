@@ -11,6 +11,9 @@ POWERLEVEL9K_PROMPT_ADD_NEWLINE=true
 POWERLEVEL9K_RPROMPT_ON_NEWLINE=true
 POWERLEVEL9K_MODE="nerdfont-complete"
 
+#POWERLEVEL9K_HOME_SUB_ICON=$'\UE18D '
+#POWERLEVEL9K_FOLDER_ICON=$'\uE818 '
+
 POWERLEVEL9K_SHORTEN_DIR_LENGTH=1
 POWERLEVEL9K_SHORTEN_STRATEGY="truncate_from_right"
 POWERLEVEL9K_SHORTEN_DELIMITER=".."
@@ -46,6 +49,7 @@ source "$ZSH_HOME/zsh_options"
 source "$ZSH_HOME/history.zsh"
 
 # zsh highlighting {{{
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=white'
 ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern cursor)
 #ZSH_HIGHLIGHT_STYLES[cursor]='bold'
 #
@@ -88,9 +92,11 @@ autoload -U zmv
 
 [ -s "${HOME}/.scm_breeze/scm_breeze.sh" ] && source "${HOME}/.scm_breeze/scm_breeze.sh"
 
-eval 'keychain --eval --agents ssh tack-lighthouse'
+eval 'keychain --eval --agents ssh id_rsa tack_id_rsa'
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 export SDKMAN_DIR="${HOME}/.sdkman"
 [[ -s "${HOME}/.sdkman/bin/sdkman-init.sh" ]] && source "${HOME}/.sdkman/bin/sdkman-init.sh"
+
+[ -s "/home/oh_henry/.scm_breeze/scm_breeze.sh" ] && source "/home/oh_henry/.scm_breeze/scm_breeze.sh"
