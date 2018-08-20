@@ -1,96 +1,103 @@
+# If you come from bash you might have to change your $PATH.
+# export PATH=$HOME/bin:/usr/local/bin:$PATH
+
 # Path to your oh-my-zsh installation.
-export ZSH=/${HOME}/.oh-my-zsh
-export ZSH_HOME=/${HOME}/.zsh
+export ZSH="/home/oh_henry/.oh-my-zsh"
 
-ZSH_THEME="powerlevel9k/powerlevel9k"
+# Set name of the theme to load. Optionally, if you set this to "random"
+# it'll load a random theme each time that oh-my-zsh is loaded.
+# See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
+ZSH_THEME="robbyrussell"
 
-# PowerLevel9K {{{
+# Set list of themes to load
+# Setting this variable when ZSH_THEME=random
+# cause zsh load theme from this variable instead of
+# looking in ~/.oh-my-zsh/themes/
+# An empty array have no effect
+# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
 
-POWERLEVEL9K_PROMPT_ON_NEWLINE=true
-POWERLEVEL9K_PROMPT_ADD_NEWLINE=true
-POWERLEVEL9K_MODE="nerdfont-complete"
+# Uncomment the following line to use case-sensitive completion.
+# CASE_SENSITIVE="true"
 
-POWERLEVEL9K_SHORTEN_DIR_LENGTH=1
-POWERLEVEL9K_SHORTEN_STRATEGY="truncate_from_right"
-POWERLEVEL9K_SHORTEN_DELIMITER=".."
+# Uncomment the following line to use hyphen-insensitive completion. Case
+# sensitive completion must be off. _ and - will be interchangeable.
+# HYPHEN_INSENSITIVE="true"
 
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(vi_mode ssh context dir)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(background_jobs vcs time)
+# Uncomment the following line to disable bi-weekly auto-update checks.
+# DISABLE_AUTO_UPDATE="true"
 
-POWERLEVEL9K_CONTEXT_DEFAULT_BACKGROUND="white"
-POWERLEVEL9K_CONTEXT_DEFAULT_FOREGROUND="black"
-POWERLEVEL9K_CONTEXT_ROOT_BACKGROUND="red"
-POWERLEVEL9K_CONTEXT_ROOT_FOREGROUND="blue"
+# Uncomment the following line to change how often to auto-update (in days).
+# export UPDATE_ZSH_DAYS=13
 
-POWERLEVEL9K_VI_MODE_INSERT_FOREGROUND='226'
-POWERLEVEL9K_VI_MODE_INSERT_BACKGROUND='000'
+# Uncomment the following line to disable colors in ls.
+# DISABLE_LS_COLORS="true"
 
-POWERLEVEL9K_VI_MODE_NORMAL_FOREGROUND='190'
-POWERLEVEL9K_VI_MODE_NORMAL_BACKGROUND='034'
+# Uncomment the following line to disable auto-setting terminal title.
+# DISABLE_AUTO_TITLE="true"
 
-# Advanced `vcs` color customization
-POWERLEVEL9K_VCS_FOREGROUND='blue'
-POWERLEVEL9K_VCS_BACKGROUND='green'
-# If VCS changes are detected:
-POWERLEVEL9K_VCS_MODIFIED_FOREGROUND='black'
-POWERLEVEL9K_VCS_MODIFIED_BACKGROUND='red'
+# Uncomment the following line to enable command auto-correction.
+# ENABLE_CORRECTION="true"
 
-# }}} 
+# Uncomment the following line to display red dots whilst waiting for completion.
+# COMPLETION_WAITING_DOTS="true"
 
-plugins=(git zsh-dircolors-solarized httpie taskwarrior fzf-zsh vi-mode zsh-autosuggestions zsh-syntax-highlighting)
+# Uncomment the following line if you want to disable marking untracked files
+# under VCS as dirty. This makes repository status check for large repositories
+# much, much faster.
+# DISABLE_UNTRACKED_FILES_DIRTY="true"
+
+# Uncomment the following line if you want to change the command execution time
+# stamp shown in the history command output.
+# The optional three formats: "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
+# HIST_STAMPS="mm/dd/yyyy"
+
+# Would you like to use another custom folder than $ZSH/custom?
+# ZSH_CUSTOM=/path/to/new-custom-folder
+
+# Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
+# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
+# Example format: plugins=(rails git textmate ruby lighthouse)
+# Add wisely, as too many plugins slow down shell startup.
+plugins=(
+  git
+)
 
 source $ZSH/oh-my-zsh.sh
 source "$ZSH_HOME/zsh_aliases"
 source "$ZSH_HOME/zsh_options"
 source "$ZSH_HOME/history.zsh"
 
-# zsh highlighting {{{
-ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern cursor)
-#ZSH_HIGHLIGHT_STYLES[cursor]='bold'
+# User configuration
+
+# export MANPATH="/usr/local/man:$MANPATH"
+
+# You may need to manually set your language environment
+# export LANG=en_US.UTF-8
+
+# Preferred editor for local and remote sessions
+# if [[ -n $SSH_CONNECTION ]]; then
+#   export EDITOR='vim'
+# else
+#   export EDITOR='mvim'
+# fi
+
+# Compilation flags
+# export ARCHFLAGS="-arch x86_64"
+
+# ssh
+# export SSH_KEY_PATH="~/.ssh/rsa_id"
+
+# Set personal aliases, overriding those provided by oh-my-zsh libs,
+# plugins, and themes. Aliases can be placed here, though oh-my-zsh
+# users are encouraged to define aliases within the ZSH_CUSTOM folder.
+# For a full list of active aliases, run `alias`.
 #
-#ZSH_HIGHLIGHT_STYLES[alias]='fg=green,bold'
-#ZSH_HIGHLIGHT_STYLES[suffix-alias]='fg=green,bold'
-#ZSH_HIGHLIGHT_STYLES[builtin]='fg=green,bold'
-#ZSH_HIGHLIGHT_STYLES[function]='fg=green,bold'
-#ZSH_HIGHLIGHT_STYLES[command]='fg=green,bold'
-#ZSH_HIGHLIGHT_STYLES[precommand]='fg=green,bold'
-#ZSH_HIGHLIGHT_STYLES[hashed-command]='fg=green,bold'
+# Example aliases
+# alias zshconfig="mate ~/.zshrc"
+# alias ohmyzsh="mate ~/.oh-my-zsh"
 
-# }}}
+[ -s "/home/oh_henry/.scm_breeze/scm_breeze.sh" ] && source "/home/oh_henry/.scm_breeze/scm_breeze.sh"
 
-zstyle ':completion:*' list-colors "${(@s.:.)LS_COLORS}"
-zstyle ':completion:*' accept-exact '*(N)'
-zstyle ':completion:*' use-cache on
-zstyle ':completion:*' cache-path ~/.zsh/cache
-
-eval "`pip completion --zsh`"
-compctl -K _pip_completion pip3
-
-bindkey '^ ' autosuggest-accept
-
-# Vim Mode {{{
-
-bindkey -v 
-
-KEYTIMEOUT=1
-
-bindkey -a u undo
-bindkey -a '^T' redo
-bindkey '^?' backward-delete-char  #backspace
-
-# }}} 
-autoload -Uz compinit promptinit 
-compinit
-promptinit
-
-autoload -U zmv 
-
-[ -s "${HOME}/.scm_breeze/scm_breeze.sh" ] && source "${HOME}/.scm_breeze/scm_breeze.sh"
-
-eval 'keychain --eval --agents ssh id_rsa'
-
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
-export SDKMAN_DIR="${HOME}/.sdkman"
-[[ -s "${HOME}/.sdkman/bin/sdkman-init.sh" ]] && source "${HOME}/.sdkman/bin/sdkman-init.sh"
-
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/home/oh_henry/.sdkman"
+[[ -s "/home/oh_henry/.sdkman/bin/sdkman-init.sh" ]] && source "/home/oh_henry/.sdkman/bin/sdkman-init.sh"
