@@ -101,3 +101,5 @@ source "$ZSH_HOME/history.zsh"
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="/home/oh_henry/.sdkman"
 [[ -s "/home/oh_henry/.sdkman/bin/sdkman-init.sh" ]] && source "/home/oh_henry/.sdkman/bin/sdkman-init.sh"
+
+[ -s "/Users/oh_henry/.scm_breeze/scm_breeze.sh" ] && source "/Users/oh_henry/.scm_breeze/scm_breeze.sh"
