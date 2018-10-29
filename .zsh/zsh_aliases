@@ -1,40 +1,9 @@
 alias cc="cd ~/Code_Complete"
 alias dl="cd ~/Downloads"
-alias lib="cd ~/Library"
-alias libb="cd ~/Library/Books"
-alias libv="cd ~/Library/Videos"
-alias apps="cd ~/Apps"
-alias res="cd ~/Resources"
 
 alias zshrc="vim ~/.zshrc"
 alias za="vim ~/.zsh/zsh_alises"
 alias sit="source ~/.zshrc"
-alias i3c="vim ~/.config/i3/config.base"
-alias i3cd="cd ~/.config/i3/"
-
-alias cc="cd ~/Code_Complete/"
-alias dl="cd ~/Downloads/"
-
-alias i3c="vim ~/.config/i3/config"
 alias zshrc="vim ~/.zshrc"
 
-alias ls='ls -la --color=auto'
 alias dotfiles="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
-
-alias xcopy='xclip -selection clipboard'	# copy to clipboard, ctrl+c, ctrl+shift+c
-alias xpaste='xclip -selection clipboard -o'	# paste from clipboard, ctrl+v, ctrl+shift+v
-alias xselect='xclip -selection primary -o'	# paste from highlight, middle click, shift+insert
-
-alias geny="gmtool admin start 'Google Pixel - 7.1.0 - API 25 - 1080x1920'"
-
-alias install="sudo apt-get install "
-alias update="sudo apt-get update"
-alias upgrade="sudo apt-get upgrade"
-alias dist-upgrade="sudo apt-get dist-upgrade"
-alias updateAll="sudo apt-get update -y && sudo apt-get upgrade -y && sudo apt-get dist-upgrade -y"
-alias autoremove="sudo apt-get autoremove "
-alias remove="sudo apt-get remove "
-
-alias dpkgi="sudo dpkg -i "
-
-alias i3-office="cd ~/.config/i3 && j4-make-config -a monitor-configs/laptop-dual-external blade-solo"
